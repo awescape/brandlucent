@@ -1151,7 +1151,7 @@ p.logo{
    -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
-  transition: 2s ease-in-out;
+  transition: .25s ease-in-out;
 }
 
 
@@ -1498,6 +1498,67 @@ a:hover{
 .team-block-2 p{
 /*	width: 80%;*/
 }
+
+
+/*-----Service Line Intro------*/
+
+.service-line-intro{
+	display:flex;
+	flex-wrap: wrap;
+
+}
+
+.service-line-intro a{
+	color:#002024;
+}
+
+.service-line-block{
+	background-color: white;
+    min-height: 100vh;
+    display: flex;
+    /* margin: 3rem 0; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    padding: 3rem;
+    /*align-self: stretch;*/
+    flex: 1 1 50%;
+}
+
+.service-line-block:nth-child(1):hover{
+	background: #00fbad;
+}
+.service-line-block:nth-child(2):hover{
+	background: #ffc3c4;
+}
+.service-line-block:nth-child(3):hover{
+	background: #f6d000;
+}
+.service-line-block:nth-child(4):hover{
+	background: #7ab7bd;
+}
+
+.service-line-wrapper{
+	display: flex;
+    flex-direction: column;
+	/*width: 65%;*/
+	flex-basis: 65%;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  ------  Call to action  ------  */
 .call-to-action{

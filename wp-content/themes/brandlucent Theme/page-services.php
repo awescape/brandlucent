@@ -26,6 +26,9 @@ get_header(); ?>
 <!-- banner-->	
 <?php get_template_part( 'template-parts/banner'); ?>
 
+<!-- service-line-intro-->
+<?php get_template_part( 'template-parts/service-line-intro'); ?>
+
 
 <!-- quote-banner-->
 <?php get_template_part( 'template-parts/quote-banner'); ?>
