@@ -1,5 +1,5 @@
 /*
-Theme Name: brandlucent
+Theme Name: brandlucent Theme
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -1071,6 +1071,16 @@ p{
   transition: .25s ease-in-out;
 }
 
+
+
+/*#nav-icon3 span:nth-child(1),
+#nav-icon3 span:nth-child(2),
+#nav-icon3 span:nth-child(3),
+#nav-icon3 span:nth-child(4),
+:hover {
+  background: #00ffaf;
+}*/
+
 /* Icon 3 */
 
 #nav-icon3 span:nth-child(1) {
@@ -1089,6 +1099,7 @@ p{
   top: 18px;
   width: 0%;
   left: 50%;
+  background-color:white;
 }
 
 #nav-icon3.open span:nth-child(2) {
@@ -1096,6 +1107,7 @@ p{
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
+   background-color:white;
 }
 
 #nav-icon3.open span:nth-child(3) {
@@ -1103,12 +1115,14 @@ p{
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
+   background-color:white;
 }
 
 #nav-icon3.open span:nth-child(4) {
   top: 18px;
   width: 0%;
   left: 50%;
+   background-color:white;
 }
 
 
@@ -1134,6 +1148,10 @@ p.logo{
     display: block;
     align-content: center;
     align-self: stretch;
+   -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: 2s ease-in-out;
 }
 
 
@@ -1188,14 +1206,17 @@ p.logo{
     align-items: center;
     min-height: 16vh;
 }
-.toggle-menu{
-	display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+
+.toggle-menu {
+    position: absolute;
+    right: 2rem;
+    top: 3rem;
+    display: flex;
+    z-index: 20;
 }
 
 .toggle-menu h6{
+	color:#002024;
 	margin-right: 2rem;
 }
 .toggle-menu{

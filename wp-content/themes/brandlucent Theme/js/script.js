@@ -11,8 +11,6 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
 
 		$('#masthead').toggleClass('appear');
-		$('#toggle-menu-menu').toggleClass('disappear');
-		$('#toggle-menu-close').toggleClass('appear');
-		
+		// $('#toggle-menu-menu').toggleClass('disappear');	
 	});
 });

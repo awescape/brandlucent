@@ -73,7 +73,7 @@
 				</p>
 				<div class="toggle-menu">
 					<h6 id="toggle-menu-menu" class="toggle-menu-menu">menu</h6>
-					<h6 id="toggle-menu-close" class="toggle-menu-close">close</h6>
+<!-- 					<h6 id="toggle-menu-close" class="toggle-menu-close">close</h6> -->
 						<div id="nav-icon3">
 						  <span></span>
 						  <span></span>
