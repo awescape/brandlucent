@@ -1356,25 +1356,39 @@ section{
 /*  ------  Quote-Text  ------  */
 
 .quote-banner{
-	color:#8d8d8d ;
-	min-height:60vh;
-	background-color: #e9eded;
-	background-repeat: no-repeat;
+    color: #8d8d8d;
+    min-height: 60vh;
+    background-color: #e9eded;
+    background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
-	display:flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-end;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: flex-end;
+    align-content: center;
+    /* position: relative; */
+    flex-wrap: wrap;
 }
 
 
 .quote-text{
-    flex: 0 1 calc(75% - 3rem);
-/*    margin-right: 6rem;*/
+    flex: 0 0 calc(75% - 3rem);
+    /* margin-right: 6rem; */
     line-height: 1.2;
     letter-spacing: 1.2px;
-    /*padding:2rem;*/
+    /* padding: 2rem; */
+     align-self: center; 
+    /* justify-content: flex-end; */
+    /* text-align: end; */
+    margin: 3rem 0;
+}
+
+.quote-author{
+    /* align-self: flex-end; */
+    flex: 0 0 100%;
+    margin: 0 3rem 3rem 0;
+    text-align: end;
 }
 
 /*  ------  Content Block  ------  */
@@ -1525,7 +1539,7 @@ a:hover{
 }
 
 .service-line-block:nth-child(1):hover{
-	background: #00fbad;
+	background:#00ffaf;
 }
 .service-line-block:nth-child(2):hover{
 	background: #ffc3c4;
@@ -1544,20 +1558,6 @@ a:hover{
 	flex-basis: 65%;
 	justify-content: space-between;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*  ------  Call to action  ------  */
