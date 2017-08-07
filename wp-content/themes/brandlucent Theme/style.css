@@ -1095,11 +1095,15 @@ p{
   top: 24px;
 }
 
+#nav-icon3.open span{
+	background-color:white;
+}
+
 #nav-icon3.open span:nth-child(1) {
   top: 18px;
   width: 0%;
   left: 50%;
-  background-color:white;
+
 }
 
 #nav-icon3.open span:nth-child(2) {
@@ -1107,7 +1111,7 @@ p{
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-   background-color:white;
+
 }
 
 #nav-icon3.open span:nth-child(3) {
@@ -1115,14 +1119,14 @@ p{
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
-   background-color:white;
+ 
 }
 
 #nav-icon3.open span:nth-child(4) {
   top: 18px;
   width: 0%;
   left: 50%;
-   background-color:white;
+
 }
 
 
@@ -1135,6 +1139,17 @@ p.logo{
 	padding: 0;
 	margin: 0;
 }
+
+.nav-menu a:hover{
+	color: white;
+	/*border-style: solid;*/
+    border-bottom: thick solid #00ffaf;
+}
+
+.menu-item-33 a:hover{
+	color:pink;
+}
+
 
 
 /* ------  menu Open ------ */
@@ -1491,17 +1506,12 @@ i{
 
 .team-block-2{
 		padding-left: 2rem;
+		position: relative;
 }
 
-.video-background{
-	position: absolute;
-	right: 0; 
-	bottom: 0;
-	min-width: 100%; 
-	min-height: 100%;
-	width: auto; 
-	height: auto;
-	z-index: 10;
+.video-background {
+    position: absolute;
+    height: 100vh;
 }
 
 .team-member{
