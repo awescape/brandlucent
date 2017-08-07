@@ -12,5 +12,7 @@ $(document).ready(function(){
 
 		$('#masthead').toggleClass('appear');
 		// $('#toggle-menu-menu').toggleClass('disappear');	
+
+		$('#toggle-menu').toggleClass('fixed');
 	});
 });

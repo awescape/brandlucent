@@ -71,7 +71,7 @@
 						<?php endif; ?>
 					</a>
 				</p>
-				<div class="toggle-menu">
+				<div class="toggle-menu" id="toggle-menu">
 					<h6 id="toggle-menu-menu" class="toggle-menu-menu">menu</h6>
 <!-- 					<h6 id="toggle-menu-close" class="toggle-menu-close">close</h6> -->
 						<div id="nav-icon3">
