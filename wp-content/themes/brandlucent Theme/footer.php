@@ -16,16 +16,16 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<ul class="footer-wrapper">
 			<div>
-				<h1 class="h1-small">3 Place Ville Marie, Suite 400<h1>	
-				<h1 class="h1-small">Montreal, QC H3B 2E3<h1>
+				<p class="h1-small">3 Place Ville Marie, Suite 400<p>	
+				<p class="h1-small">Montreal, QC H3B 2E3<p>
 			</div>
 			<div>
-				<h1 class="h1-small">info@brandlucent.ca<h1>
-				<h1 class="h1-small">+1 514 549 0122<h1>
+				<p class="h1-small">info@brandlucent.ca<p>
+				<p class="h1-small">+1 514 549 0122<p>
 			</div>
 			<div>
-				<h1 class="h1-small">© 2017 Brandlucent Inc.<h1>
-				<h1 class="h1-small">© 2017 Agence Brandlucent Inc.<h1>
+				<p class="h1-small">© 2017 Brandlucent Inc.<p>
+				<p class="h1-small">© 2017 Agence Brandlucent Inc.<p>
 			</div>
 			<div class="up-arrow">
 				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>

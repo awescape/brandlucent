@@ -9,12 +9,12 @@
 			?>
 
 
-			<section class="team-block">
-				<div class="team-block-1" style="background-image: url('<?php 
+			<section class="team-block"  style="background-image: url('<?php 
 				echo get_field('left_block_image') ;?>');">
-				</div>
+<!-- 				<div class="team-block-1" style="background-image: url('<?php 
+				echo get_field('left_block_image') ;?>');">
+				</div> -->
 				
-
 
 <!-- 			echo '<div class="team-block-2" style="background-image: url(' . get_field('right_block_image') . ');">';
 	
@@ -22,18 +22,25 @@
 				echo '<a href="'  . get_field('right_block_text_link') .  '"><p>' . get_field('right_block_text') . '<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></a>';
 			echo '</div> test'; -->
 
-			<div class="team-block 2">
-				<h4>
-					<?php echo get_field('right_block_text_link') ;?> 
-				</h4>
+			<div class="team-block-2">
 
-				<a href="<?php echo get_field('right_block_text') ;?>">
-					<p>
-					<?php echo get_field('right_block_text') ;?>
-						<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-					</p>
 
-				</a>
+				<video class="video-background" autoplay loop id="video-background" muted plays-inline>
+				<source src="<?php echo get_field('right_block_video') ;?>" type="video/mp4">
+				</video>
+
+				<div class="floating-text">
+					<h4>
+						<?php echo get_field('right_block_title') ;?> 
+					</h4>
+					<a href="<?php echo get_field('right_block_text') ;?>">
+						<p>
+						<?php echo get_field('right_block_text') ;?>
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</p>
+					</a>
+				</div>
+		
 
 				<!-- 
 
@@ -41,11 +48,8 @@
 
 				-->
 
-			<?php echo '<a href="'  . get_field('right_block_text_link') .  '"><p>' . get_field('right_block_text') . '<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></a>'; ?> 
+	
 
-				<video class="video-background" autoplay loop id="video-background" muted plays-inline>
-				<source src="http://localhost:8080/brandlucent/wp-content/uploads/2017/07/TEAM-vid.mp4" type="video/mp4">
-				</video>
 			</div>
 
 			</section>
