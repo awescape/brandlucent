@@ -13,7 +13,9 @@
 	 		<p class="service-description"> <?php echo get_sub_field('service_description') ;?> 
 	 		</p>
 
-			<?php echo '<a href="'  . get_sub_field('learn_more_link') .  '"><p>' . get_sub_field('learn_more_text') . '<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></a>'; ?> 
+
+			<?php echo '<a class="learn-more-text href="'  . get_sub_field('learn_more_link') .  '"><div ">' . get_sub_field('learn_more_text') . '<i class="fa fa-long-arrow-right" aria-hidden="true"></i></div></a>'; ?> 
+
 		</div>
     </div>
         
