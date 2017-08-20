@@ -1356,6 +1356,35 @@ section{
   width: 150px;
 }
 
+/*-----Full screen Banner------*/
+
+.banner-full-screen{
+    /*background-color: #e9eded;*/
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    width: 100%;
+    /*min-height: 75vh;*/
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.full-screen-banner-title{
+	flex: 1 0 100%;
+	text-align: center;
+	margin: 3rem 0 2rem 0 ;
+}
+
+.full-screen-banner-text{
+	flex: 0 0 75%;
+	text-align: center;
+}
+
 /*-----Big blocks------*/
 
 .big-blocks{
@@ -1509,7 +1538,8 @@ i{
     width: 20vw;
     position: absolute;
     top: -10vw;
-    right: 0;
+    right: 45px;
+    transition: all 1s;
 }
 
 .spinning-image2{
@@ -1517,6 +1547,7 @@ i{
 	position: absolute;
 	bottom:0;
 	left:-10vw;
+ 	transition: all 1s;
 }
 
 /*  ------  Team Block  ------  */
@@ -1533,14 +1564,15 @@ i{
 	background-repeat: repeat;
     background-position: left top;
     background-size: contain;
+    flex-wrap: wrap;
 }
 
 
-.team-block-2{
+.team-block-2, .team-block-3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    /*align-items: flex-end;*/
     position: relative;
     width: 75%;
 }
@@ -1548,11 +1580,13 @@ i{
 .floating-text{
 	padding-left: 2rem;
 	position: absolute;
+/*	top: 25%;
+    left: 0;*/
 
 }
 
-./*team-member{
-    min-height: 80vh;
+.team-member{
+    /*min-height: 80vh;*/
     display: flex;
     flex-direction: column;
     align-self: stretch;
@@ -1564,7 +1598,7 @@ i{
 .team-member h5{
     margin: 1rem 3rem;
 }
-*/
+
 a{
 	text-decoration: none;
 	color: white;
@@ -1682,6 +1716,24 @@ a{
 	margin-left:20px;
 }
 
+
+/*  ------  Portfolio Pictures  ------  */
+
+.portfolio-pictures{
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.portfolio-full-width{
+	flex: 1 0 100%;
+	max-height: 100vh;
+}
+
+.portfolio-full-width{
+	flex: 0 1 50%;
+}
 
 /*  ------  Call to action  ------  */
 .call-to-action{

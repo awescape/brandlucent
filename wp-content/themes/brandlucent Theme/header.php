@@ -66,6 +66,7 @@
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 						<?php if ( is_front_page() && is_home() ) : ?>
 							<img class="menu-deactivated" src="wp-content/uploads/2017/06/FinalLogoLongVersion.png">
+						
 						<?php else : ?>
 							<img class="menu-deactivated" src="../wp-content/uploads/2017/06/FinalLogoLongVersion.png">
 						<?php endif; ?>

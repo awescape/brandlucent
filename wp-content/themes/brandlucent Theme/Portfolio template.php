@@ -31,12 +31,14 @@ get_header(); ?>
 <!-- banner full screen-->	
 <?php get_template_part( 'template-parts/banner-full-screen'); ?>
 
+<!-- Porfolio Picture-->	
+<?php get_template_part( 'template-parts/portfolio-pictures'); ?>
 
 <!-- quote-banner-->
 <?php get_template_part( 'template-parts/quote-banner'); ?>
 
-<!-- service-line-intro-->
-<?php get_template_part( 'template-parts/service-line-intro'); ?>
+<!-- Next project Block-->
+<?php get_template_part( 'template-parts/next-project-block'); ?>
 
 <!-------------- #call to action---------->
 		<?php get_template_part( 'template-parts/call-to-action'); ?>

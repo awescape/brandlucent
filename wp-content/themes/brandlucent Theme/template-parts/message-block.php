@@ -7,7 +7,7 @@
 						echo '<a href="'  . get_field('message_button_link') .  '"><button class="button message-button">' . get_field('message_button') . '<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button> </a>';
 					echo'</div>';
 					echo '<img id="leftgear" class=" spinning-image spinning-image1" src="' . get_field('message_spinning_image') .  '">';
-					echo '<img class="spinning-image spinning-image2" src="' . get_field('message_spinning_image') .  '">';
+					echo '<img id="rightgear" class="spinning-image spinning-image2" src="' . get_field('message_spinning_image') .  '">';
 				echo '</section>';
 			}
 		?> <!-- #message block-->
