@@ -6,10 +6,10 @@
 						echo '<p class="message-content">' . get_field('message_content') . '</p>';
 						echo '<a href="'  . get_field('message_button_link') .  '"><button class="button message-button">' . get_field('message_button') . '<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button> </a>';
 					echo'</div>';
-					echo '<img id="leftgear" class=" spinning-image spinning-image1" src="' . get_field('message_spinning_image') .  '">';
-					echo '<img id="rightgear" class="spinning-image spinning-image2" src="' . get_field('message_spinning_image') .  '">';
+					echo '<img id="rotating20" class=" spinning-image spinning-image1" src="' . get_field('message_spinning_image') .  '">';
+					echo '<img id="rotating30" class="spinning-image spinning-image2" src="' . get_field('message_spinning_image') .  '">';
 				echo '</section>';
 			}
 		?> <!-- #message block-->
 
-		
+	

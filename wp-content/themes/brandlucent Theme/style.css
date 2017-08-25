@@ -1322,7 +1322,7 @@ section{
 	align-items: center;
 	justify-content: space-between;
     padding: 2rem;
-
+    z-index: 5;
 }
 
 .banner-image{
@@ -1510,6 +1510,7 @@ section{
 
 .message-block{
 	position: relative;
+	max-width: 100vw;
 }
 
 .message-block-wrapper{
@@ -1545,8 +1546,9 @@ i{
     width: 20vw;
     position: absolute;
     top: -10vw;
-    right: 45px;
+    right: 5vw;
     transition: all 1s;
+    overflow: hidden;
 }
 
 .spinning-image2{
@@ -1555,6 +1557,7 @@ i{
 	bottom:0;
 	left:-10vw;
  	transition: all 1s;
+ 	overflow: hidden;
 }
 
 /*  ------  Team Block  ------  */
@@ -1852,6 +1855,50 @@ align-items: baseline;
 .site-footer ul{
 	margin: 0 0 1.5em 3rem;
 }
+
+
+/*  ------  Home Page  ------  */
+
+.home-message-image1{
+    width: 15vw;
+    position: absolute;
+    top: -30vw;
+    left: 5vw;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+.home-message-image2{
+    width: 40vw;
+    position: absolute;
+    top: -10vw;
+    right: -10vw;
+    transition: all 1s;
+    overflow: hidden;
+}
+
+#rotating {
+		-webkit-animation: rotation 4s infinite linear;
+}
+
+#rotating20 {
+		-webkit-animation: rotation 15s infinite linear;
+}
+
+#rotating30 {
+		-webkit-animation: rotation 25s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+
 
 /*  ---------------------------------------------------
                      MEDIA QUERY 768px
