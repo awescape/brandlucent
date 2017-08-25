@@ -1,5 +1,4 @@
 <?php
-
 /*
 contact: contact
 */
@@ -21,16 +20,23 @@ contact: contact
 get_header(); ?>
 
 
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 <!-- banner-->	
 <?php get_template_part( 'template-parts/banner'); ?>
 
-<!--- #call to action------>
-<?php get_template_part( 'template-parts/call-to-action'); ?>
 
 
+<!-- quote-banner-->
+<?php get_template_part( 'template-parts/quote-banner'); ?>
+
+
+
+
+<!-------------- #call to action---------->
+		<?php get_template_part( 'template-parts/call-to-action'); ?>
 <!--------------  ------------ ---------->
 
 

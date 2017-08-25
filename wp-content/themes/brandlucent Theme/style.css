@@ -938,6 +938,7 @@ font-family: 'Montserrat', sans-serif;*/
 
 
 
+
 body {
 	color: #002024;
 	font-family: 'Montserrat', sans-serif;
@@ -1245,7 +1246,7 @@ p.logo{
 	display: none;
 	flex-direction: column;
 	align-items: center;
-	transform: 1s;
+	transition: all 1s;
 }
 
 .menu-closed{
@@ -1286,9 +1287,9 @@ p.logo{
 }
 /*------General Pages------*/
 
-/*.page{
+#page{
 	width:100%;
-}*/
+}
 
 
 
@@ -1344,6 +1345,10 @@ section{
 
 .banner-title{
 	margin: 0;
+}
+
+.banner-title span{
+	font-weight: 700;
 }
 
 .banner-line{
