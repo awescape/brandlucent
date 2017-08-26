@@ -944,7 +944,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	background: white url("../../uploads/2017/06/BG-repeatable.jpg") repeat right top;
 	display:flex;
+	flex-wrap: wrap;
 }
+
+
 
 h1 {
 	font-size: 50px;
@@ -1312,7 +1315,7 @@ section{
 	background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
-    width:100%;
+    
 	min-height:100vh;
 	font-family: 'Raleway', sans-serif;
 	position: relative;
@@ -1323,7 +1326,21 @@ section{
 	justify-content: space-between;
     padding: 2rem;
     z-index: 5;
+    flex: 1 0 50%;
 }
+
+.banner-section{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+
+
+/*page specific stuff*/
+.banner.banner-half-width{
+	width:50%;	
+}
+
 
 .banner-image{
 	margin: 5% 0 ;
@@ -1341,6 +1358,11 @@ section{
 
 .banner-content {
     flex: 0 1 50% ;
+}
+
+/*page specific stuff*/
+.banner-content.banner-half-width {
+    flex: 0 1 100% ;
 }
 
 .banner-title{
@@ -1362,6 +1384,16 @@ section{
   top: 2rem;
   width: 150px;
 }
+
+.banner-line-dark::after {
+  content: " ";
+  border-color: #002024;
+}
+
+.banner-right-image{
+	/*min-height:100vh;*/
+}
+
 
 /*-----Full screen Banner------*/
 
