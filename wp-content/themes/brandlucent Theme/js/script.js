@@ -28,3 +28,13 @@ var theta = $(window).scrollTop() / 10 % Math.PI;
 $('#leftgear').css({ transform: 'rotate(' + theta + 'rad)' });
 $('#rightgear').css({ transform: 'rotate(-' + theta + 'rad)' });
 });
+
+
+ // slider //
+
+$(document).ready(function(){
+	$('#slide-title').click(function(){
+		$('#slide-display').toggleClass('open');
+
+	});
+});

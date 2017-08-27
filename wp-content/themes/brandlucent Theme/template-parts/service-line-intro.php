@@ -16,7 +16,7 @@
 
 			<?php 
 			if(get_sub_field('learn_more_text')) {
-				echo '<a class="learn-more-text href="'  . get_sub_field('learn_more_link') .  '"><div ">' . get_sub_field('learn_more_text') . '<i class="fa fa-long-arrow-right" aria-hidden="true"></i></div></a>';
+				echo '<a class="learn-more-text" href="'. get_sub_field('learn_more_link') .  '"><div ">' . get_sub_field('learn_more_text') . '<i class="fa fa-long-arrow-right" aria-hidden="true"></i></div></a>';
 				} ?> 
 
 		</div>
