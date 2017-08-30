@@ -38,34 +38,39 @@ get_header(); ?>
 	</div>
 	
 	<div class="slider-right-block">
+	<?php $a = 1; ?>
 
 		<div class="slide-titles">
 			<?php while( have_rows('slider_right_block') ): the_row(); ?>
 
-				<div id="slide-title">
+				<div id="slide-title<?php echo $a; ?>">
 					<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 					<p class="slide-title"><?php echo get_sub_field('slide_title') ;?></p>
 				</div>
-
+				<?php $a++; ?>
 			<?php endwhile; ?>
 		</div>
 		
+	
+	<?php $i = 1; ?>
+
 		<?php while( have_rows('slider_right_block') ): the_row(); ?>
-			<div id="slide-display" class="slide-display">
-			<?php while( have_rows('slides') ): the_row(); ?>
+			<div id="slide-display<?php echo $i; ?>" class="slide-display <?php if ($i < 2) { echo 'show';} ?>">
+				<?php while( have_rows('slides') ): the_row(); ?>
 
-				<div class="slider-content-block">
-					<h4 class="slider-content-title"><?php echo get_sub_field('slider_content_title') ;?></h4>
-					
-					<ul>
-					<?php while( have_rows('slider_content') ): the_row(); ?>
-						<li><p class="slider-content-items"><?php echo get_sub_field('slider_content_items') ;?></p></li>
-		   			<?php endwhile; ?>
-					</ul>
-				</div>
+					<div class="slider-content-block">
+						<h4 class="slider-content-title"><?php echo get_sub_field('slider_content_title') ;?></h4>
+						
+						<ul>
+						<?php while( have_rows('slider_content') ): the_row(); ?>
+							<li><p class="slider-content-items"><?php echo get_sub_field('slider_content_items') ;?></p></li>
+			   			<?php endwhile; ?>
+						</ul>
+					</div>
 
-		   	<?php endwhile; ?>
-		   	</div>
+			   	<?php endwhile; ?>
+			   	</div>
+		   	<?php $i++; ?>
 		<?php endwhile; ?>
 	</div>
 
@@ -84,11 +89,11 @@ get_header(); ?>
 
     <?php while( have_rows('service_line_block') ): the_row(); ?>
  
-    <div class="service-line-block service-page" style="background-image: url( <?php echo get_sub_field('service_background_image');?> );">
+    <div class="service-line-block service-page <?php echo get_sub_field('service_color') ;?>" style="background-image: url( <?php echo get_sub_field('service_background_image');?> );">
     	<div class="service-line-wrapper service-page">
 	 		<h2 class="service-title-area"> <?php echo get_sub_field('service_title_area') ;?> 
 	 		</h2>
-	 		<h1 class="service-title"> <?php echo get_sub_field('service_title') ;?> 
+	 		<h1 class="service-title <?php echo get_sub_field('service_color') ;?>"> <?php echo get_sub_field('service_title') ;?> 
 	 		</h1>
 	 		<p class="service-description"> <?php echo get_sub_field('service_description') ;?> 
 	 		</p>

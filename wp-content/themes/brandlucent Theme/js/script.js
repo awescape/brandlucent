@@ -33,8 +33,23 @@ $('#rightgear').css({ transform: 'rotate(-' + theta + 'rad)' });
  // slider //
 
 $(document).ready(function(){
-	$('#slide-title').click(function(){
-		$('#slide-display').toggleClass('open');
+	$('#slide-title1').click(function(){
+		$('#slide-display1').addClass('show');
+		$('#slide-display2').removeClass('show');
+		$('#slide-display3').removeClass('show');
+	});
+
+	$('#slide-title2').click(function(){
+		$('#slide-display2').addClass('show');
+		$('#slide-display1').removeClass('show');
+		$('#slide-display3').removeClass('show');
 
 	});
+
+	$('#slide-title3').click(function(){
+		$('#slide-display3').addClass('show');
+		$('#slide-display1').removeClass('show');
+		$('#slide-display2').removeClass('show');
+	});
 });
+
