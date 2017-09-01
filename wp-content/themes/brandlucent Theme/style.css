@@ -942,7 +942,9 @@ font-family: 'Montserrat', sans-serif;*/
 body {
 	color: #002024;
 	font-family: 'Montserrat', sans-serif;
-	background: white url("../../uploads/2017/06/BG-repeatable.jpg") repeat right top;
+
+	/*TO-DO : Have dynamic background for each page;*/
+	/*background: white url("../../uploads/2017/06/BG-repeatable.jpg") repeat right top;*/
 	display:flex;
 	flex-wrap: wrap;
 }
@@ -2065,7 +2067,80 @@ align-items: baseline;
 		}
 }
 
+/* ------------ Work Page ----------*/
 
+.portfolio-block{
+	position: relative;
+	padding: 3rem;
+}
+
+
+
+/* Setting fade transition and default settings */
+body {
+  transition: background-color 1s ease;
+}
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+	min-height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    /*outline: 10px solid hotpink;*/
+  /* turn above on to see the edge of panels */
+}
+
+.work-blurb{
+    display: flex;
+    /* align-items: center; */
+    /* height: 80vh; */
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1 1 50%;
+    /*padding: 3rem;*/
+
+}
+
+.work-images{
+	display: flex;
+	align-items: center;
+	flex-direction: column; 
+	justify-content: center;
+	flex: 1 1 50% ;
+}
+
+.work-images img{
+	width:60%;
+}
+
+.portfolio-break{
+	min-height:75vh;
+}
+
+/* colours */
+.color-white {
+  background-color: #d3d3d3;
+}
+
+.color-yellow {
+  background-color: #f6d000;
+}
+.color-green {
+  background-color: #00ffaf;
+}
+.color-blue {
+  background-color: #7ab7bd;
+}
+.color-pink {
+  background-color: #ffc3c4;
+}
+
+
+a .project-tag{
+	color:#002024;
+	margin:0;
+}
 
 /*  ---------------------------------------------------
                      MEDIA QUERY 768px
