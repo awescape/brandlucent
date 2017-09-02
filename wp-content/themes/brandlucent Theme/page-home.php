@@ -46,20 +46,58 @@ get_header(); ?>
 
 <!-- Message Block (customized for Home page) -->	
 
-		<?php
-			if(get_field('message_content')) {
-				echo '<section class="message-block">';
-					echo '<div class="message-block-wrapper">';
-						echo '<h1 class="message-title">' . get_field('message_title') . '</h1>';
-						echo '<p class="message-content">' . get_field('message_content') . '</p>';
-						echo '<a href="'  . get_field('message_button_link') .  '"><button class="button message-button">' . get_field('message_button') . '<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button> </a>';
-					echo'</div>';
-					echo '<img class="home-message-image1" src="' . get_field('message_second_image') .  '">';
-					echo '<img id="rotating" class="home-message-image2" src="' . get_field('message_spinning_image') .  '">';
-				echo '</section>';
-			}
-		?> <!-- #message block-->
 
+
+<section class="home-block home-block-1">
+
+	<div class="home-block-wrapper">
+		<h1 class="home-block-title">
+			<?php echo get_field('home_block_1_title') ?>
+		</h1>
+
+		<p class="home-block-content">
+			<?php echo get_field('home_block_1_content') ?>
+		</p>
+
+		<a href="<?php echo get_field('home_block_1_link') ?>">
+			<button class="button home-block-button">
+			 	<?php echo get_field('home_block_1_button') ?>
+			 	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</button>
+		</a>
+	</div>
+	<img class="home-block-1-image-1" src="<?php echo get_field('home_block_1_image_1') ?>">';
+	<img id="rotating" class="home-block-1-image-2" src="<?php echo get_field('home_block_1_image_2') ?>">
+</section>
+
+
+<section>
+			<img class="banner-strip-image" src="<?php echo get_field('banner_strip_image'); ?>">
+</section>
+
+
+<section class="home-block home-block-2">
+
+	<div class="home-block-wrapper">
+		<h1 class="home-block-title home-block-2-title">
+			<?php echo get_field('home_block_2_title') ?>
+		</h1>
+
+		<p class="home-block-content home-block-2-content">
+			<?php echo get_field('home_block_2_content') ?>
+		</p>
+
+		<a href="<?php echo get_field('home_block_2_link') ?>">
+			<button class="button home-block-button">
+			 	<?php echo get_field('home_block_2_button') ?>
+			 	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</button>
+		</a>
+	</div>
+
+	<img class="home-block-2-image-1" src="<?php echo get_field('home_block_2_image_1') ?>">
+
+</section>
 
 <!-- content block-->
 <?php
