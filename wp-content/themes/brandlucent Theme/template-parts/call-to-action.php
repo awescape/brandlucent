@@ -1,11 +1,26 @@
-<!-- <div class="get-in-touch">
-			<h1>Get in touch<span class="arrow"><img src=""></span></h1>
-		</div> -->
 
-<?php
-	if(get_field('call_to_action_text')) {
-		echo '<section class="call-to-action ' . get_field('cta_color') . '">';
-			echo '<a href="'  . get_field('call_to_action_link') .  '"><h1>' . get_field('call_to_action_text') . '<i class="' . get_field('cta_arrow') . '" aria-hidden="true"></i></h1></a>';
-		echo '</section>'; 
-}
-?> 
+
+<?php if(get_field('call_to_action_text')) {?>
+<section class="call-to-action <?php echo get_field('cta_color') ;?>">
+	
+	<a href="<?php echo get_field('call_to_action_link') ;?>">
+		<h1>
+			<?php echo get_field('call_to_action_text') ;?>
+			<i class="<?php echo get_field('cta_arrow') ;?>" aria-hidden="true"></i>
+		</h1>
+	</a>
+
+	<?php if(get_field('cta_button')) {?>
+		<a href="<?php echo get_field('cta_color') ;?>">
+			<button class="button cta-button">
+				<?php echo get_field('cta_button') ;?>
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</button>
+		</a>
+	<?php }?>
+
+</section>
+
+<?php }?>
+
+

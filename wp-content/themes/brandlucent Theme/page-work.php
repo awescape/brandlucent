@@ -23,15 +23,16 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+<!-------------- #portfolio-block---------->
 		<?php get_template_part('template-parts/portfolio-block'); ?>
 
 
+<!-------------- #slider---------->
+	<?php get_template_part('template-parts/slider-block'); ?>
 
-<!-- 		<div class="panel" data-color="pink">
-			<h1>Pink block</h1>
-		</div> -->
-		
 
+<!-------------- #call to action---------->
+		<?php get_template_part( 'template-parts/call-to-action'); ?>
 
 
 		</main><!-- #main -->
