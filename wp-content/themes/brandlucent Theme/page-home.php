@@ -50,7 +50,7 @@ get_header(); ?>
 
 <section class="home-block home-block-1">
 
-	<div class="home-block-wrapper">
+	<div class="home-block-wrapper home-block-wrapper-1">
 		<h1 class="home-block-title">
 			<?php echo get_field('home_block_1_title') ?>
 		</h1>
@@ -78,7 +78,7 @@ get_header(); ?>
 
 <section class="home-block home-block-2">
 
-	<div class="home-block-wrapper">
+	<div class="home-block-wrapper home-block-wrapper-2">
 		<h1 class="home-block-title home-block-2-title">
 			<?php echo get_field('home_block_2_title') ?>
 		</h1>
@@ -95,26 +95,63 @@ get_header(); ?>
 		</a>
 	</div>
 
-	<img class="home-block-2-image-1" src="<?php echo get_field('home_block_2_image_1') ?>">
+	<div class="home-block-image">
+		<img class="home-block-2-image-1" src="<?php echo get_field('home_block_2_image_1') ?>">
+	</div>
 
 </section>
 
-<!-- content block-->
-<?php
-			if(get_field('content_text')) {
-				echo '<section class="content-block" style="background-color:' . get_field('content_background') . ';">';
-					echo '<div class="content-block-wrapper">';
-						echo '<h1 class="content-title">' . get_field('content_title') . '</h1>';
-						echo '<p>' . get_field('content_text') . '</p>';
-					echo'</div>';
-					echo '<img class="content-image" src="' .  get_field('content_image') . '">';
-				echo '</section>';
-			}
-		?> <!-- #content block-->
+
+<section class="home-block home-block-3">
+
+	<div class="home-block-wrapper home-block-wrapper-3">
+		<h1 class="home-block-title home-block-3-title">
+			<?php echo get_field('home_block_3_title') ?>
+		</h1>
+
+		<p class="home-block-content home-block-3-content">
+			<?php echo get_field('home_block_3_content') ?>
+		</p>
+
+		<a href="<?php echo get_field('home_block_3_link') ?>">
+			<button class="button home-block-button">
+			 	<?php echo get_field('home_block_3_button') ?>
+			 	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</button>
+		</a>
+	</div>
+
+	<div class="home-block-image home-block-3-image">
+		<img class="home-block-3-image-1" src="<?php echo get_field('home_block_3_image_1') ?>">
+		
+		<img class="home-block-3-image-2" src="<?php echo get_field('home_block_3_image_2') ?>">
+	</div>
 
 
-<!-- bigblocks-->
-<?php get_template_part( 'template-parts/big-blocks'); ?>
+</section>
+
+
+<section class="home-block home-block-4">
+
+	<div class="home-block-wrapper home-block-wrapper-4">
+		<h1 class="home-block-title home-block-4-title">
+			<?php echo get_field('home_block_4_title') ?>
+		</h1>
+
+		<p class="home-block-content home-block-4-content">
+			<?php echo get_field('home_block_4_content') ?>
+		</p>
+
+
+	</div>
+
+	<div class="home-block-image home-block-4-image">
+		<img id="rotating20" class="home-block-4-image-1" src="<?php echo get_field('home_block_4_image_1') ?>">
+
+	</div>
+
+
+</section>
 
 
 <!-------------- #call to action---------->

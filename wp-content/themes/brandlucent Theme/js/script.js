@@ -91,48 +91,57 @@ $(window).scroll(function() {
 
 // Slider
 
-jQuery(document).ready(function ($) {
+$.global = new Object();
 
+$.global.item = 1;
+$.global.total = 0;
 
-    setInterval(function () {
-        moveRight();
-    }, 3000);
-  
-	var slideCount = $('#slider ul li').length;
-	var slideWidth = $('#slider ul li').width();
-	var slideHeight = $('#slider ul li').height();
-	var sliderUlWidth = slideCount * slideWidth;
+$(document).ready(function() 
+	{
 	
-	$('#slider').css({ width: slideWidth, height: slideHeight });
+	var WindowWidth = $(window).width();
+	var SlideCount = $('#slides li').length;
+	var SlidesWidth = SlideCount * WindowWidth;
 	
-	$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-	
-    $('#slider ul li:last-child').prependTo('#slider ul');
+   $.global.item = 0;
+    $.global.total = SlideCount; 
+    
+	$('.slide').css('width',WindowWidth+'px');
+	$('#slides').css('width',SlidesWidth+'px');
 
-    function moveLeft() {
-        $('#slider ul').animate({
-            left: + slideWidth
-        }, 200, function () {
-            $('#slider ul li:last-child').prependTo('#slider ul');
-            $('#slider ul').css('left', '');
-        });
-    };
+   $("#slides li:nth-child(1)").addClass('alive');
+    
+  $('#left').click(function() { Slide('back'); }); 
+  $('#right').click(function() { Slide('forward'); }); 
+        
+  });
 
-    function moveRight() {
-        $('#slider ul').animate({
-            left: - slideWidth
-        }, 200, function () {
-            $('#slider ul li:first-child').appendTo('#slider ul');
-            $('#slider ul').css('left', '');
-        });
-    };
+function Slide(direction)
+	{
+   
+    if (direction == 'back') { var $target = $.global.item - 1; }
+    if (direction == 'forward') { var $target = $.global.item + 1; }  
+    
+    if ($target == -1) { DoIt($.global.total-1); } 
+    else if ($target == $.global.total) { DoIt(0); }  
+    else { DoIt($target); }
+    
+    
+	}
 
-    $('div.control_prev').click(function () {
-        moveLeft();
-    });
-
-    $('div.control_next').click(function () {
-        moveRight();
-    });
-
-});    
+function DoIt(target)
+  {
+   
+    var $windowwidth = $(window).width();
+	var $margin = $windowwidth * target; 
+    var $actualtarget = target+1;
+    
+    $("#slides li:nth-child("+$actualtarget+")").addClass('alive');
+    
+    $('#slides').css('transform','translate3d(-'+$margin+'px,0px,0px)');	
+    
+    $.global.item = target; 
+    
+  $('#count').html($.global.item+1);
+    
+  }

@@ -5,6 +5,7 @@
  
     	<div class="project-block-wrapper">
 
+
 	 		<h2 class="next-project">|Next Project|</h2>
 
 			<a href="<?php echo get_sub_field('learn_more_link') ;?>">

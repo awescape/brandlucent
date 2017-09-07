@@ -28,7 +28,7 @@ get_header(); ?>
 
 
 <!-------------- #slider---------->
-	<?php get_template_part('template-parts/slider-block'); ?>
+	<?php get_template_part('template-parts/full-screen-slider'); ?>
 
 
 <!-------------- #call to action---------->
