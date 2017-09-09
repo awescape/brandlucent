@@ -36,7 +36,7 @@ get_header(); ?>
 			echo '</div>';	
 			if(get_field('banner_foreground_image')) {
 				echo '<div class="banner-image">';
-					echo '<img src="' . get_field('banner_foreground_image') .  '">';
+					echo '<img id="prlx_lyr_banner" src="' . get_field('banner_foreground_image') .  '">';
 				echo '</div>';
 		}
 		echo '</section>';
@@ -66,7 +66,7 @@ get_header(); ?>
 			</button>
 		</a>
 	</div>
-	<img class="home-block-1-image-1" src="<?php echo get_field('home_block_1_image_1') ?>">';
+	<img id="prlx_lyr_1" class="home-block-1-image-1" src="<?php echo get_field('home_block_1_image_1') ?>">';
 	<img id="rotating" class="home-block-1-image-2" src="<?php echo get_field('home_block_1_image_2') ?>">
 </section>
 
@@ -122,9 +122,9 @@ get_header(); ?>
 	</div>
 
 	<div class="home-block-image home-block-3-image">
-		<img class="home-block-3-image-1" src="<?php echo get_field('home_block_3_image_1') ?>">
+		<img id="prlx_lyr_2" class="home-block-3-image-1" src="<?php echo get_field('home_block_3_image_1') ?>">
 		
-		<img class="home-block-3-image-2" src="<?php echo get_field('home_block_3_image_2') ?>">
+		<img id="prlx_lyr_3" class="home-block-3-image-2" src="<?php echo get_field('home_block_3_image_2') ?>">
 	</div>
 
 

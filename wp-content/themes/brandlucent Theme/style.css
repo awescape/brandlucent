@@ -1269,7 +1269,7 @@ p.logo{
 	display: none;
 	flex-direction: column;
 	align-items: center;
-	transition: all 1s;
+	/*transition: all 1s;*/
 }
 
 .menu-closed{
@@ -1347,6 +1347,8 @@ section{
     padding: 2rem;
     z-index: 5;
     flex: 1 0 50%;
+    overflow:hidden;
+
 }
 
 .banner-section{
@@ -1366,6 +1368,17 @@ section{
 	margin: 5% 0 ;
 	flex: 1 0 50%;
 	max-width: 30vw;
+	position: relative;
+
+
+
+}
+
+#prlx_lyr_banner{
+	position:absolute;
+	top:0;
+	left:0;	
+	transition: all 0.5s;
 }
 
 
@@ -2129,10 +2142,11 @@ align-items: baseline;
 .home-block-1-image-1{
     width: 15vw;
     position: absolute;
-    top: -30vw;
+/*    top: -20vw;*/
     left: 5vw;
     transition: all 1s;
     overflow: hidden;
+    z-index: 10000;
 }
 
 .home-block-1-image-2{
@@ -2204,13 +2218,16 @@ align-items: baseline;
 .home-block-3-image-1{
 	z-index: 1;
 	position: absolute;
-	top: 0;
-    left: 0;
+	/*top: 0;*/
+    left: 3vw;
 	width:200px;
 }
 
 .home-block-3-image-2{
 	width:500px;
+	position: absolute;
+	/*top: 20vh;*/
+    left: 10vw;
 }
 
 /*Block 4*/
