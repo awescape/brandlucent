@@ -34,22 +34,26 @@ get_header(); ?>
 <!-- Slider Block-->	
 <section class="slider-section">
 	<div class="slider-left-block">
+		
 		<h3><?php echo get_field('slider_big_text') ;?></h3>
-	</div>
-	
-	<div class="slider-right-block">
-	<?php $a = 1; ?>
+		
+		<img id="rotating20" class="slider-left-block-image" src="<?php echo get_field('slider_left_block_image') ;?>">
 
+		<?php $a = 1; ?>
 		<div class="slide-titles">
 			<?php while( have_rows('slider_right_block') ): the_row(); ?>
 
 				<div id="slide-title<?php echo $a; ?>">
-					<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-					<p class="slide-title"><?php echo get_sub_field('slide_title') ;?></p>
+					<!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i> -->
+					<p class="slide-title slider-button">- <?php echo get_sub_field('slide_title') ;?></p>
 				</div>
 				<?php $a++; ?>
 			<?php endwhile; ?>
 		</div>
+
+	</div>
+	
+	<div class="slider-right-block">
 		
 	
 	<?php $i = 1; ?>
@@ -59,7 +63,7 @@ get_header(); ?>
 				<?php while( have_rows('slides') ): the_row(); ?>
 
 					<div class="slider-content-block">
-						<h4 class="slider-content-title"><?php echo get_sub_field('slider_content_title') ;?></h4>
+						<h3 class="slider-content-title"><?php echo get_sub_field('slider_content_title') ;?></h3>
 						
 						<ul>
 						<?php while( have_rows('slider_content') ): the_row(); ?>
@@ -73,10 +77,10 @@ get_header(); ?>
 		   	<?php $i++; ?>
 		<?php endwhile; ?>
 	</div>
-
-
-
 </section>
+
+
+
 
 <!-- quote-banner-->
 <?php get_template_part( 'template-parts/quote-banner'); ?>

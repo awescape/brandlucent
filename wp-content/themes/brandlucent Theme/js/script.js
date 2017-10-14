@@ -53,40 +53,6 @@ $(document).ready(function(){
 	});
 });
 
-// ------   Work page -----------
-
-// Background change
-
-$(window).scroll(function() {
-  
-  // selectors
-  var $window = $(window),
-      $body = $('body'),
-      $panel = $('.panel');
-  
-  // Change 33% earlier than scroll position so colour is there when you arrive.
-  var scroll = $window.scrollTop() + ($window.height() / 3);
- 
-  $panel.each(function () {
-    var $this = $(this);
-    
-    // if position is within range of this panel.
-    // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
-    // Remember we set the scroll to 33% earlier in scroll var.
-    if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
-          
-      // Remove all classes on body with color-
-      $body.removeClass(function (index, css) {
-        return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
-      });
-       
-      // Add class of currently active div
-      $body.addClass('color-' + $(this).data('color'));
-    }
-  });    
-  
-}).scroll();
-
 
 
 // Slider
@@ -146,22 +112,44 @@ function DoIt(target)
     
   }
 
+// Background change
 
-// Parallax effect
-function parallax(){
+$(window).scroll(function() {
+  
+  // selectors
+  var $window = $(window),
+      $body = $('body'),
+      $panel = $('.panel');
+  
+  // Change 33% earlier than scroll position so colour is there when you arrive.
+  var scroll = $window.scrollTop() + ($window.height() / 2);
+ 
+  $panel.each(function () {
+    var $this = $(this);
+    
+    // if position is within range of this panel.
+    // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
+    // Remember we set the scroll to 33% earlier in scroll var.
+    if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+          
+      // Remove all classes on body with color-
+      $body.removeClass(function (index, css) {
+        return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
+      });
+       
+      // Add class of currently active div
+      $body.addClass('color-' + $(this).data('color'));
+    }
+  });    
+  
+}).scroll();
 
-	var prlx_lyr_banner = document.getElementById('prlx_lyr_banner');
-	prlx_lyr_banner.style.top = -30+(window.pageYOffset / 20)+'vh';
-
-	var prlx_lyr_1 = document.getElementById('prlx_lyr_1');
-	prlx_lyr_1.style.top = -90+(window.pageYOffset / 20)+'vh';
-
-	var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
-	prlx_lyr_2.style.top = -240+(window.pageYOffset / 10)+'vh';
-
-	var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
-	prlx_lyr_3.style.top = -110+(window.pageYOffset / 20)+'vh';
 
 
-}
-window.addEventListener("scroll", parallax, false);
+// Scroll to the top
+
+$("#backToTop").click(function(e) {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  // return false;
+  e.preventDefault();
+});

@@ -27,7 +27,7 @@
 				<p class="h1-small">© 2017 Brandlucent Inc.<p>
 				<p class="h1-small">© 2017 Agence Brandlucent Inc.<p>
 			</div>
-			<div class="up-arrow">
+			<div id="backToTop" class="up-arrow">
 				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
 			</div>
 		</ul>

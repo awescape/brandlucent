@@ -2,6 +2,8 @@
 
 	<div class="page-name page-name-potfolio"><?php echo get_field('page_title') ;?></div>
 
+	<?php $f = 1; ?>
+
     <?php while( have_rows('portfolio_items') ): the_row(); ?>
 
 
@@ -37,12 +39,19 @@
 			</div>
 
 		  <div class="work-images">
-		  	<img src="<?php echo get_sub_field('project_image_solo') ;?>">
+		  	<img class="project-image-solo" src="<?php echo get_sub_field('project_image_solo') ;?>">
+		  	<img class="project-image-laptop" src="<?php echo get_sub_field('project_image_laptop') ;?>">
+		  	<img id="prlx_lyr_mobile<?php echo $f; ?>" class="project-image-mobile" src="<?php echo get_sub_field('project_image_mobile') ;?>">
 		  </div> 
+
+		
 		</div>
 
 		<div class="portfolio-break"></div>  
 
+		<?php $f++; ?>
     <?php endwhile; ?>
- 
+
+
+
 </section>

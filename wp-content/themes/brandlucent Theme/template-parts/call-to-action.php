@@ -11,7 +11,7 @@
 	</a>
 
 	<?php if(get_field('cta_button')) {?>
-		<a href="<?php echo get_field('cta_color') ;?>">
+		<a href="<?php echo get_field('call_to_action_link') ;?>">
 			<button class="button cta-button">
 				<?php echo get_field('cta_button') ;?>
 				<i class="fa fa-long-arrow-right" aria-hidden="true"></i>

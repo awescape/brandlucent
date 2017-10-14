@@ -162,6 +162,9 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+
+<script src="../wp-content/themes/brandlucent theme/js/script-home.js"></script>
+
 <?php
 
 get_footer();

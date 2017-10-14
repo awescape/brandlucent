@@ -33,7 +33,7 @@
 
 <?php if( get_field('team_member_1_name') ): ?>
 			<div class="team-block-3">
-				<video class="video-background" autoplay loop id="video-background" muted plays-inline>
+				<video class="video-background video-background-karen" autoplay loop id="video-background" muted plays-inline>
 				<source src="<?php echo get_field('team_member_1_video') ;?>" type="video/mp4">
 				</video>
 
