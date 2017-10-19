@@ -1674,6 +1674,7 @@ i{
     background-position: left top;
     background-size: contain;
     flex-wrap: wrap;
+    position: relative;
 }
 
 
@@ -1686,16 +1687,34 @@ i{
     width: 75%;
 }
 
-/*.video-background-karen{
-	 margin-bottom: -1px;
-}
-*/
+
 .floating-text{
 	padding-left: 2rem;
 	position: absolute;
 /*	top: 25%;
     left: 0;*/
 
+}
+
+.team-block-3:hover{
+
+}
+
+.opacity{
+	width: 100%;
+	position: absolute;
+	background-color: black;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	opacity: 0;
+}
+
+.opacity:hover{
+	opacity: 0.5;
+	cursor: pointer; 
+	cursor: hand;
 }
 
 .team-member{
@@ -1730,6 +1749,88 @@ a{
 /*	width: 80%;*/
 }
 
+.video-background{
+	background-color: grey;
+}
+
+
+.team-popup{
+    background-color: white;
+    border: 1.5rem solid #00ffaf;
+    position: absolute;
+    top: 10vh;
+    left: 10%;
+    width: 80%;
+    color: #002024;
+    /*display: flex;*/
+    display:none;
+    z-index:10;
+    position: fixed;
+}
+
+.team-popup.open{
+	display: flex;
+}
+
+
+.popup-left{
+	min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+	align-self: stretch;
+	flex: 1 1 50% ;
+    padding: 2rem 3rem;
+	justify-content: space-around;
+}
+
+.popup-link{
+	color:#00ffaf;
+}
+
+.popup-link:hover{
+	color:#002024;
+}
+
+.popup-button{
+	align-self: left;
+	color:#00ffaf;
+	border-color: #00ffaf;
+	font-weight: 500
+}
+
+.popup-button:hover{
+	color: #002024;
+	border-color:  #002024;
+	background-color: white;
+}
+
+
+.popup-right{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1 1 50%;
+   	align-self: stretch;
+   	position: relative;
+}
+
+.popup-right img{
+	width:100%; 
+}
+
+.popup-right p{ 
+	position: absolute;
+	top: 0.5rem;
+    right: 1.5rem;
+    color:#00ffaf;
+}
+
+.popup-right p:hover{ 
+    color:#002024;
+   	cursor: pointer; 
+	cursor: hand;
+}
 
 /*-----Service Line Intro------*/
 

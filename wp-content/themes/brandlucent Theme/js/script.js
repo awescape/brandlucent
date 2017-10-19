@@ -21,6 +21,20 @@ $(document).ready(function(){
 });
 
 
+// Team popup //
+
+$(document).ready(function(){
+
+  $('#member-1').click(function(){
+    $('#team-popup-1').toggleClass('open');
+  });
+
+  $('#close-1').click(function(){
+    $('#team-popup-1').removeClass('open')
+  });
+});
+
+
 // Rotating objects //
 
 $(window).scroll(function() {
