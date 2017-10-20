@@ -25,14 +25,41 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
+// member 1
   $('#member-1').click(function(){
-    $('#team-popup-1').toggleClass('open');
+    $('#team-page-cover').addClass('opacity-on');
+    $('#team-popup-1').addClass('open');
   });
 
   $('#close-1').click(function(){
     $('#team-popup-1').removeClass('open')
+    $('#team-page-cover').removeClass('opacity-on');
   });
+
+// member 2
+  $('#member-2').click(function(){
+    $('#team-page-cover').addClass('opacity-on');
+    $('#team-popup-2').addClass('open');
+  });
+
+  $('#close-2').click(function(){
+    $('#team-popup-2').removeClass('open')
+    $('#team-page-cover').removeClass('opacity-on');
+  });
+
+  // member 3
+  $('#member-3').click(function(){
+    $('#team-page-cover').addClass('opacity-on');
+    $('#team-popup-3').addClass('open');
+  });
+
+  $('#close-3').click(function(){
+    $('#team-popup-3').removeClass('open')
+    $('#team-page-cover').removeClass('opacity-on');
+  });
+
 });
+
 
 
 // Rotating objects //

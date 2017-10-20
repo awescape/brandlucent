@@ -40,6 +40,7 @@ get_header(); ?>
 		<?php get_template_part( 'template-parts/call-to-action'); ?>
 <!--------------  ------------ ---------->
 
+<div id="team-page-cover" class="black-out"></div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

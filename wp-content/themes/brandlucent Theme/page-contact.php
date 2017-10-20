@@ -34,11 +34,13 @@ get_header(); ?>
 
 
 
-
 <!-------------- #call to action---------->
 		<?php get_template_part( 'template-parts/call-to-action'); ?>
 <!--------------  ------------ ---------->
 
+
+<!-- Project Inquiry-->
+<?php get_template_part( 'template-parts/project-inquiry'); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
