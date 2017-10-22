@@ -63,19 +63,31 @@ $(document).ready(function(){
 
 // Project Inquiry popup //
 
+
 $(document).ready(function(){
 
 
-  $('#project-inquiry-launch').click(function(){
-    $('#project-inquiry').addClass('show');
+  $('#form-button-1').click(function(){
+    $('#form-page-1').addClass('move-left');
 
   });
 
-  $('#form-close').click(function(){
-    $('#project-inquiry').removeClass('show')
-  });
 
 });
+
+// $(document).ready(function(){
+
+
+//   $('#project-inquiry-launch').click(function(){
+//     $('#project-inquiry').addClass('show');
+
+//   });
+
+//   $('#form-close').click(function(){
+//     $('#project-inquiry').removeClass('show')
+//   });
+
+// });
 
 
 // Rotating objects //

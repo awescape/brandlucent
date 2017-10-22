@@ -24,19 +24,9 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-<!-- banner-->	
-<?php get_template_part( 'template-parts/banner'); ?>
 
-
-
-<!-- quote-banner-->
-<?php get_template_part( 'template-parts/quote-banner'); ?>
-
-
-
-<!-------------- #call to action---------->
-		<?php get_template_part( 'template-parts/call-to-action'); ?>
-<!--------------  ------------ ---------->
+<!-- Project Inquiry-->
+<?php get_template_part( 'template-parts/project-inquiry'); ?>
 
 
 		</main><!-- #main -->

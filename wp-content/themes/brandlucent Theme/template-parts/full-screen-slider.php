@@ -24,21 +24,21 @@
       <li class="slide color-4">slide 5</li> -->
 
 
-	<?php while( have_rows('slides') ): the_row(); ?>
+    	<?php while( have_rows('slides') ): the_row(); ?>
 
-	<li class="slide color-<?php echo $b; ?> alive<?php echo $b; ?>">
-		<a href="<?php echo get_sub_field('slide_image_link') ;?>">
-			<img src="<?php echo get_sub_field('slide_image') ;?>">
-		</a>
-	</li>
-	<?php endwhile; ?>
+      	<li class="slide color-<?php echo $b; ?> alive<?php echo $b; ?>">
+      		<!-- <a href="<?php echo get_sub_field('slide_image_link') ;?>"> -->
+      			<img src="<?php echo get_sub_field('slide_image') ;?>">
+      		<!-- </a> -->
+      	</li>
+    	<?php endwhile; ?>
     
     </ol>
  
     <span class="slide-nav fa fa-angle-left" id="left"></span>
     <span class="slide-nav fa fa-angle-right" id="right"></span>
     
-<!--     <div id="credit">Photography by Trey Ratcliff<br>Slide No.<span id="count">1</span><br><span id="zoom">zoom</span></div> -->
+
     
 </div>
  

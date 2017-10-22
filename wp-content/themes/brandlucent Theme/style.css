@@ -1223,6 +1223,7 @@ p.logo{
 	padding: 0;
 	margin: 0;
 	position: absolute;
+	margin: 0 2rem;
 
 }
 
@@ -1316,33 +1317,35 @@ p.logo{
 }
 
 .menu-closed{
-	background-color: white;
+	/*background-color: white;*/
     display: flex;
     align-content: center;
     justify-content: space-between;
     align-items: center;
-    min-height: 16vh;
+    height: 21vh;
+    min-height: 125px;
+    background:inherit;
 }
 
 .toggle-menu {
     position: absolute;
     right: 2rem;
-    top: 3rem;
+    top: 60px;
     display: flex;
     z-index: 20;
 }
 
 .toggle-menu h6{
 	color:#002024;
-	margin-right: 2rem;
+	margin-right: 1rem;
 }
 .toggle-menu{
-	margin-right: 2rem;
+	/*margin-right: 2rem;*/
 }
 
 .menu-deactivated{
 	width:300px;
-	margin: 1rem;
+	/*margin: 1rem;*/
 }
 .menu-toggle {
 	display: none;
@@ -1367,6 +1370,7 @@ p.logo{
 
 section{
 	width:100%;
+	min-height: 650px;
 }
 
 
@@ -1376,7 +1380,7 @@ section{
 .banner{
 	background-color: #e9eded;
 	background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left top;
     background-size: cover;
     
 	min-height:100vh;
@@ -1428,7 +1432,7 @@ section{
 .page-name{
 	margin:0;
 	position:absolute;
-	top: 2rem;
+	top: 3rem;
 	left:2rem;
 }
 
@@ -2707,22 +2711,26 @@ a.control_next {
 /* ------------ full screen slder ----------*/
 
 .full-screen-slider{
-	background-color: white;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	  position:relative;
+	/*background: white url("../../uploads/2017/06/BG-repeatable.jpg") repeat right top;*/
+	background: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
 .full-screen-slider h3{
 	text-align: center;
-	/*min-height: 15vh;*/
+    /*position: absolute;*/
+    top: 4rem;
+    /*width: 100vw;*/
+    margin-bottom: 3rem;
 }
 
 #slide-window
   {
-  /*position:relative;*/
+  position:relative;
   width:100%;
   /*height:100%;*/
   overflow:hidden;
@@ -2785,19 +2793,19 @@ a.control_next {
   font-size: 100px; 
   opacity:0.2; 
   z-index:9; 
-  top:50%; 
+  top:20%; 
   cursor:pointer; 
   color:#00ffaf;
   transition: all 0.66s ease; -webkit-transition: all 0.66s ease; 
   }
 
   .slide-nav.fa{
-  	font-size:100px;
+  	font-size:180px;
   }
 
 .slide-nav:hover { opacity:1.0; }
-#left { left:3%; }
-#right { right:3%; }
+#left { left:15%; }
+#right { right:15%; }
 
 
 #credit 
@@ -2811,26 +2819,30 @@ a.control_next {
 
 /* ------------ Project Inquiry ----------*/
 
+.pi-section{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: 100;
+/*	min-height:100vh;
+	display: flex;
+	flex-direction: column;*/
+}
+
 .project-inquiry{
-	min-height: 100vh;
-    min-width: 100vw;
 	background-color: #ffc3c4; 
 	display: flex;
     justify-content: flex-start;
 	position: relative;
-	border: 1px solid red;
-	padding: 5rem 0;
-	position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    /*display: flex;*/
-    display: none;
+	/*border: 1px solid red;*/
+	/*padding: 5rem 0;*/
+	/*align-self: stretch;*/
+		min-height:100vh;
+
+
 }
 
-.show{
-	display: flex;
-}
+
 
 .logo-form{
 	top: 0;
@@ -2857,13 +2869,16 @@ a.control_next {
 	flex: 0 1 25%;
 }
 
-.form-page-1{
+.form-page{
     display: flex;
     flex-direction: column;
     align-self: stretch;
     justify-content: space-around;
-    flex: 0 1 45%;
-    
+    flex: 0 1 45%; 
+}
+
+#form-page-1{
+	display:none;
 }
 
 .form-text{
@@ -2881,11 +2896,45 @@ a.control_next {
 	flex: 1 0 100%;
 }
 
+
+.form-input-wrapper textarea{
+	margin-bottom:2rem;
+	background-color: initial;
+	border: 1.5px solid #002024;
+}
+
+#message1{
+	min-height: 15vh;
+}
+
+
+
+.checkbox-wrapper{
+	display:flex;
+	flex-direction: row;	
+	flex-wrap: wrap;
+}
+
+.checkbox{
+	display: flex;
+	flex: 0 1 50%;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.checkbox input{
+	flex: 0 1 10%;
+	background-color: initial;
+}
+
+
+
+
 .form-title{
 	font-size: 18px;
 }
 
-.form-page-1 input{
+.form-page input{
 	color: #a2a2a2;
     font-size: 25px;
 	border:none;
@@ -2933,6 +2982,19 @@ input:focus, textarea:focus {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+
+/*.toggle-menu h6 {
+    display:none;
+}
+*/
+.logo{
+	width:50%;
+}
+
+
+.banner-content {
+    flex: 1 0 50%;
+}
 
 
 
