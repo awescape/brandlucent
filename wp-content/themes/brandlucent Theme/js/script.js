@@ -61,6 +61,22 @@ $(document).ready(function(){
 });
 
 
+// Project Inquiry popup //
+
+$(document).ready(function(){
+
+
+  $('#project-inquiry-launch').click(function(){
+    $('#project-inquiry').addClass('show');
+
+  });
+
+  $('#form-close').click(function(){
+    $('#project-inquiry').removeClass('show')
+  });
+
+});
+
 
 // Rotating objects //
 

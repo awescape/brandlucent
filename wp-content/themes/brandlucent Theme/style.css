@@ -1042,6 +1042,12 @@ a.learn-more-text{
 	font-weight: 700;
 }
 
+.xclose{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+
 a{
 /*	transition: all 0.3s*/
 }
@@ -1051,7 +1057,7 @@ a:hover{
 }
 
 .button{
-    border: 3px solid #002024;
+    border: 1.5px solid #002024;
     font-size: 1.5rem;
     padding: 1rem;
     background-color: white;
@@ -1082,13 +1088,18 @@ a:hover{
 }
 
 
-a .fa-long-arrow-right{
+a .fa-long-arrow-right, button .fa-long-arrow-right{
 	margin-left:0.5rem;
 	margin-right:0.5rem;
 	transition: margin 0.15s;
 }
 
 a:hover .fa-long-arrow-right{
+	margin-left:1rem;
+	margin-right:0rem;
+}
+
+button:hover .fa-long-arrow-right{
 	margin-left:1rem;
 	margin-right:0rem;
 }
@@ -1722,7 +1733,7 @@ i{
 .black-out{
 	width: 100%;
 	position: absolute;
-	background-color: black;
+	background-color: white;
 	top:0;
 	left:0;
 	right:0;
@@ -1732,7 +1743,7 @@ i{
 }
 
 .opacity-on{
-	opacity: 0.5;
+	opacity: 0.9;
 	z-index: 8;
 }
 
@@ -1775,16 +1786,17 @@ a{
 
 .team-popup{
     background-color: white;
-    border: 1.5rem solid #00ffaf;
+    border: 25px solid #00ffaf;
     position: absolute;
     top: 10vh;
     right: 10vw;
-    width: 80vw;
+    max-width: 80vw;
+    max-height: 80vh;
     color: #002024;
     /*display: flex;*/
     display:none;
     z-index:10;
-    /*position: fixed;*/
+    position: fixed;
     /*max-height: 80vh;*/
 }
 
@@ -1792,9 +1804,13 @@ a{
 	display: flex;
 }
 
+.team-popup p{
+	font-size: initial;
+}
+
 
 .popup-left{
-	min-height: 80vh;
+	/*min-height: 80vh;*/
     display: flex;
     flex-direction: column;
 	align-self: stretch;
@@ -1836,7 +1852,9 @@ a{
 }
 
 .popup-right img{
-	width:100%; 
+	max-height: calc(80vh - 25px);
+	overflow: hidden;
+	align-self: flex-end;
 }
 
 .popup-right p{ 
@@ -2794,12 +2812,24 @@ a.control_next {
 /* ------------ Project Inquiry ----------*/
 
 .project-inquiry{
-	height: 100vh;
+	min-height: 100vh;
+    min-width: 100vw;
 	background-color: #ffc3c4; 
 	display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 	position: relative;
 	border: 1px solid red;
+	padding: 5rem 0;
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /*display: flex;*/
+    display: none;
+}
+
+.show{
+	display: flex;
 }
 
 .logo-form{
@@ -2807,11 +2837,24 @@ a.control_next {
 	left: 0;
 }
 
-#form-close{
+.form-close{
 	position:absolute;
 	top:2rem;
 	right:2rem;
 	display: flex;
+	color:white;
+	justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+
+.xclose:hover{
+	color:#00ffaf;
+	cursor: pointer;
+}
+
+.form-grid{
+	flex: 0 1 25%;
 }
 
 .form-page-1{
@@ -2819,23 +2862,70 @@ a.control_next {
     flex-direction: column;
     align-self: stretch;
     justify-content: space-around;
-    padding: 10vh 20vw;
-    height: 100vh;
+    flex: 0 1 45%;
+    
+}
+
+.form-text{
+	margin:0 0 2rem 0;
+}
+
+.form-input-wrapper{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.form-input-wrapper input{
+	flex: 1 0 100%;
+}
+
+.form-title{
+	font-size: 18px;
 }
 
 .form-page-1 input{
+	color: #a2a2a2;
+    font-size: 25px;
 	border:none;
 	border-bottom: 1px solid #002024;
     background-color: #ffc3c4;
+    border-radius: 0px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+input:focus, textarea:focus { 
+	outline: none !important; 
+	border-color: #ffc3c4; 
+	box-shadow: 0 0 10px #ffc3c4; 
 }
 
 .form-page-1 input:focus{
-	border:1px solid #002024;
+/*	border:1px solid pink;
+	border-bottom: #8d8d8d;*/
+	border-bottom: 1px solid #8d8d8d;
+}
+
+.contact-info{
+	display: flex;
+	justify-content: space-between;
+	flex: 1 0 100%;
 }
 
 #phone, #email{
-	width: 40%
+	flex: 0 1 45%;
+	/*margin:2rem;*/
 }
+
+.form-button{
+	align-self: flex-start;
+	background-color: initial;
+	margin:2rem 0;
+}
+
+
 
 /*  ---------------------------------------------------
                      MEDIA QUERY 768px

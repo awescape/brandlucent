@@ -17,7 +17,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <!-- Google fonts link -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:400,400i|Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:400,400i|Raleway|Varela+Round" rel="stylesheet">
 <!-- To-Do: minimize the fonts loaded-->
 
 <!-- FontAwesome -->
