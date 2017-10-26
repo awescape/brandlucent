@@ -23,9 +23,21 @@
 
 	<?php if(get_field('banner_right_image')) { ?>
 
-		<section class="banner <?php echo get_field('banner_image_size') ?>" style="background-image: url(<?php  echo get_field('banner_right_image') ?>);">
+		<section class="banner banner-right <?php echo get_field('banner_image_size') ?>" style="background-image: url(<?php  echo get_field('banner_right_image') ?>);">
 		</section>
 	<?php } ?>
+
+
+	
+<!-- For team page only -->
+<!-- 		<section class="banner-background-block" style="background-image: url(<?php  echo get_field('banner_background_image') ?>);">
+		</section> -->
+
+		<img class="banner-background-block" src="<?php  echo get_field('team-banner-photo') ?>">
+
+
+
+
 
 	<?php echo '</section>'; ?>
 

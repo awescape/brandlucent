@@ -68,12 +68,24 @@ $(document).ready(function(){
 
 
   $('#form-button-1').click(function(){
-    $('#form-page-1').addClass('move-left');
-
+    $('#form-page-1').addClass('hidden');
+    $('#form-page-2').addClass('show');
+    $('#back-button-1').removeClass('hidden');
+    $('#form-close-1').addClass('hidden');
   });
-
-
 });
+
+
+
+$(document).ready(function(){
+  $('#back-button-1').click(function(){
+    $('#form-page-1').removeClass('hidden');
+    $('#form-page-2').removeClass('show');
+    $('#back-button-1').addClass('hidden');
+    $('#form-close-1').removeClass('hidden');
+  });
+});
+
 
 // $(document).ready(function(){
 
