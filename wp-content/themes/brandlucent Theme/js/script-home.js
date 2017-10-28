@@ -10,7 +10,8 @@ function parallax(){
 	prlx_lyr_1.style.top = -110+(window.pageYOffset / 10)+'vh';
 
 	var prlx_lyr_2 = document.getElementById('prlx_lyr_2');
-	prlx_lyr_2.style.top = -240+(window.pageYOffset / 10)+'vh';
+	prlx_lyr_2.style.top = -250+(window.pageYOffset / 9)+'vh';
+	prlx_lyr_2.style.left = -240+(window.pageYOffset / 9)+'vh';
 
 	var prlx_lyr_3 = document.getElementById('prlx_lyr_3');
 	prlx_lyr_3.style.top = -110+(window.pageYOffset / 20)+'vh';

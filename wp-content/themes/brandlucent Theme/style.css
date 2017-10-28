@@ -1040,9 +1040,11 @@ p{
 	font-size:22px;
 }
 
-.pi-section .form-input-wrapper .form-title{
-	font-size: 18px;
+.pi-section .form-input-wrapper .form-title {
+    font-size: 18px;
+    width: 100%;
 }
+
 
 a.learn-more-text{
 	font-size:22px;
@@ -1397,6 +1399,7 @@ section{
     background-position: left top;
     background-size: cover;
     
+	min-height: 500px;
 	min-height:100vh;
 	font-family: 'Raleway', sans-serif;
 	position: relative;
@@ -1409,6 +1412,7 @@ section{
     z-index: 5;
     flex: 1 0 50%;
     overflow:hidden;
+
 
 }
 
@@ -1567,6 +1571,11 @@ section{
     /*margin: 4rem 2rem 4rem 2rem;*/
 }
 
+
+.page-id-23 .block-2 p{
+	width:80%;
+}
+
 .block-3{
     align-items: flex-start;
     padding: 2rem;
@@ -1625,7 +1634,7 @@ section{
 	display:flex;
 	flex-direction: row;
 	align-items: center;
-	padding: 4rem;
+	padding: 2rem;
 	/*flex: 0 1 50% ;*/
 	justify-content: space-between;
 	z-index: 5;
@@ -1662,18 +1671,22 @@ section{
 	align-items: center;
 	justify-content: center;
 /*	flex: 0 1 50% ;*/
+	padding: 2rem;
 }
 
 .message-title{
 	text-align: center;
+	z-index: 5;
 }
 
 .message-content{
 	text-align: center;
+	z-index: 5;
 }
 
 .message-button{
 	margin:2rem;
+	z-index: 5;
 }
 
 i{
@@ -2262,6 +2275,13 @@ a.learn-more-text{
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	padding:2rem;
+	text-align: center;
+
+}
+
+.call-to-action h1{
+	line-height: initial;
 }
 
 .call-to-action i{
@@ -2400,6 +2420,7 @@ color: #00ffaf ;
 	align-items: center;
 	justify-content: center;
 	flex: 0 1 50% ;
+	padding:2rem;
 }
 
 .home-block-image{
@@ -2431,6 +2452,7 @@ color: #00ffaf ;
 
 .home-block-wrapper-1{
 	flex-basis: 100%;
+	z-index: 5;
 }
 
 .home-block-1-image-1{
@@ -2440,7 +2462,6 @@ color: #00ffaf ;
     left: 5vw;
     /*transition: all 1s;*/
     overflow: hidden;
-    z-index: 10000;
 }
 
 .home-block-1-image-2{
@@ -2485,6 +2506,7 @@ color: #00ffaf ;
 	align-items: flex-start; 
 	padding: 3rem;
 	order: 2;
+	z-index: 5;
 }
 
 
@@ -2514,11 +2536,13 @@ color: #00ffaf ;
 	position: absolute;
 	/*top: 0;*/
     left: 3vw;
-	width:200px;
+	width:27%;
+	max-width: 200px;
 }
 
 .home-block-3-image-2{
-	width:500px;
+	width:65%;
+	max-width: 500px;
 	position: absolute;
 	/*top: 20vh;*/
     left: 10vw;
@@ -2534,7 +2558,7 @@ color: white;
 .home-block-wrapper-4{
 	flex: 0 1 50% ;
 	align-items: flex-start; 
-	padding: 3rem;
+	padding: 2rem;
 }
 
 .home-block-wrapper-4 a{
@@ -3083,11 +3107,13 @@ textarea{
 	display: flex;
 	justify-content: space-between;
 	flex: 1 0 100%;
+	flex-wrap: wrap;
 }
 
-#phone, #email{
-	flex: 0 1 45%;
-	margin: 0 4px 0px 0px;
+#phone, #email {
+    flex: 0 1 45%;
+    margin: 0 4px 0 0px;
+    width: 100%;
 }
 
 .form-button{
@@ -3097,7 +3123,9 @@ textarea{
     padding: 0.5rem 1.5rem;
     display: flex;
     /*flex: 1 0 20vw;*/
-    margin-right:20%;
+/*    margin-right:20%;*/
+	margin: 0 20% 2rem 0;
+
     cursor: hand;
     cursor: pointer;
     display: flex;
@@ -3196,10 +3224,47 @@ textarea{
 	    background-size: cover;
 	}
 
+	.page-name{
+		position:initial;
+		width: 100%;
+	}
+
+	.banner{
+		flex-wrap: wrap;
+	}
+
 
 	/*Team-Block*/
+
+	.page-id-2 .team-block{
+    	background-size: cover;
+	}
+
+
+
 	.team-block-2, .team-block-3{
-		width:100%;
+		flex: 1 0 100%;
+	}
+
+	.team-block-2{
+		/*display: flex;*/
+
+	}
+
+	.team-block-2 .floating-text{
+		position: initial;
+		padding: 2rem;
+		color:#002024;
+		order:1;
+	}
+
+	.team-block-2 .video-background{
+		order:2;
+	}
+
+
+	.team-block-2 p{
+		color:#002024;
 	}
 
 
@@ -3217,6 +3282,106 @@ textarea{
     	/*margin: 2re;*/
 	}
 
+	.page-id-2 .block-2 p {
+    	width: 80%;
+	}
+
+
+	.page-id-23 .block-1 h3{
+	text-align: center;
+	}
+
+
+	/*Content Block*/
+
+	.content-image{
+		display: none;
+	}
+
+	.content-block-wrapper{
+		flex: 1 0 100% ;
+	}
+
+
+	/*message block*/
+	.message-block .spinning-image {
+		display: none;
+	}
+
+
+
+
+	/*Home blocks*/
+	.home-block-image {
+	    flex: 0 1 100%;
+		min-height: 100vh
+	}
+
+
+	/*home block 1*/
+
+	.home-block-wrapper-1{
+		order:2;
+		z-index: 5;
+	}
+
+	.home-block-1-images{
+		min-height: 25vh;
+		/*background-color: blue;*/
+		position: relative;
+		/*overflow: hidden;*/
+		order:1;
+	}
+
+
+	.home-block-image.home-block-1-images{
+		min-height:50vh;
+	}
+
+
+	.home-block-1-image-1 {
+	    min-width: 150px;
+	    top:0;
+	}
+
+
+	.home-block-1-image-2 {
+	    min-width: 350px;
+	    top: -25vw;
+	}
+
+
+	/*Home block 2*/
+	.home-block-3 .home-block-image{
+    	overflow: hidden;
+	}
+
+
+
+
+
+	.home-block-wrapper-2{
+	flex: 0 1 100%;
+	}
+
+
+	/*Home block 3*/
+	.home-block-wrapper-3 {
+	    flex: 0 1 100%;
+	}
+
+
+
+	/*Home block 4*/
+	.home-block-wrapper-4 {
+    flex: 0 1 100%;
+	}
+
+
+	.home-block-4-image-1 {
+	    top: 0vh;
+	}
+
 
 	/*quote-block*/
 
@@ -3227,6 +3392,60 @@ textarea{
 	.quote-banner{
 		    justify-content: normal
 	}
+
+
+	/*project-inquiry*/
+
+	.form-header{
+		margin-bottom: 2rem;
+	}
+
+	p.logo-form{
+		margin: 0;
+	}
+
+	.form-close{
+		margin:0;
+	}
+
+	.project-inquiry {
+	    padding: 2rem;
+	}
+
+
+	.checkbox,{
+    flex: 1 0 100%;
+	}
+
+	.form-page {
+		flex: 1 0 100%;
+	}
+
+
+	#phone, #email {
+    flex: 1 0 100%;
+    margin: 0 4px 2rem 0px;
+    /*width: 100%;*/
+	}
+
+	.checkbox{
+		flex: 1 0 100%;
+	}
+
+
+
+
+
+
+	/*Footer*/
+
+	.footer-wrapper div {
+    flex: 1 0 20%;
+    margin:2rem 0;
+	}
+
+
+
 
 
 
@@ -3276,11 +3495,65 @@ textarea{
 	}
 
 
-	/*Footer*/
+	/*Big-Blocks*/
+
+	.block-2 p {
+    	width: 100%;
+    	text-align: center;
+	}
+
+
+
+
+	/*project-inquiry*/
+
+
+	.form-page{
+		flex: 0 1 100%;
+	}
+
+	.form-message {
+    	flex: 1 0 100%;
+	}
+
+
+	/*Call to action*/
+
+	.call-to-action i{
+		display: block;
+	}
+
+
+
+		/*home block 1*/
+
+	.home-block-1-images{
+		overflow: hidden;
+	}
+
+	.home-block-1-image-2{
+		display: none;
+	}
+
+
+
+
+
+
+
+
+	/*footer*/
+
+		.site-footer ul div{
+	    /*display: inline-block;*/
+	    text-align: center;
+	}
+
 	.footer-wrapper div {
     flex: 1 0 100%;
-    margin:2rem 0;
 	}
+
+
 
 }
 
@@ -3288,6 +3561,32 @@ textarea{
 
 
 
+
+/*  ---------------------------------------------------
+                     Landscape QUERY 500px
+-----------------------------------------------------  */
+
+
+/* Landscape phones and down */
+@media (max-height: 500px) {
+
+	.banner-right{
+		display: none;
+	}
+
+	.page-name{
+		position:initial;
+		width: 100%;
+	}
+
+	.banner{
+		flex-wrap: wrap;
+	}
+
+
+
+}
+	
 
 
 

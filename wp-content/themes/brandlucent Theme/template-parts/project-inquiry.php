@@ -19,8 +19,12 @@
 		</p>
 
 	<h2 id="form-close-1" class="form-close ">inquiry 
-		<span id="form-close" class="xclose">X</span>
+		<span id="form-close" class="xclose">
+			<a href="<?php echo get_field('close_link') ;?>">X
+			</a>
+		</span>
 	</h2>
+	
 	<h2 id="back-button-1" class="form-close hidden">back 
 	</h2>
 		

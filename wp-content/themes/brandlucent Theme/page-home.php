@@ -66,8 +66,10 @@ get_header(); ?>
 			</button>
 		</a>
 	</div>
-	<img id="prlx_lyr_1" class="home-block-1-image-1" src="<?php echo get_field('home_block_1_image_1') ?>">';
-	<img id="rotating" class="home-block-1-image-2" src="<?php echo get_field('home_block_1_image_2') ?>">
+	<div class="home-block-image home-block-1-images">
+	<img id="prlx_lyr_1" class="home-block-1-image home-block-1-image-1" src="<?php echo get_field('home_block_1_image_1') ?>">';
+	<img id="rotating" class="home-block-1-image home-block-1-image-2" src="<?php echo get_field('home_block_1_image_2') ?>">
+	</div>
 </section>
 
 
