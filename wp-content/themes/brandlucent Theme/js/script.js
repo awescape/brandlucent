@@ -20,6 +20,65 @@ $(document).ready(function(){
 	});
 });
 
+// Appear on scroll
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        // $('.hideme').each( function(i){
+
+        $('.hideme').each( function(i) {
+
+            
+            // var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var top_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();           
+
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > top_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                $(this).addClass('animated fadeInUp');        
+            }
+            
+        }); 
+
+        // Left
+        $('.left-animation').each( function(i){
+            
+            var top_of_object = $(this).offset().top + 150;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();           
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > top_of_object ){       
+                $(this).animate({'opacity':'1'},500);
+                $(this).addClass('animated fadeInRight');        
+            }
+            
+        }); 
+
+                // right
+        $('.left-animation').each( function(i){
+            
+            var top_of_object = $(this).offset().top + 150;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();           
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > top_of_object ){       
+                $(this).animate({'opacity':'1'},500);
+                $(this).addClass('animated fadeInLeft');        
+            }
+            
+        }); 
+    
+    });
+
+
+
+
+
 
 // Team popup //
 
@@ -87,28 +146,28 @@ $(document).ready(function(){
 });
 
 
-// $(document).ready(function(){
+$(document).ready(function(){
 
 
-//   $('#project-inquiry-launch').click(function(){
-//     $('#project-inquiry').addClass('show');
+  $('#project-inquiry-launch').click(function(){
+    $('#project-inquiry').addClass('show');
 
-//   });
+  });
 
-//   $('#form-close').click(function(){
-//     $('#project-inquiry').removeClass('show')
-//   });
+  $('#form-close').click(function(){
+    $('#project-inquiry').removeClass('show')
+  });
 
-// });
+});
 
 
 // Rotating objects //
 
-$(window).scroll(function() {
-var theta = $(window).scrollTop() / 10 % Math.PI;
-$('#leftgear').css({ transform: 'rotate(' + theta + 'rad)' });
-$('#rightgear').css({ transform: 'rotate(-' + theta + 'rad)' });
-});
+// $(window).scroll(function() {
+// var theta = $(window).scrollTop() / 10 % Math.PI;
+// $('#leftgear').css({ transform: 'rotate(' + theta + 'rad)' });
+// $('#rightgear').css({ transform: 'rotate(-' + theta + 'rad)' });
+// });
 
 
  // slider //
@@ -193,37 +252,39 @@ function DoIt(target)
     
   }
 
+  });
+
 // Background change
 
-$(window).scroll(function() {
+// $(window).scroll(function() {
   
-  // selectors
-  var $window = $(window),
-      $body = $('body'),
-      $panel = $('.panel');
+//   // selectors
+//   var $window = $(window),
+//       $body = $('body'),
+//       $panel = $('.panel');
   
-  // Change 33% earlier than scroll position so colour is there when you arrive.
-  var scroll = $window.scrollTop() + ($window.height() / 2);
+//   // Change 33% earlier than scroll position so colour is there when you arrive.
+//   var scroll = $window.scrollTop() + ($window.height() / 2);
  
-  $panel.each(function () {
-    var $this = $(this);
+//   $panel.each(function () {
+//     var $this = $(this);
     
-    // if position is within range of this panel.
-    // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
-    // Remember we set the scroll to 33% earlier in scroll var.
-    if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+//     // if position is within range of this panel.
+//     // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
+//     // Remember we set the scroll to 33% earlier in scroll var.
+//     if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
           
-      // Remove all classes on body with color-
-      $body.removeClass(function (index, css) {
-        return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
-      });
+//       // Remove all classes on body with color-
+//       $body.removeClass(function (index, css) {
+//         return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
+//       });
        
-      // Add class of currently active div
-      $body.addClass('color-' + $(this).data('color'));
-    }
-  });    
+//       // Add class of currently active div
+//       $body.addClass('color-' + $(this).data('color'));
+//     }
+//   });    
   
-}).scroll();
+// }).scroll();
 
 
 

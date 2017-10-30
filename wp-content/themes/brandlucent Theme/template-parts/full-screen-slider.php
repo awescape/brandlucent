@@ -4,9 +4,9 @@
 
 <section class="full-screen-slider">
 
-  <h3><?php echo get_field('full_screen_slider_title');?></h3>
+  <h3 class="hideme"><?php echo get_field('full_screen_slider_title');?></h3>
 
-  <div id="slide-window">
+  <div id="slide-window" class="hideme">
 
   
    <?php $b = 0; ?>

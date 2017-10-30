@@ -9,23 +9,25 @@
 
 
 <?php if( get_field('right_block_title') ): ?>
-			<div class="team-block-2">
-				<video class="video-background" autoplay loop id="video-background" muted plays-inline>
-				<source src="<?php echo get_field('right_block_video') ;?>" type="video/mp4">
-				</video>
+			<a class="team-block-2" href="<?php echo get_field('right_block_text_link') ;?>">
+			<!-- 	<div class=""> -->
+					<video class="video-background" autoplay loop id="video-background" muted plays-inline>
+					<source src="<?php echo get_field('right_block_video') ;?>" type="video/mp4">
+					</video>
 
-				<div class="floating-text">
-					<h4>
-						<?php echo get_field('right_block_title') ;?> 
-					</h4>
-					<a href="<?php echo get_field('right_block_text') ;?>">
-						<p>
-						<?php echo get_field('right_block_text') ;?>
-							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-						</p>
-					</a>
-				</div>
-			</div>
+					<div class="floating-text">
+						<h4 class="hideme">
+							<?php echo get_field('right_block_title') ;?> 
+						</h4>
+							<p class="hideme">
+							<?php echo get_field('right_block_text') ;?>
+								<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+							</p>
+					
+					</div>
+					<div id="" class="team-member-cover"></div>
+				<!-- </div> -->
+			</a>
 <?php endif; ?>
 
 
@@ -43,10 +45,10 @@
 				</video>
 
 				<div class="floating-text">
-					<h4>
+					<h4 class="hideme">
 						<?php echo get_field('team_member_1_name') ;?> 
 					</h4>
-					<h5>
+					<h5 class="hideme">
 						<?php echo get_field('team_member_1_title') ;?> 
 					</h5>
 
@@ -56,31 +58,33 @@
 
 			<!-- Member 1 POPUP -->
 			<div id="team-popup-1" class="team-popup">
-				<div class="popup-left">	
-					<h4>
-						<?php echo get_field('team_member_1_name') ;?> 
-					</h4>
-					<h5 class="popup-subtite">
-						<?php echo get_field('team_member_1_title') ;?>
-						</h5>
-					<p> <?php echo get_field('team_member_1_blurb') ;?></p>
+				<div class="team-popup-wrapper">
+					<div class="popup-left">	
+						<h4>
+							<?php echo get_field('team_member_1_name') ;?> 
+						</h4>
+						<h5 class="popup-subtite">
+							<?php echo get_field('team_member_1_title') ;?>
+							</h5>
+						<p> <?php echo get_field('team_member_1_blurb') ;?></p>
 
-					<a class="popup-link popup-link-1" href="<?php echo get_field('team_member_1_profile') ;?>">
-						<p>
-							Connect on LinkedIn 
-							<i class="<?php echo get_field('cta_arrow') ;?>" aria-hidden="true"></i>
-						</p>
-					</a>
+						<a class="popup-link popup-link-1" href="<?php echo get_field('team_member_1_profile') ;?>">
+							<p>
+								Connect on LinkedIn 
+								<i class="<?php echo get_field('cta_arrow') ;?>" aria-hidden="true"></i>
+							</p>
+						</a>
 
-					<a href="<?php echo get_field('lets_talk_link') ;?>">
-						<button class="button popup-button">Let's talk
-						</button>
-					</a>
-				</div>
+						<a href="<?php echo get_field('lets_talk_link') ;?>">
+							<button class="button popup-button">Let's talk
+							</button>
+						</a>
+					</div>
 
-				<div class="popup-right" style="background-image: url('<?php echo get_field('team_member_1_photo') ;?>');">
-					<p id="close-1">X</p>
-					<img src="<?php echo get_field('team_member_1_photo') ;?>">
+					<div class="popup-right" style="background-image: url('<?php echo get_field('team_member_1_photo') ;?>');">
+						<p id="close-1">X</p>
+						<img src="<?php echo get_field('team_member_1_photo') ;?>">
+					</div>
 				</div>
 			</div>
 
@@ -102,10 +106,10 @@
 				</video>
 
 				<div class="floating-text">
-					<h4>
+					<h4 class="hideme">
 						<?php echo get_field('team_member_2_name') ;?> 
 					</h4>
-					<h5>
+					<h5 class="hideme">
 						<?php echo get_field('team_member_2_title') ;?> 
 					</h5>
 				</div>
@@ -157,10 +161,10 @@
 				</video>
 
 				<div class="floating-text">
-					<h4>
+					<h4 class="hideme">
 						<?php echo get_field('team_member_3_name') ;?> 
 					</h4>
-					<h5>
+					<h5 class="hideme">
 						<?php echo get_field('team_member_3_title') ;?> 
 					</h5>
 				</div>

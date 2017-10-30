@@ -51,15 +51,15 @@ get_header(); ?>
 <section class="home-block home-block-1">
 
 	<div class="home-block-wrapper home-block-wrapper-1">
-		<h1 class="home-block-title">
+		<h1 class="home-block-title hideme">
 			<?php echo get_field('home_block_1_title') ?>
 		</h1>
 
-		<p class="home-block-content">
+		<p class="home-block-content hideme">
 			<?php echo get_field('home_block_1_content') ?>
 		</p>
 
-		<a href="<?php echo get_field('home_block_1_link') ?>">
+		<a class="hideme" href="<?php echo get_field('home_block_1_link') ?>">
 			<button class="button home-block-button">
 			 	<?php echo get_field('home_block_1_button') ?>
 			 	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -81,16 +81,16 @@ get_header(); ?>
 <section class="home-block home-block-2">
 
 	<div class="home-block-wrapper home-block-wrapper-2">
-		<h1 class="home-block-title home-block-2-title">
+		<h1 class="home-block-title home-block-2-title hideme">
 			<?php echo get_field('home_block_2_title') ?>
 		</h1>
 
-		<p class="home-block-content home-block-2-content">
+		<p class="home-block-content home-block-2-content hideme">
 			<?php echo get_field('home_block_2_content') ?>
 		</p>
 
 		<a href="<?php echo get_field('home_block_2_link') ?>">
-			<button class="button home-block-button">
+			<button class="button home-block-button hideme">
 			 	<?php echo get_field('home_block_2_button') ?>
 			 	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 			</button>
@@ -107,16 +107,16 @@ get_header(); ?>
 <section class="home-block home-block-3">
 
 	<div class="home-block-wrapper home-block-wrapper-3">
-		<h1 class="home-block-title home-block-3-title">
+		<h1 class="home-block-title home-block-3-title hideme">
 			<?php echo get_field('home_block_3_title') ?>
 		</h1>
 
-		<p class="home-block-content home-block-3-content">
+		<p class="home-block-content home-block-3-content hideme">
 			<?php echo get_field('home_block_3_content') ?>
 		</p>
 
 		<a href="<?php echo get_field('home_block_3_link') ?>">
-			<button class="button home-block-button">
+			<button class="button home-block-button hideme">
 			 	<?php echo get_field('home_block_3_button') ?>
 			 	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 			</button>
@@ -136,11 +136,11 @@ get_header(); ?>
 <section class="home-block home-block-4">
 
 	<div class="home-block-wrapper home-block-wrapper-4">
-		<h1 class="home-block-title home-block-4-title">
+		<h1 class="home-block-title home-block-4-title hideme">
 			<?php echo get_field('home_block_4_title') ?>
 		</h1>
 
-		<p class="home-block-content home-block-4-content">
+		<p class="home-block-content home-block-4-content hideme">
 			<?php echo get_field('home_block_4_content') ?>
 		</p>
 

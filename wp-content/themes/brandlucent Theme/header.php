@@ -20,6 +20,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:400,400i|Raleway|Varela+Round" rel="stylesheet">
 <!-- To-Do: minimize the fonts loaded-->
 
+<link rel="stylesheet"
+  href="../wp-content/themes/brandlucent Theme/animate.css">
+
+
 <!-- FontAwesome -->
 	<script src="https://use.fontawesome.com/9eac949f36.js"></script>
 

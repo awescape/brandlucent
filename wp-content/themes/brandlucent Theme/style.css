@@ -937,7 +937,16 @@ font-family: 'Montserrat', sans-serif;*/
 */
 
 
+/* ---------- animate.css ------------------------*/
 
+
+
+/* ---------- Styling ------------------------*/
+
+section{
+	overflow: hidden;
+	width:100%;
+}
 
 body {
 	color: #002024;
@@ -1125,6 +1134,12 @@ ul,
 ol {
 	margin: 0 2rem;
 }
+
+section{
+	transition: all ease 1s;
+}
+
+
 
 
 /*------Header------*/
@@ -1377,6 +1392,34 @@ p.logo{
 }
 
 
+#container
+{
+    height:2000px;    
+}
+
+#container DIV
+{ 
+    margin:50px; 
+    padding:50px; 
+    background-color:lightgreen; 
+}
+
+
+.hideme,
+.left-animation{	
+    opacity:0;
+}
+
+
+}
+
+.block-1{
+	/*transition: all 0.5s;*/
+}
+
+/*h3:hover{
+}*/
+
 
 /*------About Page------*/
 
@@ -1384,10 +1427,6 @@ p.logo{
 	display:none;
 } /*remove site title*/
 
-section{
-	width:100%;
-	/*min-height: 650px;*/
-}
 
 
 /*-----Banner------*/
@@ -1467,7 +1506,7 @@ section{
 }
 
 .banner-content {
-    flex: 0 1 50% ;
+    flex: 0 1 45% ;
 }
 
 /*page specific stuff*/
@@ -1553,40 +1592,44 @@ section{
 	padding: 2rem;
 	align-self: stretch;
 	flex: 1 1 50% ;
+}
 
-
+.block-1 h3{
+	flex: 0 1 85%;
 }
 
 .block-2, .block-3{
 	display: flex;
-    align-items: center;
-    padding: 2rem 0;
     flex-direction: column;
     justify-content: space-around;
     justify-content: space-evenly;
     flex: 1 1 50%;
-}
-.block-2 p{
-	width: 60%;
-    /*margin: 4rem 2rem 4rem 2rem;*/
-}
-
-
-.page-id-23 .block-2 p{
-	width:80%;
-}
-
-.block-3{
     align-items: flex-start;
     padding: 2rem;
 }
+.block-2 p{
+	width: 85%;
+    /*margin: 4rem 2rem 4rem 2rem;*/
+}
+
+.block-2 div{
+	width: 85%;
+	display: flex;
+	justify-content: center;
+	/*margin-top:1rem;*/
+}
+
+
+
+
+
 
 .block-3 div{
     margin: 2rem 0;
 }
 
 .big-blocks-button{
-	margin:2rem;
+	margin:0;
 }
 
 /*  ------  Quote-Text  ------  */
@@ -1623,7 +1666,7 @@ section{
 .quote-author{
     /* align-self: flex-end; */
     flex: 0 0 100%;
-    margin: 0 3rem 3rem 0;
+    margin: 0 2rem 2rem 0;
     text-align: end;
     font-style: italic;
 }
@@ -1644,7 +1687,7 @@ section{
 	display:flex;
 	flex-direction: column;
 	/*flex-direction: row;*/
-	flex: 0 1 50% ;
+	flex: 0 1 45% ;
 
 }
 
@@ -1662,6 +1705,9 @@ section{
 	position: relative;
 	max-width: 100vw;
 	overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .message-block-wrapper{
@@ -1672,6 +1718,7 @@ section{
 	justify-content: center;
 /*	flex: 0 1 50% ;*/
 	padding: 2rem;
+	width:60%;
 }
 
 .message-title{
@@ -1752,8 +1799,11 @@ i{
 
 /*	top: 25%;
     left: 0;*/
-
 }
+
+.team-block .floating-text h4{
+		color:white;
+	}
 
 .team-block h5 {
 		font-size: 32px;
@@ -1777,12 +1827,22 @@ i{
 	opacity: 0;
 }
 
-.team-member-cover:hover{
-	opacity: 0.4;
+.team-block-2:hover > .team-member-cover{
+	opacity: 0.6;
 	cursor: pointer; 
 	cursor: hand;
 
 }
+
+.team-block-3:hover > .team-member-cover{
+	opacity: 0.6;
+	cursor: pointer; 
+	cursor: hand;
+}
+
+/*.team-block-3:hover > .floating-text h5{
+	color: #00ffaf;
+}*/
 
 .black-out{
 	width: 100%;
@@ -1841,19 +1901,31 @@ a{
 
 
 .team-popup{
-    background-color: white;
-    border: 20px solid #00ffaf;
+    /*background-color: white;*/
+    /*border: 20px solid #00ffaf;*/
     position: absolute;
-    top: 10vh;
+/*    top: 10vh;
     right: 10vw;
     max-width: 80vw;
-    max-height: 80vh;
+    max-height: 80vh;*/
+    top: 0;
+    left: 0;
     color: #002024;
     /*display: flex;*/
     display:none;
     z-index:10;
     position: fixed;
     /*max-height: 80vh;*/
+    /*overflow:hidden;*/
+}
+
+.team-popup-wrapper{
+	background-color: white;
+	border: 20px solid #00ffaf;
+    display: flex;
+    margin: 5vh 5vw;
+/*    max-width: 80vw;
+    max-height: 80vh;*/
     overflow:hidden;
 }
 
@@ -1888,6 +1960,10 @@ a{
 
 .popup-link:hover{
 	color:#002024;
+}
+
+.popup-left p{
+	margin-bottom: 1rem;
 }
 
 .popup-button{
@@ -1925,6 +2001,7 @@ a{
 
 .popup-right img{
 	display: none;
+
 }
 
 .popup-right p{ 
@@ -2619,6 +2696,7 @@ color: white;
 
 body {
   transition: background-color 0.3s ease;
+  /*transition: all 0.3s ease;*/
 }
 
 /* colours */
@@ -3267,6 +3345,23 @@ textarea{
 		color:#002024;
 	}
 
+	.team-popup-wrapper{
+	    margin: 0;
+	    /*width: 100vw;*/
+	    height: 100vh;
+	}
+
+	.popup-left {
+    flex: 0 1 100%;
+
+	}
+
+
+
+
+
+
+
 
 
 	/*Big-Blocks*/
@@ -3289,6 +3384,7 @@ textarea{
 
 	.page-id-23 .block-1 h3{
 	text-align: center;
+	flex: 0 1 100%;
 	}
 
 
@@ -3307,6 +3403,11 @@ textarea{
 	.message-block .spinning-image {
 		display: none;
 	}
+
+
+	.message-block-wrapper{
+	width:100%;
+}
 
 
 
@@ -3460,6 +3561,12 @@ textarea{
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+
+
+	/*Menu*/
+	.toggle-menu h6{
+		display: none;
+	}
 	
 
 	/*Banner*/
@@ -3490,16 +3597,42 @@ textarea{
 		text-align: center
 	}
 
+
 	.video-background{
 		display:none;
 	}
+
+	.popup-right {
+		background-image: none !important;
+	}
+
+	.poppppie{
+		float: right;
+	}
+
+/*	.popup-right img{
+		display: block;
+	}
+
+		.popup-right {
+		float:right;
+	}*/
 
 
 	/*Big-Blocks*/
 
 	.block-2 p {
     	width: 100%;
-    	text-align: center;
+    	/*text-align: center;*/
+    	margin-bottom: 2rem;
+	}
+
+	.page-id-2 .block-2 p {
+    	width: 100%;
+	}
+
+	.message-title, .message-content{
+		text-align: left;
 	}
 
 
@@ -3586,7 +3719,30 @@ textarea{
 
 
 }
+
+
+
+
+/* Landscape phones and down */
+@media (max-height: 600px) {
+
+	.team-popup-wrapper{
+	    margin: 0;
+	    /*width: 100vw;*/
+	    height: 100vh;
+	}
+
+
+	.popup-left {
+    flex: 0 1 100%;
+
+	}
 	
+
+
+}
+
+
 
 
 
