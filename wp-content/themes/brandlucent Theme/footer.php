@@ -64,11 +64,11 @@
 
 	<?php
 		if ( is_front_page() && is_home() ) : ?>
-			<script src="wp-content/themes/brandlucent theme/js/script.js"></script>
+			<script type="text/javascript" src="wp-content/themes/brandlucent theme/js/script.js"></script>
 
         
 	<?php else : ?>
-			<script src="../wp-content/themes/brandlucent theme/js/script.js"></script>
+			<script type="text/javascript" src="../wp-content/themes/brandlucent theme/js/script.js"></script>
 			<?php endif; ?>
 </body>
 </html>

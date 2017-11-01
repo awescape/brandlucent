@@ -28,7 +28,7 @@
 		</div> 
     <?php endwhile; ?>
 
-	<?php if( get_field('next_project_image hideme') ): ?>
+	<?php if( get_field('next_project_image') ): ?>
  		<img class="next-project-image" src="<?php echo get_field('next_project_image')?>">
 	<?php endif; ?>
  

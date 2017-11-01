@@ -12,9 +12,7 @@
 				echo '<h2>' . get_field('banner_text') . '</h2>';	
 			echo '</div>';	
 			if(get_field('banner_foreground_image')) {
-				echo '<div class="banner-image">';
-					echo '<img src="' . get_field('banner_foreground_image') .  '">';
-				echo '</div>';
+					echo '<img id="banner_fg_image" class="banner-image moveme" src="' . get_field('banner_foreground_image') .  '">';
 			}
 		echo '</div>';
 	}
