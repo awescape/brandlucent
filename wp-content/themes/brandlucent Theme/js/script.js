@@ -61,7 +61,7 @@ $(document).ready(function() {
             banner_image.style.top = (bottom_of_window - top_of_object) +'px';
           }
 
-          window.addEventListener("scroll", parallax, false);    
+          // window.addEventListener("scroll", parallax, false);    
         }); 
 
 
@@ -89,7 +89,7 @@ $(document).ready(function() {
 
           }
 
-          window.addEventListener("scroll", parallax, false);
+          // window.addEventListener("scroll", parallax, false);
 
           if( bottom_of_window > top_of_object ){
               $('#content-block').addClass('overflow');        

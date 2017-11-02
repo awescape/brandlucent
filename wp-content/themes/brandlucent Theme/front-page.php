@@ -1,7 +1,9 @@
 <?php
-/*
-Home: Home
-*/
+/**
+ * 
+ * Template Name: Home Page
+ *
+ */
 ?>
 <?php
 /**
@@ -164,8 +166,13 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+<!-- 
+<script src="../wp-content/themes/brandlucent theme/js/script-home.js"></script> -->
 
-<script src="../wp-content/themes/brandlucent theme/js/script-home.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/js/script-home.js' ?>"></script>
+
+
+
 
 <?php
 

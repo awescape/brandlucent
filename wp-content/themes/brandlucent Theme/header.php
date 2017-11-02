@@ -17,15 +17,15 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <!-- Google fonts link -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:400,400i|Raleway|Varela+Round" rel="stylesheet">
+<!-- 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:400,400i|Raleway|Varela+Round" rel="stylesheet"> -->
 <!-- To-Do: minimize the fonts loaded-->
 
-<link rel="stylesheet"
+<!-- <link rel="stylesheet"
   href="../wp-content/themes/brandlucent Theme/animate.css">
-
+ -->
 
 <!-- FontAwesome -->
-	<script src="https://use.fontawesome.com/9eac949f36.js"></script>
+	<!-- <script src="https://use.fontawesome.com/9eac949f36.js"></script> -->
 
 
 <?php wp_head(); ?>
@@ -45,14 +45,11 @@
 	<header id="masthead" class="site-header" role="banner">
 	<div id="menu-open" class="menu-open">	
 		<p class="logo">
+
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<?php if ( is_front_page() && is_home() ) : ?>
-					<img class="menu-activated" src="wp-content/uploads/2017/07/FinalLogoIconOnly.png">
+					<img class="menu-activated" src="<?php echo get_template_directory_uri() . '../../../../wp-content/uploads/2017/07/FinalLogoIconOnly.png' ?>">
 			</a>
-				<?php else : ?>
-					<img class="menu-activated" src="../wp-content/uploads/2017/07/FinalLogoIconOnly.png">
-			</a>
-				<?php endif; ?>
+
 		</p>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'brandlucent' ); ?>
@@ -71,12 +68,8 @@
 			<div class="menu-closed">	
 				<p class="logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<?php if ( is_front_page() && is_home() ) : ?>
-							<img class="menu-deactivated" src="wp-content/uploads/2017/06/FinalLogoLongVersion.png">
 						
-						<?php else : ?>
-							<img class="menu-deactivated" src="../wp-content/uploads/2017/06/FinalLogoLongVersion.png">
-						<?php endif; ?>
+						<img class="menu-deactivated" src="<?php echo get_template_directory_uri() . '../../../../wp-content/uploads/2017/06/FinalLogoLongVersion.png' ?>">
 					</a>
 				</p>
 				<div class="toggle-menu" id="toggle-menu">
