@@ -1858,8 +1858,16 @@ i{
 	opacity: 0;
 }
 
-
-
+/*#member-1{
+	order:1;
+}
+#member-2{
+	order:3;
+}
+#member-3{
+	order:2;
+}
+*/
 
 .team-block-2:hover > .team-member-cover{
 	opacity: 0.6;
@@ -2190,7 +2198,7 @@ a{
     min-height: 100vh;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     /* flex: 1 0 50%; */
     /* flex-wrap: wrap; */
     /* align-items: center; */
@@ -2198,20 +2206,22 @@ a{
 }
 
 .project-block-wrapper{
-display: flex;
+    display: flex;
     flex-direction: column;
-    /* flex: 1 0 50%; */
+    flex: 1 0 50%;
     padding: 2rem;
-    /* justify-content: center; */
+    justify-content: center;
     /* min-height: 100vh; */
 }
 
 .next-project{
-	margin:1rem 0;
+	width:85%;
+
 }
 
 .project-block-wrapper .service-title{
 	text-align: left;
+	margin: 2rem 0; 
 }
 
 
@@ -2223,6 +2233,7 @@ display: flex;
 .project-tag{
 	/*flex-grow: 1;*/
 	min-height: 25vh;
+	margin-bottom: 2rem;
 
 }
 
@@ -2239,11 +2250,9 @@ a.learn-more-text{
 }
 
 .next-project-image{
-    display: flex;
-    justify-content: center;
     flex: 0 1 50%;
     max-height: 100vh;
-    /* object-fit: contain; */
+     object-fit: cover; 
 }
 
 
@@ -3354,7 +3363,6 @@ textarea{
 	.page-id-21 .banner-background-block{
 		display:block;
 		width:100%;
-		/*height:100vh;*/
 		background-repeat: no-repeat;
 		background-position: right top;
 	    background-size: cover;
@@ -3383,12 +3391,9 @@ textarea{
 	}
 
 	.team-block-3{
-
 	}
 
 	.team-block-2{
-		/*display: flex;*/
-
 	}
 
 	.team-block-2 .floating-text{
@@ -3409,7 +3414,6 @@ textarea{
 
 	.team-popup-wrapper{
 	    margin: 0;
-	    /*width: 100vw;*/
 	    height: 100vh;
 	}
 
@@ -3438,7 +3442,7 @@ textarea{
 
 
 	.block-3 div{
-    	/*margin: 2rem;*/
+
 	}
 
 	.block-2 p {
@@ -3569,7 +3573,21 @@ textarea{
 	border-left: 2.5px solid #8d8d8d;
 	border-right:2.5px solid #8d8d8d;
 	border-bottom:5px solid #8d8d8d;
-}
+	}
+
+
+	/*next project block*/
+
+	.project-block-wrapper {
+	    flex: 1 0 100%;
+	}
+
+	.next-project-block{
+	    flex-wrap: wrap;
+	}
+
+	.next-project{
+	}
 
 
 	/*project-inquiry*/
@@ -3770,6 +3788,16 @@ textarea{
 
 	.form-message {
     	flex: 1 0 100%;
+	}
+
+	/*next project block*/
+
+	.project-block-wrapper {
+    flex: 1 0 100%;
+	}
+
+	.next-project {
+    flex: 0 1 85%;
 	}
 
 

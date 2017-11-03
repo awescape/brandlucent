@@ -2,29 +2,33 @@
  <section class="next-project-block">
 
     <?php while( have_rows('next_project_block') ): the_row(); ?>
+
  
     	<div class="project-block-wrapper">
 
+    		<div class="next-project">
+		 		<h2 class="next-project-title hideme">|Next Project|</h2>
 
-	 		<h2 class="next-project hideme">|Next Project|</h2>
+				<a href="<?php echo get_sub_field('learn_more_link') ;?>">
+					<h1 class="service-title hideme"> <?php echo get_sub_field('project_title') ;?> 
+		 			</h1>
+		 		</a>
 
-			<a href="<?php echo get_sub_field('learn_more_link') ;?>">
-				<h1 class="service-title hideme"> <?php echo get_sub_field('project_title') ;?> 
-	 			</h1>
-	 		</a>
+				<div class="project-tag hideme">
+					<p>
+					<?php while( have_rows('project_tags_list') ): the_row(); ?>
+						<a href="<?php echo get_sub_field('project_tag_link') ;?>">
+							<span><?php echo get_sub_field('project_tag') ;?></span>
+						</a>
 
-			<div class="project-tag hideme">
-				<?php while( have_rows('project_tags_list') ): the_row(); ?>
-					<a href="<?php echo get_sub_field('project_tag_link') ;?>">
-						<p><?php echo get_sub_field('project_tag') ;?></p>
-					</a>
-    			<?php endwhile; ?>
+	    			<?php endwhile; ?>
+	    			</p>
+				</div>
+
+		    	<a class="learn-more-text hideme" href="<?php echo get_sub_field('learn_more_link') ;?>">
+						<div>See Project</div><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+				</a>
 			</div>
-
-	    	<a class="learn-more-text hideme" href="<?php echo get_sub_field('learn_more_link') ;?>">
-					<div>See Project</div><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-			</a>
-			
 		</div> 
     <?php endwhile; ?>
 

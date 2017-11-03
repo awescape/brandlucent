@@ -203,6 +203,12 @@ $(document).ready(function(){
 
  // slider //
 
+
+
+
+
+
+
 $(document).ready(function(){
 	$('#slide-title1').click(function(){
 		$('#slide-display1').addClass('show');
@@ -227,6 +233,20 @@ $(document).ready(function(){
 
 
 // Slider
+
+
+// j = 0;
+// $(document).ready(function(){
+//     $(window).resize(function(){
+//         $("span").text(j += 1);
+//         $(window).slide_setup()
+//         $(window).DoIt(target)
+//     });
+// });
+
+
+
+
 
 $.global = new Object();
 

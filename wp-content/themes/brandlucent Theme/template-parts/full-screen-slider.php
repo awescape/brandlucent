@@ -44,4 +44,8 @@
  
 </section>
 
-
+<!-- Testing slider resize -->
+<!-- <section>
+<p>Window resized <span>0</span> times.</p>
+<p>Try resizing your browser window.</p>
+</section> -->
