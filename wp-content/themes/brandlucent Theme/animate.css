@@ -1466,6 +1466,7 @@
   from {
     transform: translate3d(0, -100%, 0);
     visibility: visible;
+
   }
 
   to {
@@ -1475,6 +1476,7 @@
 
 .slideInDown {
   animation-name: slideInDown;
+  opacity: 1;
 }
 
 @keyframes slideInLeft {

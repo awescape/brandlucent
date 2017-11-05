@@ -37,9 +37,7 @@ get_header(); ?>
 				echo '<h2>' . get_field('banner_text') . '</h2>';	
 			echo '</div>';	
 			if(get_field('banner_foreground_image')) {
-				echo '<div class="banner-image">';
-					echo '<img id="prlx_lyr_banner" src="' . get_field('banner_foreground_image') .  '">';
-				echo '</div>';
+					echo '<img id="banner_fg_image" class="banner-image movedown" src="' . get_field('banner_foreground_image') .  '">';
 		}
 		echo '</section>';
 	}
@@ -99,8 +97,9 @@ get_header(); ?>
 		</a>
 	</div>
 
+
 	<div class="home-block-image">
-		<img class="home-block-2-image-1" src="<?php echo get_field('home_block_2_image_1') ?>">
+		<img id="home_triangle" class="home-block-2-image-1" src="<?php echo get_field('home_block_2_image_1') ?>">
 	</div>
 
 </section>
@@ -166,13 +165,10 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<!-- 
-<script src="../wp-content/themes/brandlucent theme/js/script-home.js"></script> -->
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/js/script-home.js' ?>"></script>
+<!-- <script src="../wp-content/themes/brandlucent theme/js/script-home.js"></script>  -->
 
-
-
+ <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/js/script-home.js' ?>"></script>  
 
 <?php
 

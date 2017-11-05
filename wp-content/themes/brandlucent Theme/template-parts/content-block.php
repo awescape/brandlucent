@@ -5,7 +5,7 @@
 						echo '<h1 class="content-title ">' . get_field('content_title') . '</h1>';
 						echo '<p class="">' . get_field('content_text') . '</p>';
 					echo'</div>';
-					echo '<img id="content_block_image" class="content-image moveme" src="' .  get_field('content_image') . '">';
+					echo '<img id="content_block_image" class="content-image" src="' .  get_field('content_image') . '">';
 				echo '</section>';
 			}
 		?> <!-- #content block-->

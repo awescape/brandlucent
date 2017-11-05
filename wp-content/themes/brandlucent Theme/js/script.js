@@ -22,6 +22,10 @@ $(document).ready(function(){
 
 
 
+ 
+
+
+
 
 
 // Appear on scroll
@@ -50,19 +54,35 @@ $(document).ready(function() {
             
         }); 
 
+
+
+        $('.movedown').each( function(i) {      
+            // var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var top_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();       
+
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > top_of_object ){
+                
+                // $(this).animate({'opacity':'1'},500);
+                $(this).addClass('slideInDown');        
+            }
+   
+        });
+
         // Banner image movement
 
-        $('#banner_fg_image').each( function(i) {      
-          var top_of_object = $(this).offset().top + $(this).outerHeight();
-          var bottom_of_window = $(window).scrollTop() + $(window).height();  
+        // $('#banner_fg_image').each( function(i) {      
+        //   var top_of_object = $(this).offset().top + $(this).outerHeight();
+        //   var bottom_of_window = $(window).scrollTop() + $(window).height();  
 
-          function parallax(){
-            var banner_image = document.getElementById('banner_fg_image');
-            banner_image.style.top = (bottom_of_window - top_of_object) +'px';
-          }
+        //   function parallax(){
+        //     var banner_image = document.getElementById('banner_fg_image');
+        //     banner_image.style.top = (bottom_of_window - top_of_object) +'px';
+        //   }
 
-          // window.addEventListener("scroll", parallax, false);    
-        }); 
+        //   window.addEventListener("scroll", parallax, false);    
+        // }); 
 
 
         
@@ -89,7 +109,7 @@ $(document).ready(function() {
 
           }
 
-          // window.addEventListener("scroll", parallax, false);
+          window.addEventListener("scroll", parallax, false);
 
           if( bottom_of_window > top_of_object ){
               $('#content-block').addClass('overflow');        
@@ -203,30 +223,32 @@ $(document).ready(function(){
 
  // slider //
 
-
-
-
-
-
-
 $(document).ready(function(){
 	$('#slide-title1').click(function(){
 		$('#slide-display1').addClass('show');
 		$('#slide-display2').removeClass('show');
 		$('#slide-display3').removeClass('show');
+    $('#slide-title1').addClass('clicked');
+    $('#slide-title2').removeClass('clicked');
+    $('#slide-title3').removeClass('clicked')
 	});
 
 	$('#slide-title2').click(function(){
 		$('#slide-display2').addClass('show');
 		$('#slide-display1').removeClass('show');
 		$('#slide-display3').removeClass('show');
-
+    $('#slide-title2').addClass('clicked');
+    $('#slide-title1').removeClass('clicked');
+    $('#slide-title3').removeClass('clicked')
 	});
 
 	$('#slide-title3').click(function(){
 		$('#slide-display3').addClass('show');
 		$('#slide-display1').removeClass('show');
 		$('#slide-display2').removeClass('show');
+    $('#slide-title3').addClass('clicked');
+    $('#slide-title1').removeClass('clicked');
+    $('#slide-title2').removeClass('clicked')
 	});
 });
 

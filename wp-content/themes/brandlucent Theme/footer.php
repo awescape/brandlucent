@@ -66,7 +66,7 @@
 <!-- 			<script type="text/javascript" src="wp-content/themes/brandlucent theme/js/script.js"></script> -->
 
       
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/js/script.js' ?>"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/js/script.js' ?>"></script> 
 
 </body>
 </html>

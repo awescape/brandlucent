@@ -42,10 +42,12 @@ get_header(); ?>
 		<?php $a = 1; ?>
 		<div class="slide-titles">
 			<?php while( have_rows('slider_right_block') ): the_row(); ?>
-
-				<div id="slide-title<?php echo $a; ?>">
+				<div class="slide-title-box <?php
+						if ($a == 1)
+  						echo "clicked";
+						?>" id="slide-title<?php echo $a; ?>">
 					<!-- <i class="fa fa-long-arrow-right" aria-hidden="true"></i> -->
-					<p class="slide-title slider-button">- <?php echo get_sub_field('slide_title') ;?></p>
+					<p class="slide-title slider-button"><?php echo get_sub_field('slide_title') ;?></p>
 				</div>
 				<?php $a++; ?>
 			<?php endwhile; ?>

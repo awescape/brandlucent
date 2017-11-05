@@ -35,9 +35,7 @@ get_header(); ?>
 				echo '<h2>' . get_field('banner_text') . '</h2>';	
 			echo '</div>';	
 			if(get_field('banner_foreground_image')) {
-				echo '<div class="banner-image">';
-					echo '<img id="prlx_lyr_banner" src="' . get_field('banner_foreground_image') .  '">';
-				echo '</div>';
+					echo '<img id="banner_fg_image" class="banner-image moveme" src="' . get_field('banner_foreground_image') .  '">';
 		}
 		echo '</section>';
 	}
@@ -165,7 +163,7 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 
-<script src="../wp-content/themes/brandlucent theme/js/script-home.js"></script>
+<!-- <script src="../wp-content/themes/brandlucent theme/js/script-home.js"></script> -->
 
 <?php
 
