@@ -33,10 +33,11 @@
 	<div class="form-grid"></div>
 
 	<div id="form-page-1" class="form-page form-page-1">
+		<div class="form-title-wrapper">
 		<h1>Bold branding.</h1>
 
 		<p class="form-text">Thank you for your interest in working with us. Please complete the form below and we'll be in touch as soon as possible.</p>
-
+		</div>
 		<div class="form-input-wrapper">
 			<p class="form-title">Your name*</p>
 			<input id="name" type="text" placeholder="Your name here*">
@@ -50,12 +51,14 @@
 		<div class="form-input-wrapper">
 			<p class="form-title">Your contact info*</p>
 			<div class="contact-info">
-				<input id="phone" type="text" placeholder="Phone number">
-				<input id="email" type="text" placeholder="Email Address*">		
+				<input id="phone" type="number" placeholder="Phone number">
+				<input id="email" type="email" placeholder="Email Address*">		
 			</div>
 		</div>
 
 		<div id="form-button-1" class="button form-button">Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
+
+<!-- 	<button id="form-button-1" class=" button form-button"><input id="next" type="button" value="Next"> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button> -->
 
 	</div>
 
@@ -63,11 +66,11 @@
 			<!-- page 2 -->
 
 	<div id="form-page-2" class="form-page form-page-2">
-
+		<div class="form-title-wrapper">
 		<h1>What can we help you with?</h1>
 
 		<p class="form-text">What services are you interested in?<br>Please select all that apply.</p>
-
+		</div>
 		<div class="form-input-wrapper">
 
 
@@ -116,6 +119,33 @@
 				</select>
 
 
+<!-- Budget slider -->
+
+	<!-- 				<div class="container">
+	  <div class="row">
+
+	    <div class="col-md-12">
+	      <form method="post" action="submit.php">
+	        <ul class="contact-form">
+	         
+
+	          <li>
+	            <div class="col-md-6">
+	              <label>What's your budget? </label>
+	              <div id="slider-range-min"></div>
+	            </div>
+	            <div class="col-md-6">
+	              <input type="text" id="amount" readonly>
+	            </div>
+	          </li>
+	        </ul>
+	      </form>
+	    </div>
+
+	  </div>
+	</div> -->
+<!-- Budget slider -->
+
 				<button id="form-button-2" class=" button form-button"><input id="submit" type="submit" value="Submit"> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 
 
@@ -162,5 +192,8 @@
 </form>
 
 </section>	
+
+
+ <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/js/script-pi.js' ?>"></script>  
  
 

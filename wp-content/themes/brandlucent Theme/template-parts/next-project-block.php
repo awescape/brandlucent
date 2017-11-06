@@ -7,9 +7,9 @@
     	<div class="project-block-wrapper">
 
     		<div class="next-project">
-		 		<h2 class="next-project-title hideme">|Next Project|</h2>
+		 		<h2 class="next-project-title hideme">| Next Project |</h2>
 
-				<a href="<?php echo get_sub_field('learn_more_link') ;?>">
+				<a href="<?php echo get_sub_field('project_page_link') ;?>">
 					<h1 class="service-title hideme"> <?php echo get_sub_field('project_title') ;?> 
 		 			</h1>
 		 		</a>
@@ -25,7 +25,7 @@
 	    			</p>
 				</div>
 
-		    	<a class="learn-more-text hideme" href="<?php echo get_sub_field('learn_more_link') ;?>">
+		    	<a class="learn-more-text hideme" href="<?php echo get_sub_field('project_page_link') ;?>">
 						<div>See Project</div><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 				</a>
 			</div>
@@ -33,7 +33,10 @@
     <?php endwhile; ?>
 
 	<?php if( get_field('next_project_image') ): ?>
- 		<img class="next-project-image" src="<?php echo get_field('next_project_image')?>">
+		<a href="../orora" class="next-project-image-container">
+ 		<div  class="next-project-image" style="background-image: url('<?php echo get_field('next_project_image')?>');">
+		</div>
+		</a>
 	<?php endif; ?>
  
  </section>
