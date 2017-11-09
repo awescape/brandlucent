@@ -10,11 +10,11 @@
 
 			<img class="picture-video-picture" src="<?php echo get_field('picture-video_picture')?>" 
 
-			<div class="picture-video-video-wrapper">
+			<a class="picture-video-video-wrapper">
 				<video class="video-background picture-video-video" onplay="setPlaySpeed()" autoplay loop id="portfolio-video" muted plays-inline>
 				<source src="<?php echo get_field('picture-video_video') ;?>" type="video/mp4">
 				</video>
-			</div>
+			</a>
 
 		</div>
 	<?php endif; ?>

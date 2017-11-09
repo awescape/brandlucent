@@ -30,15 +30,16 @@
 				</a>
 			</div>
 		</div> 
-    <?php endwhile; ?>
+
 
 	<?php if( get_field('next_project_image') ): ?>
-		<a href="../orora" class="next-project-image-container">
+		<a href="<?php echo get_sub_field('project_page_link') ;?>" class="next-project-image-container">
  		<div  class="next-project-image" style="background-image: url('<?php echo get_field('next_project_image')?>');">
 		</div>
 		</a>
 	<?php endif; ?>
- 
+	
+    <?php endwhile; ?> 
  </section>
  
 
