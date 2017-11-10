@@ -1142,6 +1142,28 @@ section{
 
 
 
+/* -------  Remove Scrollbar ----------   */
+
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3); 
+	/*border-radius: 10px;*/
+	background-color:white;
+}
+
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: white;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	/*border-radius: 10px;*/
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.3);
+	background-color:#8d8d8d;
+}
+
 
 /*------Header------*/
 
@@ -1852,6 +1874,10 @@ i{
     left: 0;*/
 }
 
+.down-arrow{
+	display: none;
+}
+
 .team-block .floating-text h4{
 		color:white;
 	}
@@ -2014,6 +2040,36 @@ a{
     padding: 2rem 3rem;
 	justify-content: space-around;
 }
+
+
+
+
+
+.popup-left::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3); 
+	background-color: #8d8d8d;
+}
+
+.popup-left::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #8d8d8d;
+}
+
+.popup-left::-webkit-scrollbar-thumb
+{
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.3);
+	background-color:#8d8d8d;
+}
+
+
+
+
+
+
+
+
 
 .popup-right{
 	width:50%;
@@ -2431,7 +2487,7 @@ a.learn-more-text{
 
 .slider-left-block {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     padding: 2rem;
     position: relative;
@@ -2470,6 +2526,7 @@ a.learn-more-text{
     justify-content: space-around;
     flex-direction: column;
     margin-left: 5rem;
+    margin-top: 25vh;
 
 }
 
@@ -3777,7 +3834,7 @@ body {
 
 
 	.project-image-mobile-5{
-		top:50vh;
+		top:43vh;
 	}
 
 	.project-image-laptop {
@@ -4169,7 +4226,8 @@ body {
 	}
 
 	.page-id-25 h3{
-		word-break: break-all;
+		word-wrap: break-word;
+    	word-break: break-word;
 	}
 
 
@@ -4264,14 +4322,43 @@ body {
 	.floating-text{
 		position:initial;
 		background:#707070;
-		padding:2rem 0;
+		padding:2rem 0 0 0;
+		display:flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.floating-text h4,
 	.floating-text h5 {
 		text-align: center;
 	}
+/*
+	.floating-text h5 {
+		margin-bottom: 0;
+	}*/
 
+	.down-wrapper{
+		background:#707070;
+		width: 100%;
+		text-align: center;
+	}
+
+	.down-arrow{
+		display: initial;
+		transition: 0.5s ease;
+	}
+
+	.fa-angle-down:before {
+	    font-size: 100px;
+	    /*opacity: 0;*/
+	    color: #00feaf;
+}
+
+
+	.clicked.fa-angle-down {
+	    transform: rotate(180deg);
+
+	}
 
 	.video-background{
 		display:none;
@@ -4288,6 +4375,11 @@ body {
 	#team-page-cover.opacity-on{
 	opacity: 0.9;
 	z-index: -10;
+	}
+
+
+	.team-popup{
+		transition: 0.5s ease;
 	}
 
 	.team-popup .team-popup-wrapper{

@@ -140,6 +140,7 @@ $(document).ready(function(){
       $('#team-popup-1').toggleClass('open');
       $('#mobile-1-pic').toggleClass('team-mobile-pic');
       $('#mobile-1-clicked').toggleClass('team-mobile-pic');
+      $('#down-arrow-1').toggleClass('clicked');
     });
 
     $('#close-1').click(function(){
@@ -184,23 +185,27 @@ $(document).ready(function(){
 // vince code
 
 
+
+// function myFunction() {
+//     var inpObj = document.getElementById("id1");
+//     if (inpObj.checkValidity() == false) {
+//         document.getElementById("demo").innerHTML = inpObj.validationMessage;
+//     } else {
+//         document.getElementById("demo").innerHTML = "Input OK";
+
+//     $('#form-page-1').addClass('hidden');
+//     $('#form-page-2').addClass('show');
+//     $('#back-button-1').removeClass('hidden');
+//     $('#form-close-1').addClass('hidden');
+//     } 
+// }
+
+
+
 $(document).ready(function(){
 
 
-  // $("#form-page-1").Next({
-  //      rules: {
-  //          name: "required"
-  //      },
-  //      messages: {
-  //          name: "Please specify your name"
-
-  //      }
-  //  })
-
   $('#form-button-1').click(function(){
-
-    // $("#form-page-1").valid();
-
     $('#form-page-1').addClass('hidden');
     $('#form-page-2').addClass('show');
     $('#back-button-1').removeClass('hidden');

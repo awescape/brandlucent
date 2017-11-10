@@ -55,10 +55,14 @@
 					<h5 class="hideme">
 						<?php echo get_field('team_member_1_title') ;?> 
 					</h5>
+
+
 				</div>
 				<div class="team-member-cover"></div>
 
 			</div>
+
+
 
 			<!-- Member 1 POPUP -->
 			<div id="team-popup-1" class="team-popup">
@@ -92,6 +96,7 @@
 				</div>
 			</div>
 			</div>
+<!-- 			<div class="down-wrapper"><i id="down-arrow-1" class="down-arrow hideme fa fa-angle-down" aria-hidden="true"></i></div> -->
 
 <?php endif; ?>
 

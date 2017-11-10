@@ -25,8 +25,8 @@
 	    			</p>
 				</div>
 
-		    	<a class="learn-more-text hideme" href="<?php echo get_sub_field('project_page_link') ;?>">
-						<div>See Project</div><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+		    	<a class="learn-more-text" href="<?php echo get_sub_field('project_page_link') ;?>">
+						<div class="hideme">See Project</div><i class="hideme fa fa-long-arrow-right" aria-hidden="true"></i>
 				</a>
 			</div>
 		</div> 

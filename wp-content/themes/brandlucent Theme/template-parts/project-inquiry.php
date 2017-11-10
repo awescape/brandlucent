@@ -43,6 +43,17 @@
 			<input id="name" type="text" placeholder="Your name here*">
 		</div>
 
+<!-- 		
+<p>Enter a number and click OK:</p>
+
+<input id="id1" type="number" min="100" max="300" onsubmit="return false"  required>
+<button onclick="myFunction()">OK</button>
+
+<p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
+
+<p id="demo"></p>
+ -->
+
 		<div class="form-input-wrapper">
 			<p class="form-title">Your company/organization</p>
 			<input id="company" type="text" placeholder="Company name here">
@@ -56,7 +67,8 @@
 			</div>
 		</div>
 
-		<div id="form-button-1" class="button form-button">Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
+		<button id="form-button-1" class="button form-button">Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+
 
 <!-- 	<button id="form-button-1" class=" button form-button"><input id="next" type="button" value="Next"> <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button> -->
 
