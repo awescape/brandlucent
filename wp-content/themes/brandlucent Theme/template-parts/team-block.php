@@ -39,7 +39,7 @@
 			<div id="member-1" class="team-block-3">
 
 				<div >
-					<img class="mobile-1-unclicked team-mobile-pic" id="mobile-1-pic" src="<?php echo get_field('team_member_1_photo_mob') ;?>">
+					<img class="mobile-1-unclicked team-mobile-pic" id="mobile-1-pic" src="<?php echo get_field('team_member_1_photo') ;?>">
 
 					<img id="mobile-1-clicked" class="team-mobile-clicked" src="<?php echo get_field('team_member_1_photo') ;?>">
 				</div>
@@ -107,7 +107,7 @@
 			<div id="member-2" class="team-block-3">
 
 				<div >
-					<img class="mobile-2-unclicked team-mobile-pic" id="mobile-2-pic" src="<?php echo get_field('team_member_2_photo_mob') ;?>">
+					<img class="mobile-2-unclicked team-mobile-pic" id="mobile-2-pic" src="<?php echo get_field('team_member_2_photo') ;?>">
 
 					<img id="mobile-2-clicked" class="team-mobile-clicked" src="<?php echo get_field('team_member_2_photo') ;?>">
 				</div>
@@ -169,7 +169,7 @@
 			<div id="member-3" class="team-block-3">
 
 				<div >
-					<img class="mobile-3-unclicked team-mobile-pic" id="mobile-3-pic" src="<?php echo get_field('team_member_3_photo_mob') ;?>">
+					<img class="mobile-3-unclicked team-mobile-pic" id="mobile-3-pic" src="<?php echo get_field('team_member_3_photo') ;?>">
 
 					<img id="mobile-3-clicked" class="team-mobile-clicked" src="<?php echo get_field('team_member_3_photo') ;?>">
 				</div>

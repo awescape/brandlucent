@@ -975,7 +975,7 @@ h1 {
 	font-size: 50px;
 	/*font-size: 3.2vw;*/
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
+	font-weight: 600; /*we formally had 500 but changed?*/
 	line-height: 1.05254;
 }
 
@@ -983,7 +983,7 @@ h1 {
 	font-size: 16px;
 	/*font-size: 1vw;*/
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 1.05254;
 	margin:0.5rem;
 }
@@ -994,7 +994,7 @@ h2,
 	font-size:25px;
 	/*font-size: 1.6vw;*/
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 1.312;
 }
 
@@ -1002,7 +1002,7 @@ h3{
 	font-size: 50px;
 	/*font-size: 3.2vw;*/
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	font-weight: 800;
 	line-height: 1.05254;
 	margin:0;
 }
@@ -1032,7 +1032,7 @@ h6{
 	/*font-size: 1.4vw;*/
 	line-height: normal;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 
@@ -1061,7 +1061,7 @@ a.learn-more-text{
 	/*font-size: 1.4vw;*/
 	line-height: normal;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	font-weight: 800;
 }
 
 .xclose{
@@ -1078,6 +1078,12 @@ a:hover{
 	color: #00ffaf;
 }
 
+a p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	line-height: 1.312;
+}
+
 .button{
     border: 1.5px solid #002024;
     font-size: 1.5rem;
@@ -1087,7 +1093,7 @@ a:hover{
     font-size:22px;
 	/*font-size: 1.4vw;    */
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	font-weight: 800;
 	line-height: 1.312;
 	/*margin: 2rem;*/
 	/*transition: all 0.5s*/
@@ -1105,7 +1111,7 @@ a:hover{
     font-size:22px;
 	/*font-size: 1.4vw;    */
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	font-weight: 800;
 	line-height: 1.312;
 }
 
@@ -1576,7 +1582,7 @@ animation-duration: 1.2s;
 }
 
 .banner-title span{
-	font-weight: 700;
+	font-weight: 800;
 }
 
 .banner-line{
@@ -1587,7 +1593,7 @@ animation-duration: 1.2s;
   content: " ";
   position: absolute;
   border-bottom: 10px solid #00ffaf;
-  top: 2rem;
+  top: 27px;
   width: 150px;
 }
 
@@ -1900,6 +1906,13 @@ i{
 	display:none;
 }
 
+
+.mobile-1-unclicked,
+.mobile-2-unclicked,
+.mobile-3-unclicked{
+    filter: grayscale(100%);
+}
+
 .team-member-cover{
 	width: 100%;
 	position: absolute;
@@ -2008,15 +2021,15 @@ a{
     display:none;
     z-index:10;
     position: fixed;
-    /*max-height: 80vh;*/
+    height: 100vh;
     /*overflow:hidden;*/
 }
 
 .team-popup-wrapper{
 	background-color: white;
-	border: 20px solid #00ffaf;
+	border: 16px solid #00ffaf;
     display: flex;
-    margin: 5vh 5vw;
+    margin: 2rem 2rem;
 /*    max-width: 80vw;
     max-height: 80vh;*/
     overflow:hidden;
@@ -2035,11 +2048,18 @@ a{
 	/*min-height: 80vh;*/
     display: flex;
     flex-direction: column;
-	align-self: stretch;
+	/*align-self: stretch;*/
 	flex: 0 1 50% ;
     padding: 2rem 3rem;
 	justify-content: space-around;
+	overflow: auto;
 }
+
+.popup-left h4,
+.popup-left h5{
+	color: #675f5f;
+}
+
 
 
 
@@ -2047,27 +2067,37 @@ a{
 
 .popup-left::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3); 
-	background-color: #8d8d8d;
+ border-radius: 10px;
+ background: #eee;
+ border: 1px solid #ccc;
 }
 
 .popup-left::-webkit-scrollbar
 {
 	width: 10px;
-	background-color: #8d8d8d;
+	background-color: #F5F5F5;
 }
 
 .popup-left::-webkit-scrollbar-thumb
 {
-	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.3);
-	background-color:#8d8d8d;
+ border-radius: 10px;
+ background: #f6d000;
+ /*border: 1.5px solid #ccc;*/
 }
 
 
 
+/*.popup-left::-webkit-scrollbar-track {
+ border-radius: 0px;
+ background: #eee;
+ border: 1px solid #ccc;
+}
 
-
-
+.popup-left::-webkit-scrollbar-thumb {
+ border-radius: 0px;
+ background: white;
+ border: 1px solid #00ffaf;
+}*/
 
 
 
@@ -2093,7 +2123,7 @@ a{
 	align-self: left;
 	color:#00ffaf;
 	border-color: #00ffaf;
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .popup-button:hover{
@@ -3127,7 +3157,7 @@ body {
 }
 
 .project-tags a p:hover{
-	font-weight:700;
+	font-weight:800;
 }
 
 /*.portfolio-block :nth-child(even) {
@@ -3584,10 +3614,9 @@ textarea{
 	border:none;
 	color:#002024;
 	background-color: initial;
-	font-weight: 700;
+	font-weight: 800;
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
     line-height: 1.312;
 }
 
@@ -3854,6 +3883,13 @@ body {
 		min-height: 5vh;
 	}
 
+	/*team-page*/
+
+	.popup-left{
+    	display: block;
+	}
+
+
 
 
 
@@ -3956,12 +3992,12 @@ body {
 	}
 
 	.team-popup-wrapper{
-	    margin: 0;
-	    height: 100vh;
+/*	    margin: 0;
+	    height: 100vh;*/
 	}
 
 	.popup-left {
-    flex: 0 1 100%;
+/*    flex: 0 1 100%;*/
 
 	}
 
@@ -4319,23 +4355,32 @@ body {
 	    align-items: center;
 }
 
-	.floating-text{
-		position:initial;
-		background:#707070;
-		padding:2rem 0 0 0;
-		display:flex;
-		flex-direction: column;
-		align-items: center;
-	}
 
-	.floating-text h4,
-	.floating-text h5 {
+	.floating-text {
+	    background: rgba(255,255,255,0.8);
+	    width: 100%;
+	    padding: 1rem 0 0 0;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	/*    color: #675f5f;*/
+}
+
+
+	.team-block .floating-text h4,
+	.team-block .floating-text h5 {
 		text-align: center;
+		color: #675f5f;
 	}
 /*
 	.floating-text h5 {
 		margin-bottom: 0;
 	}*/
+
+
+	.team-block-3{
+		justify-content: flex-end;
+	}
 
 	.down-wrapper{
 		background:#707070;
@@ -4370,6 +4415,7 @@ body {
 
 	.team-popup{
 		position: initial;
+		height: initial;
 	}
 
 	#team-page-cover.opacity-on{
@@ -4391,6 +4437,7 @@ body {
     border: initial;
     display: flex;
     margin: none;
+    margin: 0;
 	}
 
 	.popup-left{
@@ -4538,26 +4585,20 @@ body {
 
 }
 
-
+/*  ---------------------------------------------------
+                     Landscape QUERY Height 600px
+-----------------------------------------------------  *
 
 
 /* Landscape phones and down */
 @media (max-height: 600px) {
 
-	.team-popup-wrapper{
-	    margin: 0;
-	    /*width: 100vw;*/
-	    height: 100vh;
 
+	.popup-left{
+    	display: block;
 	}
 
 
-
-.popup-left {
-    flex: 0 1 100%;
-    overflow: auto;
-    justify-content: flex-start;
-}
 
 
 .block-2 p {

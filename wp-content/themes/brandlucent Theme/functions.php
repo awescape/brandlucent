@@ -113,7 +113,7 @@ function brandlucent_scripts() {
 
 // --------------  Vince additions
 
-    wp_enqueue_style( 'brandlucent-google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:400,400i|Raleway|Varela+Round', false );
+    wp_enqueue_style( 'brandlucent-google-fonts', 'https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800|Playfair+Display:400,400i|Raleway|Varela+Round', false );
 
     wp_enqueue_style( 'brandlucent-font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', false );
 
