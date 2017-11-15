@@ -73,6 +73,10 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+
+ <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/js/script-about.js' ?>"></script>  
+
+
 <?php
 
 get_footer();

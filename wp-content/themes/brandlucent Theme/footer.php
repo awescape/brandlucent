@@ -15,19 +15,29 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<ul class="footer-wrapper">
-			<div>
-				<p class="h1-small">3 Place Ville Marie, Suite 400<p>	
-				<p class="h1-small">Montreal, QC H3B 2E3<p>
+			<div class="footer-item">
+				<p class="h1-small">7240 Waverly St, Suite 110G,<p>	
+				<p class="h1-small">Montreal, QC H2R 2Y8<p>
+					<p><span><br><i class="fa fa-facebook" aria-hidden="true"></i></span><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></p>
 			</div>
-			<div>
+			<div class="footer-item">
 				<p class="h1-small">info@brandlucent.ca<p>
 				<p class="h1-small">+1 514 549 0122<p>
+				<div class="email-wrapper">
+					<form>
+						<input id="your-email" type="email" placeholder="Your email">
+						
+						<div class="subscribe-button">
+							<input id="subscribe" type="submit" value="Subscribe"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</div>
+					</form>
+				</div>
 			</div>
-			<div>
+			<div class="footer-item">
 				<p class="h1-small">© 2017 Brandlucent Inc.<p>
 				<p class="h1-small">© 2017 Agence Brandlucent Inc.<p>
 			</div>
-			<div id="backToTop" class="up-arrow">
+			<div id="backToTop" class="up-arrow footer-item">
 				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
 			</div>
 		</ul>
