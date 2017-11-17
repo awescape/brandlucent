@@ -3585,6 +3585,7 @@ text-align: center;
 
 .form-page-2{
 	display:none;
+	display:flex;
 }
 
 

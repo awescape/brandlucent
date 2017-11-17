@@ -188,32 +188,7 @@ $(document).ready(function(){
 
 // Project Inquiry popup //
 
-
-
-
-// vince code
-
-
-
-// function myFunction() {
-//     var inpObj = document.getElementById("id1");
-//     if (inpObj.checkValidity() == false) {
-//         document.getElementById("demo").innerHTML = inpObj.validationMessage;
-//     } else {
-//         document.getElementById("demo").innerHTML = "Input OK";
-
-//     $('#form-page-1').addClass('hidden');
-//     $('#form-page-2').addClass('show');
-//     $('#back-button-1').removeClass('hidden');
-//     $('#form-close-1').addClass('hidden');
-//     } 
-// }
-
-
-
 $(document).ready(function(){
-
-
   $('#form-button-1').click(function(){
     $('#form-page-1').addClass('hidden');
     $('#form-page-2').addClass('show');
@@ -221,7 +196,6 @@ $(document).ready(function(){
     $('#form-close-1').addClass('hidden');
   });
 });
-
 
 
 $(document).ready(function(){
@@ -233,19 +207,13 @@ $(document).ready(function(){
   });
 });
 
-
 $(document).ready(function(){
-
-
   $('#project-inquiry-launch').click(function(){
     $('#project-inquiry').addClass('show');
-
   });
-
   $('#form-close').click(function(){
     $('#project-inquiry').removeClass('show')
   });
-
 });
 
 

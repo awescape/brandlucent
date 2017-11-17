@@ -23,14 +23,38 @@
 			<div class="footer-item">
 				<p class="h1-small">info@brandlucent.ca<p>
 				<p class="h1-small">+1 514 549 0122<p>
-				<div class="email-wrapper">
-					<form>
+
+					<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup" class="email-wrapper">
+					<form action="https://komahony.us8.list-manage.com/subscribe/post?u=0d3dbdd5d7e7017a3a191fe58&amp;id=340d375bea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					    <div id="mc_embed_signup_scroll">
+					<div class="mc-field-group">
+						<label for="mce-EMAIL"><span class="asterisk"></span>
+					</label>
+						<input id="your-email" type="email" placeholder="Your email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+					</div>
+						<div id="mce-responses" class="clear">
+							<div class="
+							response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0d3dbdd5d7e7017a3a191fe58_340d375bea" tabindex="-1" value=""></div>
+					    <div class="clear subscribe-button"><input id="subscribe" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"><i class="fa fa-long-arrow-right" 
+							aria-hidden="true"></i></div>
+					    </div>
+					</form>
+
+
+<!------------------ Vincent form ------------------------------------->
+<!-- 					<form>
 						<input id="your-email" type="email" placeholder="Your email">
 						
 						<div class="subscribe-button">
-							<input id="subscribe" type="submit" value="Subscribe"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+							<input id="subscribe" type="submit" value="Subscribe"><i class="fa fa-long-arrow-right" 
+							aria-hidden="true"></i>
 						</div>
-					</form>
+					</form> -->
+
+
 				</div>
 			</div>
 			<div class="footer-item">
