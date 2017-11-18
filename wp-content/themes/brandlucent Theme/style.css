@@ -3585,7 +3585,7 @@ text-align: center;
 
 .form-page-2{
 	display:none;
-	display:flex;
+	/*display:flex;*/
 }
 
 
@@ -3604,6 +3604,10 @@ text-align: center;
 	margin:0 0 2rem 0;
 	text-align: center;
 	flex: 0 1 85%;
+}
+
+#mce-responses.clear{
+	margin: 1rem 0 0 0;
 }
 
 .form-input-wrapper{
@@ -3722,7 +3726,7 @@ textarea{
 	flex-wrap: wrap;
 }
 
-#phone, #email {
+input.phone-input, input.email-input {
     flex: 0 1 46%;
     margin: 0 4px 0 0px;
     width: 100%;

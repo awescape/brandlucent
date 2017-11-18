@@ -50,12 +50,12 @@
 		<div class="form-input-wrapper">
 			<p class="form-title">Your contact info*</p>
 			<div class="contact-info">
-				<input type="text" name="PHONE" class="" value="" id="mce-PHONE" placeholder="Phone number">
-				<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address*">		
+				<input type="text" name="PHONE" class="phone-input" value="" id="mce-PHONE" placeholder="Phone number">
+				<input type="email" value="" name="EMAIL" class="required email email-input" id="mce-EMAIL" placeholder="Email Address*">		
 			</div>
 		</div>
 
-		<button id="form-button-1" class="button form-button">Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+		<div id="form-button-1" class="button form-button">Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
 
 
 
@@ -94,9 +94,9 @@
 						</label>
 						<p class="form-title">Brand Identity</p>
 					</div>
-					<div id="ck-button" class="checkbox">
+					<div class="checkbox">
 						<label>
-							<input type="checkbox" value="8" name="group[20301][8]" id="mce-group[20301]-20301-3"></i>
+							<input type="checkbox" value="8" name="group[20301][8]" id="mce-group[20301]-20301-3"><i class="fa fa-check" aria-hidden="true"></i>
 						</label>
 						<p class="form-title">Packaging</p>
 					</div>
@@ -109,7 +109,6 @@
 
 
 				<select name="HEARABOUT" class="form-message" id="mce-HEARABOUT" placeholder="How did you hear about us?">
-					<option value=""></option>
 					<option value="How did you hear about us?">How did you hear about us?</option>
 					<option value="Friend or colleague">Friend or colleague</option>
 					<option value="Internet search">Internet search</option>
@@ -118,6 +117,9 @@
 					<option value="Other">Other</option>
 				</select>
 
+    		<button class="clear button form-button"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button form-button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+
+
 			<div id="mce-responses" class="clear">
 				<div class="response" id="mce-error-response" style="display:none"></div>
 				<div class="response" id="mce-success-response" style="display:none"></div>
@@ -125,7 +127,6 @@
 		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0d3dbdd5d7e7017a3a191fe58_ab34df1263" tabindex="-1" value=""></div>
 
 
-    		<button class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button form-button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 
 		</div>
 
