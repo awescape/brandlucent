@@ -26,6 +26,10 @@
 		</h2>
 		
 		<h2 id="back-button-1" class="form-close hidden">back 
+			<span id="form-close" class="xclose">
+				<a href="<?php echo get_field('close_link') ;?>">X
+				</a>
+			</span>
 		</h2>
 	</div>
 

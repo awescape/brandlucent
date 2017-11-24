@@ -53,9 +53,12 @@ $(document).ready(function() {
         // $('.hideme').each( function(i){
 
         $('.hideme').each( function(i) {      
-            // var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-            var top_of_object = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();           
+           
+            // var top_of_object = $(this).offset().top + $(this).outerHeight();
+            // var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            var top_of_object = $(this).offset().top;
+            var bottom_of_window = $(window).scrollTop() + $(window).height() - $(window).height()/3;           
 
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > top_of_object ){

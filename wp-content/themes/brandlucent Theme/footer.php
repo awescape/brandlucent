@@ -18,7 +18,7 @@
 			<div class="footer-item">
 				<p class="h1-small">7240 Waverly St, Suite 110G,<p>	
 				<p class="h1-small">Montreal, QC H2R 2Y8<p>
-					<p><span><br><i class="fa fa-facebook" aria-hidden="true"></i></span><span><i class="fa fa-linkedin" aria-hidden="true"></i></span></p>
+					<p><span><br><a href="https://www.facebook.com/brandlucent/"><i class="fa fa-facebook" aria-hidden="true"></i></a></span><span><a href="https://ca.linkedin.com/company/brandlucent"><i class="fa fa-linkedin" aria-hidden="true"></i></a></span></p>
 			</div>
 			<div class="footer-item">
 				<p class="h1-small">info@brandlucent.ca<p>
@@ -58,8 +58,8 @@
 				</div>
 			</div>
 			<div class="footer-item">
-				<p class="h1-small">© 2017 Brandlucent Inc.<p>
-				<p class="h1-small">© 2017 Agence Brandlucent Inc.<p>
+				<p class="h1-small">© <?php echo date("Y"); ?> Brandlucent Inc.<p>
+				<p class="h1-small">© <?php echo date("Y"); ?> Agence Brandlucent Inc.<p>
 			</div>
 			<div id="backToTop" class="up-arrow footer-item">
 				<i class="fa fa-long-arrow-up" aria-hidden="true"></i>

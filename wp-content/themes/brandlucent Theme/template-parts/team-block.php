@@ -48,11 +48,11 @@
 				<source src="<?php echo get_field('team_member_1_video') ;?>" type="video/mp4">
 				</video>
 
-				<div class="floating-text">
-					<h4 class="hideme">
+				<div class="floating-text hideme">
+					<h4 class="">
 						<?php echo get_field('team_member_1_name') ;?> 
 					</h4>
-					<h5 class="hideme">
+					<h5 class="">
 						<?php echo get_field('team_member_1_title') ;?> 
 					</h5>
 
@@ -84,7 +84,7 @@
 						</p>
 					</a>
 
-					<a href="<?php echo get_field('lets_talk_link') ;?>">
+					<a href="<?php echo get_field('lets_talk_link_1') ;?>">
 						<button class="button popup-button">Let's talk
 						</button>
 					</a>
@@ -116,11 +116,11 @@
 				<source src="<?php echo get_field('team_member_2_video') ;?>" type="video/mp4">
 				</video>
 
-				<div class="floating-text">
-					<h4 class="hideme">
+				<div class="floating-text hideme">
+					<h4 class="">
 						<?php echo get_field('team_member_2_name') ;?> 
 					</h4>
-					<h5 class="hideme">
+					<h5 class="">
 						<?php echo get_field('team_member_2_title') ;?> 
 					</h5>
 				</div>
@@ -148,7 +148,7 @@
 						</p>
 					</a>
 
-					<a href="<?php echo get_field('lets_talk_link') ;?>">
+					<a href="<?php echo get_field('lets_talk_link_2') ;?>">
 						<button class="button popup-button">Let's talk
 						</button>
 					</a>
@@ -210,7 +210,7 @@
 						</p>
 					</a>
 
-					<a href="<?php echo get_field('lets_talk_link') ;?>">
+					<a href="<?php echo get_field('lets_talk_link_3') ;?>">
 						<button class="button popup-button">Let's talk
 						</button>
 					</a>

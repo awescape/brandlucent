@@ -57,7 +57,7 @@ get_header(); ?>
 			<?php echo get_field('home_block_1_content') ?>
 		</p>
 
-		<a class="hideme" href="<?php echo get_field('home_block_1_link') ?>">
+		<a class="hideme" href="<?php echo get_field('home_block_1_button_link') ?>">
 			<button class="button home-block-button">
 			 	<?php echo get_field('home_block_1_button') ?>
 			 	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -87,7 +87,7 @@ get_header(); ?>
 			<?php echo get_field('home_block_2_content') ?>
 		</p>
 
-		<a href="<?php echo get_field('home_block_2_link') ?>">
+		<a href="<?php echo get_field('home_block_2_button_link') ?>">
 			<button class="button home-block-button hideme">
 			 	<?php echo get_field('home_block_2_button') ?>
 			 	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -113,7 +113,7 @@ get_header(); ?>
 			<?php echo get_field('home_block_3_content') ?>
 		</p>
 
-		<a href="<?php echo get_field('home_block_3_link') ?>">
+		<a href="<?php echo get_field('home_block_3_button_link') ?>">
 			<button class="button home-block-button hideme">
 			 	<?php echo get_field('home_block_3_button') ?>
 			 	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
