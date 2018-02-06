@@ -121,7 +121,7 @@
 					<option value="Other">Other</option>
 				</select>
 
-    		<button class="clear button form-button"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button form-button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+    		<button class="clear button form-button"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button form-button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
 
 
 			<div id="mce-responses" class="clear">
@@ -150,6 +150,7 @@
  <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/js/script-pi.js' ?>"></script>  
 
 
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[3]='COMPANY';ftypes[3]='text';fnames[2]='PHONE';ftypes[2]='phone';fnames[4]='BUDGET';ftypes[4]='text';fnames[5]='HEARABOUT';ftypes[5]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[3]='COMPANY';ftypes[3]='text';fnames[2]='PHONE';ftypes[2]='phone';fnames[4]='BUDGET';ftypes[4]='text';fnames[5]='HEARABOUT';ftypes[5]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
  
+
 

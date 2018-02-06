@@ -55,6 +55,9 @@
 					<h5 class="">
 						<?php echo get_field('team_member_1_title') ;?> 
 					</h5>
+					<p class="team-profile-view">View Profile
+								<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+							</p>
 
 
 				</div>
@@ -123,6 +126,8 @@
 					<h5 class="">
 						<?php echo get_field('team_member_2_title') ;?> 
 					</h5>
+					<p class="team-profile-view">View Profile<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+					</p>
 				</div>
 				<div class="team-member-cover"></div>
 
@@ -178,13 +183,15 @@
 				<source src="<?php echo get_field('team_member_3_video') ;?>" type="video/mp4">
 				</video>
 
-				<div class="floating-text">
-					<h4 class="hideme">
+				<div class="floating-text hideme">
+					<h4 class="">
 						<?php echo get_field('team_member_3_name') ;?> 
 					</h4>
-					<h5 class="hideme">
+					<h5 class="">
 						<?php echo get_field('team_member_3_title') ;?> 
 					</h5>
+					<p class="team-profile-view">View Profile<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+					</p>
 				</div>
 				<div class="team-member-cover"></div>
 

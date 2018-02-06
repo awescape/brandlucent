@@ -377,4 +377,11 @@ $("#backToTop").click(function(e) {
   e.preventDefault();
 });
 
+$("#form-button-1").click(function(e) {
+  $("html, body").animate({ scrollTop: 0 }, "fast");
+  // return false;
+  e.preventDefault();
+});
+
+
 

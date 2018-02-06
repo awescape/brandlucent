@@ -126,6 +126,7 @@ get_header(); ?>
 
 	<div class="home-block-image home-block-3-image">
 		<img id="prlx_lyr_2" class="home-block-3-image-1" src="<?php echo get_field('home_block_3_image_1') ?>">
+		<img id="prlx_lyr_mob" class="home-block-3-image-1 home-block-3-image-1-mob hideme" src="<?php echo get_field('home_block_3_image_1') ?>">
 		
 		<img id="prlx_lyr_3" class="home-block-3-image-2" src="<?php echo get_field('home_block_3_image_2') ?>">
 	</div>

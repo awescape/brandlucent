@@ -1081,10 +1081,12 @@ a:hover{
 	color: #00ffaf;
 }
 
-.team-block a p{
+.team-block a p,
+.team-profile-view{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 800;
 	line-height: 1.312;
+	font-size: 16px;
 }
 
 .button{
@@ -1659,7 +1661,8 @@ animation-duration: 1.2s;
 /*----- Thank you page ------- */
 
 .underline-link h2{
-	width: 100%;
+	/*width: 100%;*/
+	display: inline;
 }
 
 .form-page .underline-link{
@@ -1669,6 +1672,13 @@ animation-duration: 1.2s;
 .form-page-3{
 	    flex: 0 1 40%;
 }
+
+	.underline-link-wrapper{
+		text-align: center;
+		display: flex;
+    	flex-direction: column;
+	}
+
 
 /*-----Full screen Banner------*/
 
@@ -1783,7 +1793,7 @@ animation-duration: 1.2s;
     flex: 0 1 75%;
     line-height: 1.2;
     align-self: center;
-    margin-bottom:2rem;
+
 }
 
 .quote-author{
@@ -1791,6 +1801,7 @@ animation-duration: 1.2s;
     flex: 0 0 100%;
     text-align: end;
     font-style: italic;
+    margin-top:2rem;
     margin-bottom:1rem;
 }
 
@@ -2065,6 +2076,26 @@ a{
 }
 
 
+.team-block-3:hover .team-profile-view{
+	color:#00ffaf;
+}
+
+.team-profile-view i{
+	margin-left:0.5rem;
+	margin-right:0.5rem;
+	transition: margin 0.15s;
+}
+
+.floating-text:hover .team-profile-view i{
+	margin-left:1rem;
+	margin-right:0rem;
+}
+
+
+
+
+
+
 .team-popup{
     /*background-color: white;*/
     /*border: 20px solid #00ffaf;*/
@@ -2090,7 +2121,7 @@ a{
     display: flex;
     margin: 2rem 2rem;
     overflow:hidden;
-    max-height: 600px;
+    max-height: 90%;
 }
 
 .team-popup.open{
@@ -2117,7 +2148,7 @@ a{
 
 .popup-left h4,
 .popup-left h5{
-	color: #675f5f;
+	color: #8d8d8d;
 }
 
 
@@ -3102,6 +3133,10 @@ color: #00ffaf ;
 	max-width: 200px;
 }
 
+.home-block-3-image-1-mob{
+	display: none;
+}
+
 .home-block-3-image-2{
 	width:65%;
 	max-width: 500px;
@@ -3642,7 +3677,8 @@ text-align: center;
 }
 
 #mce-responses.clear{
-	margin: 1rem 0 0 0;
+	flex: 1 0 100%;
+    text-align: center
 }
 
 .form-input-wrapper{
@@ -3655,6 +3691,10 @@ text-align: center;
 
 .form-input-wrapper input{
 	flex: 1 0 100%;
+}
+
+.form-input-wrapper input.form-button{
+	flex: initial;
 }
 
 .form-input-wrapper #submit{
@@ -4046,7 +4086,7 @@ body {
 
 
 	.project-image-mobile-5{
-		top:43vh;
+		top:34vh;
 	}
 
 	.project-image-laptop {
@@ -4187,9 +4227,9 @@ body {
 	    height: 100vh;*/
 	}
 
-	.popup-left {
-/*    flex: 0 1 100%;*/
 
+	.popup-left{
+    	padding: 1rem 1rem;
 	}
 
 
@@ -4318,6 +4358,16 @@ body {
 	}
 
 
+	.home-block-3-image-1{
+		display: none;
+	}
+
+
+	.home-block-3-image-1-mob{
+		display: block;
+	}
+
+
 
 	/*Home block 4*/
 
@@ -4358,6 +4408,10 @@ body {
 	.service-line-block{
 	    flex: 1 0 100%;
 		
+	}
+
+	.service-line-wrapper {
+    	flex-basis: 100%;
 	}
 
 
@@ -4538,6 +4592,13 @@ body {
 	.toggle-menu h6{
 		display: none;
 	}
+
+
+
+
+
+
+
 }
 
 /*  ---------------------------------------------------
@@ -4672,7 +4733,7 @@ body {
 	    display: flex;
 	    flex-direction: column;
 	    align-items: center;
-	/*    color: #675f5f;*/
+	/*    color: #8d8d8d;*/
 }
 
 	.page-id-2 .floating-text {
@@ -4684,7 +4745,7 @@ body {
 	.team-block .floating-text h4,
 	.team-block .floating-text h5 {
 		text-align: center;
-		color: #675f5f;
+		color: #8d8d8d;
 	}
 
 	.page-id-2 .team-block .floating-text h4,
@@ -4721,9 +4782,11 @@ body {
 
 	}
 
-	.page-id-2 .video-background{
+	.page-id-2 .video-background,
+	.page-id-21 .video-background{
 		display:none;
 	}
+
 
 	.video-background {
     	display: block;
@@ -4761,8 +4824,8 @@ body {
     background-color: white;
     border: initial;
     display: flex;
-    margin: none;
     margin: 0;
+    max-height: initial;
 	}
 
 	.popup-left{
@@ -4787,9 +4850,18 @@ body {
 	}
 
 
+	.team-block h5{
+		margin:1rem 0;
+	}
 
+	.team-profile-view{
+		margin-bottom: 1rem;
+		color: #8d8d8d;
+	}
 
-
+	.team-block-3:hover .team-profile-view{
+	color:#8d8d8d;
+	}
 
 
 
@@ -4809,9 +4881,11 @@ body {
 		text-align: left;
 	}
 
-/*	.hideme{
-		opacity:1;
-	}*/
+
+
+	.block-2 div{
+		width: 100%;
+	}
 
 
 	/*project-inquiry*/
@@ -4829,6 +4903,11 @@ body {
 	.form-input-wrapper textarea,
 	.form-input-wrapper select{
     	font-size: 18px;
+	}
+
+	input.phone-input, input.email-input {
+    flex: initial;
+    margin: 0 0 15px 0;
 	}
 
 	/*next project block*/
@@ -4864,7 +4943,24 @@ body {
 
 
 
+	/*Porfolio block*/
 
+	.work-images {
+	    min-height: 400px;
+	}
+
+
+	/*portfolio pictures*/
+
+	.home-block-button{
+		margin:0;
+	}
+
+
+	/*Message-block*/
+	.message-button {
+	    margin: 2rem 0;
+	}
 
 
 	/*Call to action*/
@@ -4875,51 +4971,24 @@ body {
 
 
 
-		/*home block 1*/
-
-/*	.home-block-1-images{
-		overflow: hidden;
-	}
-
-	.home-block-1-image-2{
-		display: none;
-	}
-*/
-
-	/*Porfolio block*/
-
-	.work-images {
-	    min-height: 400px;
-	}
-
-
-	/*portfolio pictures*/
-
-
-
-
-
-
-
-
 	/*footer*/
 
 
 
-.footer-wrapper .footer-item {
-    flex: 1 0 100%;
-    width: initial;
-    text-align: center;
-}
-
-
-.email-wrapper input{
+	.footer-wrapper .footer-item {
+	    flex: 1 0 100%;
+	    width: initial;
 	    text-align: center;
-}
+	}
 
-.up-arrow i{
-	margin:0 auto;
-}
+
+	.email-wrapper input{
+		    text-align: center;
+	}
+
+	.up-arrow i{
+		margin:0 auto;
+	}
 
 
 
