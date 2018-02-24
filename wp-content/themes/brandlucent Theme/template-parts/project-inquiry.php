@@ -1,7 +1,7 @@
 
  <section class="pi-section">
 
-<form action="https://komahony.us8.list-manage.com/subscribe/post?u=0d3dbdd5d7e7017a3a191fe58&amp;id=ab34df1263" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate project-inquiry" target="_blank" novalidate>
+<form action="https://komahony.us8.list-manage.com/subscribe/post?u=0d3dbdd5d7e7017a3a191fe58&amp;id=ab34df1263" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate project-inquiry form__validator" target="_blank" novalidate>
 
 
 	<div class="form-header">
@@ -43,7 +43,7 @@
 		</div>
 		<div class="form-input-wrapper">
 			<p class="form-title">Your name*</p>
-			<input type="text" value="" name="NAME" class="required" id="mce-NAME" placeholder="Your name here*">
+			<input type="text" value="" name="NAME" class="required form__validate form__validate--focused" id="mce-NAME" placeholder="Your name here*" required>
 		</div>
 
 		<div class="form-input-wrapper">
@@ -54,12 +54,17 @@
 		<div class="form-input-wrapper">
 			<p class="form-title">Your contact info*</p>
 			<div class="contact-info">
-				<input type="text" name="PHONE" class="phone-input" value="" id="mce-PHONE" placeholder="Phone number">
-				<input type="email" value="" name="EMAIL" class="required email email-input" id="mce-EMAIL" placeholder="Email Address*">		
+				<input type="text" name="PHONE" class="phone-input " value="" id="mce-PHONE" placeholder="Phone number">
+				<input type="email" value="" name="EMAIL" class="required email email-input required form__validate form__validate--focused " id="mce-EMAIL" placeholder="Email Address*" required>		
 			</div>
 		</div>
 
-		<div id="form-button-1" class="button form-button">Next <i class="fa fa-long-arrow-right" aria-hidden="true"></i></div>
+	
+	
+
+
+		<div id="form-button-1" class="button form-button button-opacity">Next <i class="fa fa-long-arrow-right " aria-hidden="true"></i></div>
+		<div class="form-instruction">*Fill out required field</div>
 
 
 
@@ -106,10 +111,25 @@
 					</div>
 				</div>
 
+				<!-- budget slider -->
+				<div class="budget-wrap ">
+					<label for="mce-BUDGET">Budget </label>
+					<div class="budget">
+						<div class="header">
+							<p class="form-title title clearfix">What's your budget?<span class="pull-right"></span></p>
+						</div>
+						<div class="content mc-field-group">
+							<input type="range" name="BUDGET" min="10" max="100" value="20" data-rangeslider id="mce-BUDGET">
+						</div>
+						<div class="footer clearfix">	
+						</div>
+					</div>
+				</div>
+				<!-- budget slider end -->	
 
 				<!-- may need to change to input to work -->
 
-				<textarea type="text" value="" name="BUDGET" class="form-message" id="mce-BUDGET" placeholder="Please tell us about your branding needs and your budget..."></textarea>
+				<textarea type="text" value="" name="NEEDS" class="form-message" id="mce-NEEDS" placeholder="Please tell us about your branding needs..."></textarea>
 
 
 				<select name="HEARABOUT" class="form-message" id="mce-HEARABOUT" placeholder="How did you hear about us?">
@@ -152,5 +172,3 @@
 
 <!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='NAME';ftypes[1]='text';fnames[3]='COMPANY';ftypes[3]='text';fnames[2]='PHONE';ftypes[2]='phone';fnames[4]='BUDGET';ftypes[4]='text';fnames[5]='HEARABOUT';ftypes[5]='dropdown';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
  
-
-

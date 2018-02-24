@@ -67,11 +67,11 @@ get_header(); ?>
 			<p class="form-text">While you are waiting to hear from us, here are a few things you might find interesting</p>
 
 			<div class="underline-link-wrapper">
-				<a class="underline-link" href="<?php echo get_template_directory_uri() . '' ?>"><h2>Learn about our vision and values</h2></a>
+				<a class="underline-link" href="<?php echo get_template_directory_uri() . '../../../../about/' ?>"><h2>Learn about our vision and values</h2></a>
 
-				<a class="underline-link" href=""><h2>Meet the Brandlucent team</h2></a>
+				<a class="underline-link" href="<?php echo get_template_directory_uri() . '../../../../team/' ?>"><h2>Meet the Brandlucent team</h2></a>
 
-				<a class="underline-link" href=""><h2>Return to homepage</h2></a>
+				<a class="underline-link" href="<?php echo get_template_directory_uri() . '../../../../' ?>"><h2>Return to homepage</h2></a>
 			</div>
 
 

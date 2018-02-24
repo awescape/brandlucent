@@ -34,3 +34,55 @@
 
 // });
 
+
+
+
+
+    // member 1
+//     $('#member-1').click(function(){
+//       $('#team-page-cover').toggleClass('opacity-on');
+//     });
+
+// var isValidForm = form.checkValidity();
+
+
+// var form = document.getElementById('mc-embedded-subscribe-form');
+// var isValidForm = form.checkValidity();
+
+
+// var form = document.getElementById("mc-embedded-subscribe-form");
+// var isValidForm = form.checkValidity();
+
+// jQuery(document).ready(function($) {
+// var form = $( "#mc-embedded-subscribe-form" );
+// form.validate();
+
+
+
+
+
+// 	$(document).ready(function(){
+
+//  //  if (isValidForm === true) {     
+//  //    	 $('#form-button-1').toggleClass('button-opacity');
+//  //    	 return 5;
+// 	// }
+// 	// else{
+// 	// 	// $('#form-button-1').toggleClass('button-opacity');
+// 	// 	return 6;
+// 	// }
+
+
+// $("#mce-NAME").keyup(function () {
+//     if ($("#mce-NAME").isValid()) {
+//         //make ajax called
+//         $('#form-button-1').toggleClass('button-opacity');
+//     }
+// });
+
+// });
+
+
+// });
+
+
