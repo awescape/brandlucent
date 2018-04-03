@@ -8,11 +8,22 @@
 
 		<div class="picture-video-wrapper">
 
-			<img class="picture-video-picture" src="<?php echo get_field('picture-video_picture')?>" 
+			<?php $image = get_field('picture-video_picture');
+			if( !empty($image) ): ?>
+				<img class="picture-video-picture" 
+					src="<?php echo $image['url']; ?>" 
+					alt="<?php echo $image['alt']; ?>" 
+					description="<?php echo $image['description']; ?>"
+				/>
+			<?php endif; ?>
 
-			<a class="picture-video-video-wrapper">
+			<a class="picture-video-video-wrapper">	
+				<?php $video = get_field('picture-video_video'); ?>
 				<video class="video-background picture-video-video" onplay="setPlaySpeed()" autoplay loop id="portfolio-video" muted plays-inline>
-				<source src="<?php echo get_field('picture-video_video') ;?>" type="video/mp4">
+				<source src="<?php echo $video['url']; ?>" 
+					alt="<?php echo $video['alt']; ?>" 
+					description="<?php echo $video['description']; ?>"
+					type="video/mp4">
 				</video>
 			</a>
 
@@ -23,9 +34,15 @@
 
 	<?php if( get_field('portfolio_video') ): ?>
 		<div class="portfolio-video-wrapper">
+
+			<?php $video = get_field('portfolio_video'); ?>
 			<video class="video-background portfolio-video" onplay="setPlaySpeed()" autoplay loop id="portfolio-video" muted plays-inline>
-			<source src="<?php echo get_field('portfolio_video') ;?>" type="video/mp4">
+			<source src="<?php echo $video['url']; ?>" 
+				alt="<?php echo $video['alt']; ?>" 
+				description="<?php echo $video['description']; ?>"
+				type="video/mp4">
 			</video>
+
 		</div>
 	<?php endif; ?>
 
@@ -37,15 +54,43 @@
  <?php while( have_rows('portfolio_pictures_repeater') ): the_row(); ?>
 
 	<?php if( get_sub_field('full_screen_image') ): ?>
-		<img class="portfolio-full-width" src="<?php echo get_sub_field('full_screen_image')?>" >
+		<?php $image = get_sub_field('full_screen_image');
+			if( !empty($image) ): ?>
+				<img  
+					class="portfolio-full-width" 
+					src="<?php echo $image['url']; ?>" 
+					alt="<?php echo $image['alt']; ?>" 
+					description="<?php echo $image['description']; ?>"
+				/>
+			<?php endif; 
+		?>
 	<?php endif; ?>
 
 	<?php if( get_sub_field('half_screen_image_1') ): ?>
-		<img class="portfolio-half-screen" src="<?php echo get_sub_field('half_screen_image_1')?>" >
+		<?php $image = get_sub_field('half_screen_image_1');
+			if( !empty($image) ): ?>
+				<img  
+					class="portfolio-half-screen" 
+					src="<?php echo $image['url']; ?>" 
+					alt="<?php echo $image['alt']; ?>" 
+					description="<?php echo $image['description']; ?>"
+				/>
+			<?php endif; 
+		?>
 	<?php endif; ?>
 
 	<?php if( get_sub_field('half_screen_image_1') ): ?>
-		<img class="portfolio-half-screen" src="<?php echo get_sub_field('half_screen_image_2')?>" >
+		<?php $image = get_sub_field('half_screen_image_2');
+			if( !empty($image) ): ?>
+				<img  
+					class="portfolio-half-screen" 
+					src="<?php echo $image['url']; ?>" 
+					alt="<?php echo $image['alt']; ?>" 
+					description="<?php echo $image['description']; ?>"
+				/>
+			<?php endif; 
+		?>
+
 	<?php endif; ?>
 
   <?php endwhile; ?>

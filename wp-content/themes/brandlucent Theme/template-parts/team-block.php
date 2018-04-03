@@ -11,8 +11,13 @@
 <?php if( get_field('right_block_title') ): ?>
 			<a class="team-block-2" href="<?php echo get_field('right_block_text_link') ;?>">
 			<!-- 	<div class=""> -->
+					
 					<video class="video-background" autoplay loop id="video-background" muted plays-inline>
-					<source src="<?php echo get_field('right_block_video') ;?>" type="video/mp4">
+						<?php $video = get_field('right_block_video'); ?>
+						<source src="<?php echo $video['url']; ?>" 
+						alt="<?php echo $video['alt']; ?>" 
+						description="<?php echo $video['description']; ?>"
+						type="video/mp4">
 					</video>
 
 					<div class="floating-text">
@@ -39,13 +44,27 @@
 			<div id="member-1" class="team-block-3">
 
 				<div >
-					<img class="mobile-1-unclicked team-mobile-pic" id="mobile-1-pic" src="<?php echo get_field('team_member_1_photo') ;?>">
-
-					<img id="mobile-1-clicked" class="team-mobile-clicked" src="<?php echo get_field('team_member_1_photo') ;?>">
+					<?php $image = get_field('team_member_1_photo'); ?>
+					<img class="mobile-1-unclicked team-mobile-pic" 
+						id="mobile-1-pic" 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					>
+					<img id="mobile-1-clicked" 
+						class="team-mobile-clicked" 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					>
 				</div>
 
 				<video class="video-background" autoplay loop id="video-background" muted plays-inline>
-				<source src="<?php echo get_field('team_member_1_video') ;?>" type="video/mp4">
+					<?php $video = get_field('team_member_1_video'); ?>
+					<source src="<?php echo $video['url']; ?>" 
+						alt="<?php echo $video['alt']; ?>" 
+						description="<?php echo $video['description']; ?>"
+						type="video/mp4">
 				</video>
 
 				<div class="floating-text hideme">
@@ -93,9 +112,15 @@
 					</a>
 				</div>
 
-				<div class="popup-right" style="background-image: url('<?php echo get_field('team_member_1_photo') ;?>');">
+				<div class="popup-right" style="background-image: url('<?php echo $image['url'] ;?>');">
 					<p id="close-1" class="xclose">X</p>
-					<img src="<?php echo get_field('team_member_1_photo') ;?>">
+
+					<img 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					>
+
 				</div>
 			</div>
 			</div>
@@ -110,13 +135,28 @@
 			<div id="member-2" class="team-block-3">
 
 				<div >
-					<img class="mobile-2-unclicked team-mobile-pic" id="mobile-2-pic" src="<?php echo get_field('team_member_2_photo') ;?>">
-
-					<img id="mobile-2-clicked" class="team-mobile-clicked" src="<?php echo get_field('team_member_2_photo') ;?>">
+					<?php $image = get_field('team_member_2_photo'); ?>
+					<img class="mobile-2-unclicked team-mobile-pic" 
+						id="mobile-2-pic" 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					>
+					<img id="mobile-2-clicked" 
+						class="team-mobile-clicked" 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					>
 				</div>
 
+
 				<video class="video-background" autoplay loop id="video-background" muted plays-inline>
-				<source src="<?php echo get_field('team_member_2_video') ;?>" type="video/mp4">
+					<?php $video = get_field('team_member_2_video'); ?>
+					<source src="<?php echo $video['url']; ?>" 
+						alt="<?php echo $video['alt']; ?>" 
+						description="<?php echo $video['description']; ?>"
+						type="video/mp4">
 				</video>
 
 				<div class="floating-text hideme">
@@ -159,9 +199,15 @@
 					</a>
 				</div>
 
-				<div class="popup-right" style="background-image: url('<?php echo get_field('team_member_2_photo') ;?>');">
+
+				<div class="popup-right" style="background-image: url('<?php echo $image['url'] ;?>');">
 					<p id="close-2" class="xclose">X</p>
-					<img src="<?php echo get_field('team_member_2_photo') ;?>">
+
+					<img 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					>
 				</div>
 			</div>
 			</div>
@@ -174,13 +220,27 @@
 			<div id="member-3" class="team-block-3">
 
 				<div >
-					<img class="mobile-3-unclicked team-mobile-pic" id="mobile-3-pic" src="<?php echo get_field('team_member_3_photo') ;?>">
-
-					<img id="mobile-3-clicked" class="team-mobile-clicked" src="<?php echo get_field('team_member_3_photo') ;?>">
+					<?php $image = get_field('team_member_3_photo'); ?>
+					<img class="mobile-3-unclicked team-mobile-pic" 
+						id="mobile-3-pic" 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					>
+					<img id="mobile-3-clicked" 
+						class="team-mobile-clicked" 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					>
 				</div>
 
 				<video class="video-background" autoplay loop id="video-background" muted plays-inline>
-				<source src="<?php echo get_field('team_member_3_video') ;?>" type="video/mp4">
+					<?php $video = get_field('team_member_3_video'); ?>
+					<source src="<?php echo $video['url']; ?>" 
+						alt="<?php echo $video['alt']; ?>" 
+						description="<?php echo $video['description']; ?>"
+						type="video/mp4">
 				</video>
 
 				<div class="floating-text hideme">
@@ -223,9 +283,14 @@
 					</a>
 				</div>
 
-				<div class="popup-right" style="background-image: url('<?php echo get_field('team_member_3_photo') ;?>');">
+				<div class="popup-right" style="background-image: url('<?php echo $image['url'] ;?>');">
 					<p id="close-3" class="xclose">X</p>
-					<img src="<?php echo get_field('team_member_3_photo') ;?>">
+
+					<img 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					>
 				</div>
 			</div>
 			</div>

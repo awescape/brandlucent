@@ -61,11 +61,30 @@ get_header(); ?>
 				echo '<h2>' . get_field('banner_text') . '</h2>';	
 			echo '</div>';	
 			if(get_field('banner_foreground_image')) {
-					echo '<img id="banner_fg_image" class="banner-image moveme" src="' . get_field('banner_foreground_image') .  '">';
+?>
+
+			<?php 
+			$image = get_field('banner_foreground_image');
+			if( !empty($image) ): ?>
+				<img id="banner_fg_image" 
+					class="banner-image moveme" 
+					src="<?php echo $image['url']; ?>" 
+					alt="<?php echo $image['alt']; ?>" 
+					description="<?php echo $image['description']; ?>"
+				/>
+			<?php endif; 
+			?>
+
+		</div>
+	<?php } ?>
+
+<?php 					
 		}
 		echo '</section>';
 	}
 ?> <!-- #banner-->
+
+
 
 
 <!-- Message Block (customized for Home page) -->	

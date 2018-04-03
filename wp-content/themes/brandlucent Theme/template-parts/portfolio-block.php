@@ -41,9 +41,48 @@
 		
 			</div>
 			<a class="work-images" href="<?php echo get_sub_field('project_page_link') ;?>">
-				<img id="prlx_lyr_solo<?php echo $f; ?>" class="project-image-solo project-image-solo-<?php echo $f; ?>" src="<?php echo get_sub_field('project_image_solo') ;?>">
-				<img id="prlx_lyr_laptop<?php echo $f; ?>" class="project-image-laptop project-image-laptop-<?php echo $f; ?>" src="<?php echo get_sub_field('project_image_laptop') ;?>">
-				<img id="prlx_lyr_mobile<?php echo $f; ?>" class="hideme project-image-mobile project-image-mobile-<?php echo $f; ?>" src="<?php echo get_sub_field('project_image_mobile') ;?>">
+
+
+
+				<?php 
+				$image = get_sub_field('project_image_solo');
+				if( !empty($image) ): ?>
+					<img id="prlx_lyr_solo<?php echo $f; ?>" 
+						class="project-image-solo project-image-solo-<?php echo $f; ?>" 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					/>
+				<?php endif; 
+				?>
+
+
+
+				<?php 
+				$image = get_sub_field('project_image_laptop');
+				if( !empty($image) ): ?>
+					<img id="prlx_lyr_laptop<?php echo $f; ?>" 
+						class="project-image-laptop project-image-laptop-<?php echo $f; ?>" 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					/>
+				<?php endif; 
+				?>
+
+
+				<?php 
+				$image = get_sub_field('project_image_mobile');
+				if( !empty($image) ): ?>
+					<img id="prlx_lyr_mobile<?php echo $f; ?>" 
+						class="hideme project-image-mobile project-image-mobile-<?php echo $f; ?>" 
+						src="<?php echo $image['url']; ?>" 
+						alt="<?php echo $image['alt']; ?>" 
+						description="<?php echo $image['description']; ?>"
+					/>
+				<?php endif; 
+				?>
+
 			</a> 
 
 		

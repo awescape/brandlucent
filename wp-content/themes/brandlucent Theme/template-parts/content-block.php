@@ -4,8 +4,22 @@
 					echo '<div class="content-block-wrapper">';
 						echo '<h1 class="content-title hideme ">' . get_field('content_title') . '</h1>';
 						echo '<p class="hideme">' . get_field('content_text') . '</p>';
-					echo'</div>';
-					echo '<img id="content_block_image" class="content-image" src="' .  get_field('content_image') . '">';
-				echo '</section>';
+					echo'</div>'; ?>
+
+					<?php 
+						$image = get_field('content_image');
+						if( !empty($image) ): ?>
+							<img id="content_block_image" 
+								class="content-image" 
+								src="<?php echo $image['url']; ?>" 
+								alt="<?php echo $image['alt']; ?>" 
+								description="<?php echo $image['description']; ?>"
+							/>
+						<?php endif; 
+						?>
+
+
+				<?php	echo '</section>';
 			}
 		?> <!-- #content block-->
+

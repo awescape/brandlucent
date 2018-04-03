@@ -37,7 +37,16 @@ get_header(); ?>
 				echo '<h2>' . get_field('banner_text') . '</h2>';	
 			echo '</div>';	
 			if(get_field('banner_foreground_image')) {
-					echo '<img id="banner_fg_image" class="banner-image movedown" src="' . get_field('banner_foreground_image') .  '">';
+?>
+				<?php $image = get_field('banner_foreground_image'); ?>
+				<img id="banner_fg_image" 
+					class="banner-image movedown" 
+					src="<?php echo $image['url']; ?>" 
+					alt="<?php echo $image['alt']; ?>" 
+					description="<?php echo $image['description']; ?>"
+				>
+
+<?php
 		}
 		echo '</section>';
 	}
@@ -67,14 +76,32 @@ get_header(); ?>
 		</a>
 	</div>
 	<div class="home-block-image home-block-1-images">
-	<img id="prlx_lyr_1" class="home-block-1-image home-block-1-image-1" src="<?php echo get_field('home_block_1_image_1') ?>">';
-	<img id="rotating" class="home-block-1-image home-block-1-image-2" src="<?php echo get_field('home_block_1_image_2') ?>">
+		<?php $image = get_field('home_block_1_image_1'); ?>
+			<img id="prlx_lyr_1" 
+				class="home-block-1-image home-block-1-image-1" 
+				src="<?php echo $image['url']; ?>" 
+				alt="<?php echo $image['alt']; ?>" 
+				description="<?php echo $image['description']; ?>"
+			>
+		<?php $image = get_field('home_block_1_image_2'); ?>
+			<img id="rotating" 
+				class="home-block-1-image home-block-1-image-2" 
+				src="<?php echo $image['url']; ?>" 
+				alt="<?php echo $image['alt']; ?>" 
+				description="<?php echo $image['description']; ?>"
+			>
 	</div>
 </section>
 
 
 <section>
-			<img class="banner-strip-image" src="<?php echo get_field('banner_strip_image'); ?>">
+			<?php $image = get_field('banner_strip_image'); ?>
+			<img
+				class="banner-strip-image" 
+				src="<?php echo $image['url']; ?>" 
+				alt="<?php echo $image['alt']; ?>" 
+				description="<?php echo $image['description']; ?>"
+			>
 </section>
 
 
@@ -98,8 +125,14 @@ get_header(); ?>
 	</div>
 
 
-	<div class="home-block-image">
-		<img id="home_triangle" class="home-block-2-image-1" src="<?php echo get_field('home_block_2_image_1') ?>">
+	<div class="home-block-image">	
+			<?php $image = get_field('home_block_2_image_1'); ?>
+			<img id="home_triangle"
+				class="home-block-2-image-1" 
+				src="<?php echo $image['url']; ?>" 
+				alt="<?php echo $image['alt']; ?>" 
+				description="<?php echo $image['description']; ?>"
+			>
 	</div>
 
 </section>
@@ -125,12 +158,28 @@ get_header(); ?>
 	</div>
 
 	<div class="home-block-image home-block-3-image">
-		<img id="prlx_lyr_2" class="home-block-3-image-1" src="<?php echo get_field('home_block_3_image_1') ?>">
-		<img id="prlx_lyr_mob" class="home-block-3-image-1 home-block-3-image-1-mob hideme" src="<?php echo get_field('home_block_3_image_1') ?>">
-		
-		<img id="prlx_lyr_3" class="home-block-3-image-2" src="<?php echo get_field('home_block_3_image_2') ?>">
+		<?php $image = get_field('home_block_3_image_1'); ?>
+			<img id="prlx_lyr_2"
+				class="home-block-3-image-1" 
+				src="<?php echo $image['url']; ?>" 
+				alt="<?php echo $image['alt']; ?>" 
+				description="<?php echo $image['description']; ?>"
+			>
+		<?php $image = get_field('home_block_3_image_1'); ?>
+			<img id="prlx_lyr_mob"
+				class="home-block-3-image-1 home-block-3-image-1-mob hideme" 
+				src="<?php echo $image['url']; ?>" 
+				alt="<?php echo $image['alt']; ?>" 
+				description="<?php echo $image['description']; ?>"
+			>		
+		<?php $image = get_field('home_block_3_image_2'); ?>
+			<img id="prlx_lyr_3"
+				class="home-block-3-image-2" 
+				src="<?php echo $image['url']; ?>" 
+				alt="<?php echo $image['alt']; ?>" 
+				description="<?php echo $image['description']; ?>"
+			>
 	</div>
-
 
 </section>
 
@@ -145,13 +194,16 @@ get_header(); ?>
 		<p class="home-block-content home-block-4-content hideme">
 			<?php echo get_field('home_block_4_content') ?>
 		</p>
-
-
 	</div>
 
 	<div class="home-block-image home-block-4-image">
-		<img id="rotating20" class="home-block-4-image-1" src="<?php echo get_field('home_block_4_image_1') ?>">
-
+		<?php $image = get_field('home_block_4_image_1'); ?>
+			<img id="rotating20"
+				class="home-block-4-image-1" 
+				src="<?php echo $image['url']; ?>" 
+				alt="<?php echo $image['alt']; ?>" 
+				description="<?php echo $image['description']; ?>"
+			>
 	</div>
 
 
