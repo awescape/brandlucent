@@ -61,7 +61,7 @@
 		<p class="logo">
 
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img class="menu-activated" src="<?php echo get_template_directory_uri() . '../../../../wp-content/uploads/2017/07/FinalLogoIconOnly.png' ?>">
+					<img class="menu-activated" src="<?php echo get_template_directory_uri() . '../../../../wp-content/uploads/2017/07/FinalLogoIconOnly.png' ?>" alt="Brandlucent branding montreal" description="Brandlucent branding agency MTL">
 			</a>
 
 		</p>
@@ -83,7 +83,7 @@
 				<p class="logo">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 						
-						<img class="menu-deactivated" src="<?php echo get_template_directory_uri() . '../../../../wp-content/uploads/2017/06/FinalLogoLongVersion.png' ?>">
+						<img class="menu-deactivated" src="<?php echo get_template_directory_uri() . '../../../../wp-content/uploads/2017/06/FinalLogoLongVersion.png' ?>" alt="Brandlucent Agency Website" description="Brandlucent Website & Branding Agency MTL">
 					</a>
 				</p>
 				<div class="toggle-menu" id="toggle-menu">

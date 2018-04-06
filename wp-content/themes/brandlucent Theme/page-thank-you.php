@@ -36,11 +36,11 @@ get_header(); ?>
 		<p class="logo logo-form">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 				<?php if ( is_front_page() && is_home() ) : ?>
-					<img class="menu-activated" src="wp-content/uploads/2017/10/Brandlucent-Logo-White.png">
+					<img class="menu-activated" src="wp-content/uploads/2017/10/Brandlucent-Logo-White.png" alt="Brandlucent branding montreal" description="Brandlucent branding agency MTL">
 
 			</a>
 				<?php else : ?>
-					<img class="menu-activated" src="../wp-content/uploads/2017/10/Brandlucent-Logo-White.png">
+					<img class="menu-activated" src="../wp-content/uploads/2017/10/Brandlucent-Logo-White.png" alt="Brandlucent branding montreal" description="Brandlucent branding agency MTL">
 			</a>
 				<?php endif; ?>
 		</p>

@@ -39,9 +39,19 @@ get_header(); ?>
 				echo '<h2>' . get_field('banner_text') .  '</h2>';	
 				echo '<br><a class="underline-link" href="https://www.google.ca/maps/place/Brandlucent+Inc./@45.5333791,-73.6235229,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91911f8c811d3:0x72227e09f67b6f5e!8m2!3d45.5333754!4d-73.6213342"><h2>Open in Google maps<i class="fa fa-long-arrow-right" aria-hidden="true"></i></h2></a>';
 			echo '</div>';	
-			if(get_field('banner_foreground_image')) {
-					echo '<img id="banner_fg_image" class="banner-image movedown" src="' . get_field('banner_foreground_image') .  '">';
-			}
+?>
+			<?php 
+			$image = get_field('banner_foreground_image');
+			if( !empty($image) ): ?>
+				<img id="banner_fg_image" 
+					class="banner-image movedown" 
+					src="<?php echo $image['url']; ?>" 
+					alt="<?php echo $image['alt']; ?>" 
+					description="<?php echo $image['description']; ?>"
+				>
+			<?php endif; ?>
+
+<?php
 		echo '</div>';
 	}
 ?> 
