@@ -89,3 +89,11 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+/*
+* Memory Limit
+* Added by WPML support
+ */
+define('WP_MEMORY_LIMIT', '128M'); 
+define( 'WP_MAX_MEMORY_LIMIT', '128M' );

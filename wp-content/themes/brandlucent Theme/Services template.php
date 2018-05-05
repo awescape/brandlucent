@@ -36,8 +36,10 @@ get_header(); ?>
 	<div class="slider-left-block">
 		
 		<h3><?php echo get_field('slider_big_text') ;?></h3>
-		
+	
+<!-- TODO - for some reason the image object won't work. Kept as URL -->
 		<img id="rotating20" class="slider-left-block-image" src="<?php echo get_field('slider_left_block_image') ;?>">
+
 
 		<?php $a = 1; ?>
 		<div class="slide-titles">

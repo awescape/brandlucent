@@ -1,0 +1,8 @@
+[23-Jan-2018 11:47:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/brandluc/public_html/wp-content/themes/brandlucent Theme/index.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/brandluc/public_html/wp-content/themes/brandlucent Theme/index.php on line 20
+[07-Feb-2018 05:03:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/brandluc/public_html/wp-content/themes/brandlucent Theme/index.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/brandluc/public_html/wp-content/themes/brandlucent Theme/index.php on line 20

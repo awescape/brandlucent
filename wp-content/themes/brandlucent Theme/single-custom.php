@@ -50,10 +50,16 @@ get_header(); ?>
 	
 	</section>
 
+http://localhost:8080/brandlucent/building-brand-love/
+
 	<section class="social-media">
-			<p>facebook</p>
+
+
+
+		
+<!-- 			<p>facebook</p>
 			<p>twitter</p>
-			<p>linkedin</p>
+			<p>linkedin</p> -->
 	</section>
 
 <!-- other-blogs section -->

@@ -45,7 +45,7 @@
 					src="<?php echo $image['url']; ?>" 
 					alt="<?php echo $image['alt']; ?>" 
 					description="<?php echo $image['description']; ?>"
-				/>
+				>
 			<?php endif; 
 			?>
 
