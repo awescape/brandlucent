@@ -18,6 +18,8 @@
  * @package WordPress
  */
 
+
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'brandlucent');
@@ -95,5 +97,6 @@ require_once(ABSPATH . 'wp-settings.php');
 * Memory Limit
 * Added by WPML support
  */
-define('WP_MEMORY_LIMIT', '128M'); 
+define( 'WP_MEMORY_LIMIT', '128M' );
 define( 'WP_MAX_MEMORY_LIMIT', '128M' );
+

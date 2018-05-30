@@ -1,0 +1,995 @@
+2018-05-05 21:37:07		Testing of TarGz was finished successfully
+2018-05-05 21:37:26		Create Unique Id wpadm_method__local_backup__5aee2416b0173
+2018-05-05 21:37:26		Start Backup process...
+2018-05-05 21:37:26		Creating Database Dump
+2018-05-05 21:37:26		Optimization of database tables was started
+2018-05-05 21:37:26		Database table optimization of `wp_commentmeta` was successfully
+2018-05-05 21:37:27		Database table optimization of `wp_comments` was successfully
+2018-05-05 21:37:27		Database table optimization of `wp_icl_content_status` was successfully
+2018-05-05 21:37:27		Database table optimization of `wp_icl_core_status` was successfully
+2018-05-05 21:37:27		Database table optimization of `wp_icl_flags` was successfully
+2018-05-05 21:37:27		Database table optimization of `wp_icl_languages` was successfully
+2018-05-05 21:37:27		Database table optimization of `wp_icl_languages_translations` was successfully
+2018-05-05 21:37:27		Database table optimization of `wp_icl_locale_map` was successfully
+2018-05-05 21:37:27		Database table optimization of `wp_icl_message_status` was successfully
+2018-05-05 21:37:27		Database table optimization of `wp_icl_mo_files_domains` was successfully
+2018-05-05 21:37:27		Database table optimization of `wp_icl_node` was successfully
+2018-05-05 21:37:28		Database table optimization of `wp_icl_reminders` was successfully
+2018-05-05 21:37:28		Database table optimization of `wp_icl_string_packages` was successfully
+2018-05-05 21:37:28		Database table optimization of `wp_icl_string_pages` was successfully
+2018-05-05 21:37:28		Database table optimization of `wp_icl_string_positions` was successfully
+2018-05-05 21:37:28		Database table optimization of `wp_icl_string_status` was successfully
+2018-05-05 21:37:28		Database table optimization of `wp_icl_string_translations` was successfully
+2018-05-05 21:37:28		Database table optimization of `wp_icl_string_urls` was successfully
+2018-05-05 21:37:29		Database table optimization of `wp_icl_strings` was successfully
+2018-05-05 21:37:29		Database table optimization of `wp_icl_translate` was successfully
+2018-05-05 21:37:29		Database table optimization of `wp_icl_translate_job` was successfully
+2018-05-05 21:37:29		Database table optimization of `wp_icl_translation_batches` was successfully
+2018-05-05 21:37:29		Database table optimization of `wp_icl_translation_status` was successfully
+2018-05-05 21:37:29		Database table optimization of `wp_icl_translations` was successfully
+2018-05-05 21:37:30		Database table optimization of `wp_links` was successfully
+2018-05-05 21:37:30		Database table optimization of `wp_mondula_form_wizards` was successfully
+2018-05-05 21:37:30		Database table optimization of `wp_options` was successfully
+2018-05-05 21:37:31		Database table optimization of `wp_postmeta` was successfully
+2018-05-05 21:37:31		Database table optimization of `wp_posts` was successfully
+2018-05-05 21:37:31		Database table optimization of `wp_term_relationships` was successfully
+2018-05-05 21:37:31		Database table optimization of `wp_term_taxonomy` was successfully
+2018-05-05 21:37:31		Database table optimization of `wp_termmeta` was successfully
+2018-05-05 21:37:31		Database table optimization of `wp_terms` was successfully
+2018-05-05 21:37:32		Database table optimization of `wp_usermeta` was successfully
+2018-05-05 21:37:32		Database table optimization of `wp_users` was successfully
+2018-05-05 21:37:32		Optimization of database tables was Finished
+2018-05-05 21:37:32		Creating of MySQL dump was started
+2018-05-05 21:37:32		Add table "wp_commentmeta" to the database dump
+2018-05-05 21:37:32		Add table "wp_comments" to the database dump
+2018-05-05 21:37:32		Performing of database query: SELECT * FROM wp_comments LIMIT 0, 200
+2018-05-05 21:37:32		Add table "wp_icl_content_status" to the database dump
+2018-05-05 21:37:32		Add table "wp_icl_core_status" to the database dump
+2018-05-05 21:37:32		Add table "wp_icl_flags" to the database dump
+2018-05-05 21:37:33		Performing of database query: SELECT * FROM wp_icl_flags LIMIT 0, 200
+2018-05-05 21:37:35		Add table "wp_icl_languages" to the database dump
+2018-05-05 21:37:35		Performing of database query: SELECT * FROM wp_icl_languages LIMIT 0, 200
+2018-05-05 21:37:37		Add table "wp_icl_languages_translations" to the database dump
+2018-05-05 21:37:37		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 0, 200
+2018-05-05 21:37:43		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 200, 200
+2018-05-05 21:38:36		Create Unique Id wpadm_method__local_backup__5aee245c8e65f
+2018-05-05 21:38:36		Start Backup process...
+2018-05-05 21:38:36		Creating Database Dump
+2018-05-05 21:38:36		Creating of MySQL dump was started
+2018-05-05 21:38:37		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 325, 200
+2018-05-05 21:38:42		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 525, 200
+2018-05-05 21:38:47		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 725, 200
+2018-05-05 21:38:52		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 925, 200
+2018-05-05 21:38:57		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 1125, 200
+2018-05-05 21:39:40		Create Unique Id wpadm_method__local_backup__5aee249cbbba6
+2018-05-05 21:39:40		Start Backup process...
+2018-05-05 21:39:40		Creating Database Dump
+2018-05-05 21:39:40		Creating of MySQL dump was started
+2018-05-05 21:39:41		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 1185, 200
+2018-05-05 21:39:49		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 1385, 200
+2018-05-05 21:39:55		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 1585, 200
+2018-05-05 21:40:00		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 1785, 200
+2018-05-05 21:40:51		Create Unique Id wpadm_method__local_backup__5aee24e33a95d
+2018-05-05 21:40:51		Start Backup process...
+2018-05-05 21:40:51		Creating Database Dump
+2018-05-05 21:40:51		Creating of MySQL dump was started
+2018-05-05 21:40:52		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 1834, 200
+2018-05-05 21:40:57		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 2034, 200
+2018-05-05 21:41:02		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 2234, 200
+2018-05-05 21:41:07		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 2434, 200
+2018-05-05 21:41:55		Create Unique Id wpadm_method__local_backup__5aee2523a91ab
+2018-05-05 21:41:55		Start Backup process...
+2018-05-05 21:41:55		Creating Database Dump
+2018-05-05 21:41:55		Creating of MySQL dump was started
+2018-05-05 21:41:56		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 2583, 200
+2018-05-05 21:42:01		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 2783, 200
+2018-05-05 21:42:05		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 2983, 200
+2018-05-05 21:42:09		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 3183, 200
+2018-05-05 21:42:13		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 3383, 200
+2018-05-05 21:43:07		Create Unique Id wpadm_method__local_backup__5aee256bc5f18
+2018-05-05 21:43:07		Start Backup process...
+2018-05-05 21:43:07		Creating Database Dump
+2018-05-05 21:43:07		Creating of MySQL dump was started
+2018-05-05 21:43:08		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 3578, 200
+2018-05-05 21:43:12		Performing of database query: SELECT * FROM wp_icl_languages_translations LIMIT 3778, 200
+2018-05-05 21:43:16		Add table "wp_icl_locale_map" to the database dump
+2018-05-05 21:43:16		Performing of database query: SELECT * FROM wp_icl_locale_map LIMIT 0, 200
+2018-05-05 21:43:16		Add table "wp_icl_message_status" to the database dump
+2018-05-05 21:43:16		Add table "wp_icl_mo_files_domains" to the database dump
+2018-05-05 21:43:16		Performing of database query: SELECT * FROM wp_icl_mo_files_domains LIMIT 0, 200
+2018-05-05 21:43:16		Add table "wp_icl_node" to the database dump
+2018-05-05 21:43:17		Add table "wp_icl_reminders" to the database dump
+2018-05-05 21:43:17		Add table "wp_icl_string_packages" to the database dump
+2018-05-05 21:43:17		Add table "wp_icl_string_pages" to the database dump
+2018-05-05 21:43:17		Add table "wp_icl_string_positions" to the database dump
+2018-05-05 21:43:17		Add table "wp_icl_string_status" to the database dump
+2018-05-05 21:43:17		Add table "wp_icl_string_translations" to the database dump
+2018-05-05 21:43:17		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 0, 200
+2018-05-05 21:43:21		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 200, 200
+2018-05-05 21:43:25		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 400, 200
+2018-05-05 21:43:29		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 600, 200
+2018-05-05 21:44:18		Create Unique Id wpadm_method__local_backup__5aee25b2e62fd
+2018-05-05 21:44:18		Start Backup process...
+2018-05-05 21:44:19		Creating Database Dump
+2018-05-05 21:44:19		Creating of MySQL dump was started
+2018-05-05 21:44:20		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 667, 200
+2018-05-05 21:44:25		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 867, 200
+2018-05-05 21:44:30		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 1067, 200
+2018-05-05 21:44:34		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 1267, 200
+2018-05-05 21:44:39		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 1467, 200
+2018-05-05 21:45:20		Create Unique Id wpadm_method__local_backup__5aee25f049542
+2018-05-05 21:45:20		Start Backup process...
+2018-05-05 21:45:20		Creating Database Dump
+2018-05-05 21:45:20		Creating of MySQL dump was started
+2018-05-05 21:45:21		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 1486, 200
+2018-05-05 21:45:26		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 1686, 200
+2018-05-05 21:45:30		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 1886, 200
+2018-05-05 21:45:35		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 2086, 200
+2018-05-05 21:45:39		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 2286, 200
+2018-05-05 21:46:22		Create Unique Id wpadm_method__local_backup__5aee262e118cf
+2018-05-05 21:46:22		Start Backup process...
+2018-05-05 21:46:22		Creating Database Dump
+2018-05-05 21:46:22		Creating of MySQL dump was started
+2018-05-05 21:46:23		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 2425, 200
+2018-05-05 21:46:28		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 2625, 200
+2018-05-05 21:46:32		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 2825, 200
+2018-05-05 21:46:37		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 3025, 200
+2018-05-05 21:46:42		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 3225, 200
+2018-05-05 21:48:06		Create Unique Id wpadm_method__local_backup__5aee26967db2d
+2018-05-05 21:48:06		Start Backup process...
+2018-05-05 21:48:06		Creating Database Dump
+2018-05-05 21:48:06		Creating of MySQL dump was started
+2018-05-05 21:48:07		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 3243, 200
+2018-05-05 21:48:10		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 3443, 200
+2018-05-05 21:48:13		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 3643, 200
+2018-05-05 21:48:17		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 3843, 200
+2018-05-05 21:48:20		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 4043, 200
+2018-05-05 21:48:23		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 4243, 200
+2018-05-05 21:48:25		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 4443, 200
+2018-05-05 21:48:28		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 4643, 200
+2018-05-05 21:49:13		Create Unique Id wpadm_method__local_backup__5aee26d9077ca
+2018-05-05 21:49:13		Start Backup process...
+2018-05-05 21:49:13		Creating Database Dump
+2018-05-05 21:49:13		Creating of MySQL dump was started
+2018-05-05 21:49:13		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 4769, 200
+2018-05-05 21:49:18		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 4969, 200
+2018-05-05 21:49:21		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 5169, 200
+2018-05-05 21:49:24		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 5369, 200
+2018-05-05 21:49:28		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 5569, 200
+2018-05-05 21:49:31		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 5769, 200
+2018-05-05 21:49:33		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 5969, 200
+2018-05-05 21:50:19		Create Unique Id wpadm_method__local_backup__5aee271bbe0f3
+2018-05-05 21:50:19		Start Backup process...
+2018-05-05 21:50:19		Creating Database Dump
+2018-05-05 21:50:19		Creating of MySQL dump was started
+2018-05-05 21:50:21		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 6011, 200
+2018-05-05 21:50:25		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 6211, 200
+2018-05-05 21:50:30		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 6411, 200
+2018-05-05 21:50:35		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 6611, 200
+2018-05-05 21:50:40		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 6811, 200
+2018-05-05 21:52:01		Create Unique Id wpadm_method__local_backup__5aee2781b8a5c
+2018-05-05 21:52:01		Start Backup process...
+2018-05-05 21:52:01		Creating Database Dump
+2018-05-05 21:52:01		Creating of MySQL dump was started
+2018-05-05 21:52:02		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 6814, 200
+2018-05-05 21:52:08		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 7014, 200
+2018-05-05 21:52:14		Performing of database query: SELECT * FROM wp_icl_string_translations LIMIT 7214, 200
+2018-05-05 21:52:17		Add table "wp_icl_string_urls" to the database dump
+2018-05-05 21:52:17		Add table "wp_icl_strings" to the database dump
+2018-05-05 21:52:17		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 0, 200
+2018-05-05 21:52:20		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 200, 200
+2018-05-05 21:53:10		Create Unique Id wpadm_method__local_backup__5aee27c66d6f5
+2018-05-05 21:53:10		Start Backup process...
+2018-05-05 21:53:10		Creating Database Dump
+2018-05-05 21:53:10		Creating of MySQL dump was started
+2018-05-05 21:53:11		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 377, 200
+2018-05-05 21:53:15		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 577, 200
+2018-05-05 21:53:18		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 777, 200
+2018-05-05 21:53:22		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 977, 200
+2018-05-05 21:53:25		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 1177, 200
+2018-05-05 21:53:28		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 1377, 200
+2018-05-05 21:53:31		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 1577, 200
+2018-05-05 21:54:17		Create Unique Id wpadm_method__local_backup__5aee2809ed54b
+2018-05-05 21:54:18		Start Backup process...
+2018-05-05 21:54:18		Creating Database Dump
+2018-05-05 21:54:18		Creating of MySQL dump was started
+2018-05-05 21:54:19		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 1651, 200
+2018-05-05 21:54:23		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 1851, 200
+2018-05-05 21:54:27		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 2051, 200
+2018-05-05 21:54:30		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 2251, 200
+2018-05-05 21:54:33		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 2451, 200
+2018-05-05 21:54:36		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 2651, 200
+2018-05-05 21:54:40		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 2851, 200
+2018-05-05 21:55:59		Create Unique Id wpadm_method__local_backup__5aee286f7f2d4
+2018-05-05 21:55:59		Start Backup process...
+2018-05-05 21:55:59		Creating Database Dump
+2018-05-05 21:55:59		Creating of MySQL dump was started
+2018-05-05 21:56:00		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 2853, 200
+2018-05-05 21:56:04		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 3053, 200
+2018-05-05 21:56:08		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 3253, 200
+2018-05-05 21:56:12		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 3453, 200
+2018-05-05 21:56:15		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 3653, 200
+2018-05-05 21:56:18		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 3853, 200
+2018-05-05 21:56:21		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 4053, 200
+2018-05-05 21:57:05		Create Unique Id wpadm_method__local_backup__5aee28b1cc84d
+2018-05-05 21:57:05		Start Backup process...
+2018-05-05 21:57:05		Creating Database Dump
+2018-05-05 21:57:05		Creating of MySQL dump was started
+2018-05-05 21:57:07		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 4191, 200
+2018-05-05 21:57:11		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 4391, 200
+2018-05-05 21:57:15		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 4591, 200
+2018-05-05 21:57:18		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 4791, 200
+2018-05-05 21:57:21		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 4991, 200
+2018-05-05 21:57:24		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 5191, 200
+2018-05-05 21:58:14		Create Unique Id wpadm_method__local_backup__5aee28f6580b4
+2018-05-05 21:58:14		Start Backup process...
+2018-05-05 21:58:14		Creating Database Dump
+2018-05-05 21:58:14		Creating of MySQL dump was started
+2018-05-05 21:58:15		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 5382, 200
+2018-05-05 21:58:20		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 5582, 200
+2018-05-05 21:58:24		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 5782, 200
+2018-05-05 21:58:27		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 5982, 200
+2018-05-05 21:58:30		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 6182, 200
+2018-05-05 21:58:33		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 6382, 200
+2018-05-05 22:00:07		Create Unique Id wpadm_method__local_backup__5aee2967a54f5
+2018-05-05 22:00:07		Start Backup process...
+2018-05-05 22:00:07		Creating Database Dump
+2018-05-05 22:00:07		Creating of MySQL dump was started
+2018-05-05 22:00:08		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 6536, 200
+2018-05-05 22:00:14		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 6736, 200
+2018-05-05 22:00:20		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 6936, 200
+2018-05-05 22:00:24		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 7136, 200
+2018-05-05 22:00:29		Performing of database query: SELECT * FROM wp_icl_strings LIMIT 7336, 200
+2018-05-05 22:00:30		Add table "wp_icl_translate" to the database dump
+2018-05-05 22:00:30		Performing of database query: SELECT * FROM wp_icl_translate LIMIT 0, 200
+2018-05-05 22:00:31		Add table "wp_icl_translate_job" to the database dump
+2018-05-05 22:00:31		Performing of database query: SELECT * FROM wp_icl_translate_job LIMIT 0, 200
+2018-05-05 22:01:17		Create Unique Id wpadm_method__local_backup__5aee29adb81c6
+2018-05-05 22:01:17		Start Backup process...
+2018-05-05 22:01:17		Creating Database Dump
+2018-05-05 22:01:17		Creating of MySQL dump was started
+2018-05-05 22:01:19		Performing of database query: SELECT * FROM wp_icl_translate_job LIMIT 0, 200
+2018-05-05 22:01:19		Add table "wp_icl_translation_batches" to the database dump
+2018-05-05 22:01:19		Performing of database query: SELECT * FROM wp_icl_translation_batches LIMIT 0, 200
+2018-05-05 22:01:19		Add table "wp_icl_translation_status" to the database dump
+2018-05-05 22:01:19		Performing of database query: SELECT * FROM wp_icl_translation_status LIMIT 0, 200
+2018-05-05 22:01:19		Add table "wp_icl_translations" to the database dump
+2018-05-05 22:01:19		Performing of database query: SELECT * FROM wp_icl_translations LIMIT 0, 200
+2018-05-05 22:01:21		Add table "wp_links" to the database dump
+2018-05-05 22:01:21		Add table "wp_mondula_form_wizards" to the database dump
+2018-05-05 22:01:21		Performing of database query: SELECT * FROM wp_mondula_form_wizards LIMIT 0, 200
+2018-05-05 22:01:21		Add table "wp_options" to the database dump
+2018-05-05 22:01:21		Performing of database query: SELECT * FROM wp_options LIMIT 0, 200
+2018-05-05 22:01:26		Performing of database query: SELECT * FROM wp_options LIMIT 200, 200
+2018-05-05 22:01:27		Add table "wp_postmeta" to the database dump
+2018-05-05 22:01:27		Performing of database query: SELECT * FROM wp_postmeta LIMIT 0, 200
+2018-05-05 22:01:32		Performing of database query: SELECT * FROM wp_postmeta LIMIT 200, 200
+2018-05-05 22:01:37		Performing of database query: SELECT * FROM wp_postmeta LIMIT 400, 200
+2018-05-05 22:02:19		Create Unique Id wpadm_method__local_backup__5aee29eb91e97
+2018-05-05 22:02:19		Start Backup process...
+2018-05-05 22:02:19		Creating Database Dump
+2018-05-05 22:02:19		Creating of MySQL dump was started
+2018-05-05 22:02:21		Performing of database query: SELECT * FROM wp_postmeta LIMIT 453, 200
+2018-05-05 22:02:27		Performing of database query: SELECT * FROM wp_postmeta LIMIT 653, 200
+2018-05-05 22:02:31		Performing of database query: SELECT * FROM wp_postmeta LIMIT 853, 200
+2018-05-05 22:02:36		Performing of database query: SELECT * FROM wp_postmeta LIMIT 1053, 200
+2018-05-05 22:03:22		Create Unique Id wpadm_method__local_backup__5aee2a2a154bd
+2018-05-05 22:03:22		Start Backup process...
+2018-05-05 22:03:22		Creating Database Dump
+2018-05-05 22:03:22		Creating of MySQL dump was started
+2018-05-05 22:03:24		Performing of database query: SELECT * FROM wp_postmeta LIMIT 1196, 200
+2018-05-05 22:03:29		Performing of database query: SELECT * FROM wp_postmeta LIMIT 1396, 200
+2018-05-05 22:03:32		Performing of database query: SELECT * FROM wp_postmeta LIMIT 1596, 200
+2018-05-05 22:03:37		Performing of database query: SELECT * FROM wp_postmeta LIMIT 1796, 200
+2018-05-05 22:04:23		Create Unique Id wpadm_method__local_backup__5aee2a6789639
+2018-05-05 22:04:23		Start Backup process...
+2018-05-05 22:04:23		Creating Database Dump
+2018-05-05 22:04:23		Creating of MySQL dump was started
+2018-05-05 22:04:25		Performing of database query: SELECT * FROM wp_postmeta LIMIT 1982, 200
+2018-05-05 22:04:31		Performing of database query: SELECT * FROM wp_postmeta LIMIT 2182, 200
+2018-05-05 22:04:36		Performing of database query: SELECT * FROM wp_postmeta LIMIT 2382, 200
+2018-05-05 22:04:42		Performing of database query: SELECT * FROM wp_postmeta LIMIT 2582, 200
+2018-05-05 22:05:27		Create Unique Id wpadm_method__local_backup__5aee2aa75e944
+2018-05-05 22:05:27		Start Backup process...
+2018-05-05 22:05:27		Creating Database Dump
+2018-05-05 22:05:27		Creating of MySQL dump was started
+2018-05-05 22:05:29		Performing of database query: SELECT * FROM wp_postmeta LIMIT 2675, 200
+2018-05-05 22:05:33		Performing of database query: SELECT * FROM wp_postmeta LIMIT 2875, 200
+2018-05-05 22:05:37		Performing of database query: SELECT * FROM wp_postmeta LIMIT 3075, 200
+2018-05-05 22:05:42		Performing of database query: SELECT * FROM wp_postmeta LIMIT 3275, 200
+2018-05-05 22:06:35		Create Unique Id wpadm_method__local_backup__5aee2aeb928e9
+2018-05-05 22:06:35		Start Backup process...
+2018-05-05 22:06:35		Creating Database Dump
+2018-05-05 22:06:35		Creating of MySQL dump was started
+2018-05-05 22:06:37		Performing of database query: SELECT * FROM wp_postmeta LIMIT 3473, 200
+2018-05-05 22:06:42		Performing of database query: SELECT * FROM wp_postmeta LIMIT 3673, 200
+2018-05-05 22:06:46		Performing of database query: SELECT * FROM wp_postmeta LIMIT 3873, 200
+2018-05-05 22:06:52		Performing of database query: SELECT * FROM wp_postmeta LIMIT 4073, 200
+2018-05-05 22:08:19		Create Unique Id wpadm_method__local_backup__5aee2b535f842
+2018-05-05 22:08:19		Start Backup process...
+2018-05-05 22:08:19		Creating Database Dump
+2018-05-05 22:08:19		Creating of MySQL dump was started
+2018-05-05 22:08:21		Performing of database query: SELECT * FROM wp_postmeta LIMIT 4245, 200
+2018-05-05 22:08:25		Performing of database query: SELECT * FROM wp_postmeta LIMIT 4445, 200
+2018-05-05 22:08:29		Performing of database query: SELECT * FROM wp_postmeta LIMIT 4645, 200
+2018-05-05 22:08:33		Performing of database query: SELECT * FROM wp_postmeta LIMIT 4845, 200
+2018-05-05 22:08:36		Performing of database query: SELECT * FROM wp_postmeta LIMIT 5045, 200
+2018-05-05 22:08:40		Performing of database query: SELECT * FROM wp_postmeta LIMIT 5245, 200
+2018-05-05 22:09:20		Create Unique Id wpadm_method__local_backup__5aee2b9020664
+2018-05-05 22:09:20		Start Backup process...
+2018-05-05 22:09:20		Creating Database Dump
+2018-05-05 22:09:20		Creating of MySQL dump was started
+2018-05-05 22:09:22		Performing of database query: SELECT * FROM wp_postmeta LIMIT 5245, 200
+2018-05-05 22:09:27		Performing of database query: SELECT * FROM wp_postmeta LIMIT 5445, 200
+2018-05-05 22:09:32		Performing of database query: SELECT * FROM wp_postmeta LIMIT 5645, 200
+2018-05-05 22:09:38		Performing of database query: SELECT * FROM wp_postmeta LIMIT 5845, 200
+2018-05-05 22:10:21		Create Unique Id wpadm_method__local_backup__5aee2bcde7044
+2018-05-05 22:10:21		Start Backup process...
+2018-05-05 22:10:21		Creating Database Dump
+2018-05-05 22:10:22		Creating of MySQL dump was started
+2018-05-05 22:10:23		Performing of database query: SELECT * FROM wp_postmeta LIMIT 5966, 200
+2018-05-05 22:10:27		Performing of database query: SELECT * FROM wp_postmeta LIMIT 6166, 200
+2018-05-05 22:10:31		Performing of database query: SELECT * FROM wp_postmeta LIMIT 6366, 200
+2018-05-05 22:10:36		Performing of database query: SELECT * FROM wp_postmeta LIMIT 6566, 200
+2018-05-05 22:10:42		Performing of database query: SELECT * FROM wp_postmeta LIMIT 6766, 200
+2018-05-05 22:12:12		Create Unique Id wpadm_method__local_backup__5aee2c3c35d87
+2018-05-05 22:12:12		Start Backup process...
+2018-05-05 22:12:12		Creating Database Dump
+2018-05-05 22:12:12		Creating of MySQL dump was started
+2018-05-05 22:12:14		Performing of database query: SELECT * FROM wp_postmeta LIMIT 6800, 200
+2018-05-05 22:12:18		Performing of database query: SELECT * FROM wp_postmeta LIMIT 7000, 200
+2018-05-05 22:12:22		Performing of database query: SELECT * FROM wp_postmeta LIMIT 7200, 200
+2018-05-05 22:12:27		Performing of database query: SELECT * FROM wp_postmeta LIMIT 7400, 200
+2018-05-05 22:12:33		Performing of database query: SELECT * FROM wp_postmeta LIMIT 7600, 200
+2018-05-05 22:13:14		Create Unique Id wpadm_method__local_backup__5aee2c7a7a191
+2018-05-05 22:13:14		Start Backup process...
+2018-05-05 22:13:14		Creating Database Dump
+2018-05-05 22:13:14		Creating of MySQL dump was started
+2018-05-05 22:13:16		Performing of database query: SELECT * FROM wp_postmeta LIMIT 7620, 200
+2018-05-05 22:13:20		Performing of database query: SELECT * FROM wp_postmeta LIMIT 7820, 200
+2018-05-05 22:13:25		Performing of database query: SELECT * FROM wp_postmeta LIMIT 8020, 200
+2018-05-05 22:13:30		Performing of database query: SELECT * FROM wp_postmeta LIMIT 8220, 200
+2018-05-05 22:13:35		Performing of database query: SELECT * FROM wp_postmeta LIMIT 8420, 200
+2018-05-05 22:14:18		Create Unique Id wpadm_method__local_backup__5aee2cba3b82f
+2018-05-05 22:14:18		Start Backup process...
+2018-05-05 22:14:18		Creating Database Dump
+2018-05-05 22:14:18		Creating of MySQL dump was started
+2018-05-05 22:14:20		Performing of database query: SELECT * FROM wp_postmeta LIMIT 8460, 200
+2018-05-05 22:14:25		Performing of database query: SELECT * FROM wp_postmeta LIMIT 8660, 200
+2018-05-05 22:14:29		Performing of database query: SELECT * FROM wp_postmeta LIMIT 8860, 200
+2018-05-05 22:14:34		Performing of database query: SELECT * FROM wp_postmeta LIMIT 9060, 200
+2018-05-05 22:16:09		Create Unique Id wpadm_method__local_backup__5aee2d29403c5
+2018-05-05 22:16:09		Start Backup process...
+2018-05-05 22:16:09		Creating Database Dump
+2018-05-05 22:16:09		Creating of MySQL dump was started
+2018-05-05 22:16:10		Performing of database query: SELECT * FROM wp_postmeta LIMIT 9232, 200
+2018-05-05 22:16:14		Performing of database query: SELECT * FROM wp_postmeta LIMIT 9432, 200
+2018-05-05 22:16:19		Performing of database query: SELECT * FROM wp_postmeta LIMIT 9632, 200
+2018-05-05 22:16:24		Performing of database query: SELECT * FROM wp_postmeta LIMIT 9832, 200
+2018-05-05 22:16:29		Performing of database query: SELECT * FROM wp_postmeta LIMIT 10032, 200
+2018-05-05 22:17:18		Create Unique Id wpadm_method__local_backup__5aee2d6e95303
+2018-05-05 22:17:18		Start Backup process...
+2018-05-05 22:17:18		Creating Database Dump
+2018-05-05 22:17:18		Creating of MySQL dump was started
+2018-05-05 22:17:20		Performing of database query: SELECT * FROM wp_postmeta LIMIT 10171, 200
+2018-05-05 22:17:24		Performing of database query: SELECT * FROM wp_postmeta LIMIT 10371, 200
+2018-05-05 22:17:29		Performing of database query: SELECT * FROM wp_postmeta LIMIT 10571, 200
+2018-05-05 22:17:34		Performing of database query: SELECT * FROM wp_postmeta LIMIT 10771, 200
+2018-05-05 22:17:38		Performing of database query: SELECT * FROM wp_postmeta LIMIT 10971, 200
+2018-05-05 22:18:20		Create Unique Id wpadm_method__local_backup__5aee2daca1490
+2018-05-05 22:18:20		Start Backup process...
+2018-05-05 22:18:20		Creating Database Dump
+2018-05-05 22:18:20		Creating of MySQL dump was started
+2018-05-05 22:18:22		Performing of database query: SELECT * FROM wp_postmeta LIMIT 11048, 200
+2018-05-05 22:18:28		Performing of database query: SELECT * FROM wp_postmeta LIMIT 11248, 200
+2018-05-05 22:18:33		Performing of database query: SELECT * FROM wp_postmeta LIMIT 11448, 200
+2018-05-05 22:18:38		Performing of database query: SELECT * FROM wp_postmeta LIMIT 11648, 200
+2018-05-05 22:19:23		Create Unique Id wpadm_method__local_backup__5aee2deb7c523
+2018-05-05 22:19:23		Start Backup process...
+2018-05-05 22:19:23		Creating Database Dump
+2018-05-05 22:19:23		Creating of MySQL dump was started
+2018-05-05 22:19:25		Performing of database query: SELECT * FROM wp_postmeta LIMIT 11796, 200
+2018-05-05 22:19:30		Performing of database query: SELECT * FROM wp_postmeta LIMIT 11996, 200
+2018-05-05 22:19:35		Performing of database query: SELECT * FROM wp_postmeta LIMIT 12196, 200
+2018-05-05 22:19:39		Performing of database query: SELECT * FROM wp_postmeta LIMIT 12396, 200
+2018-05-05 22:19:42		Performing of database query: SELECT * FROM wp_postmeta LIMIT 12596, 200
+2018-05-05 22:20:33		Create Unique Id wpadm_method__local_backup__5aee2e31878da
+2018-05-05 22:20:33		Start Backup process...
+2018-05-05 22:20:33		Creating Database Dump
+2018-05-05 22:20:33		Creating of MySQL dump was started
+2018-05-05 22:20:35		Performing of database query: SELECT * FROM wp_postmeta LIMIT 12683, 200
+2018-05-05 22:20:39		Performing of database query: SELECT * FROM wp_postmeta LIMIT 12883, 200
+2018-05-05 22:20:42		Performing of database query: SELECT * FROM wp_postmeta LIMIT 13083, 200
+2018-05-05 22:20:45		Performing of database query: SELECT * FROM wp_postmeta LIMIT 13283, 200
+2018-05-05 22:20:49		Performing of database query: SELECT * FROM wp_postmeta LIMIT 13483, 200
+2018-05-05 22:20:51		Performing of database query: SELECT * FROM wp_postmeta LIMIT 13683, 200
+2018-05-05 22:21:53		Create Unique Id wpadm_method__local_backup__5aee2e81517dd
+2018-05-05 22:21:53		Start Backup process...
+2018-05-05 22:21:53		Creating Database Dump
+2018-05-05 22:21:53		Creating of MySQL dump was started
+2018-05-05 22:21:54		Performing of database query: SELECT * FROM wp_postmeta LIMIT 13872, 200
+2018-05-05 22:21:58		Performing of database query: SELECT * FROM wp_postmeta LIMIT 14072, 200
+2018-05-05 22:22:03		Performing of database query: SELECT * FROM wp_postmeta LIMIT 14272, 200
+2018-05-05 22:22:06		Performing of database query: SELECT * FROM wp_postmeta LIMIT 14472, 200
+2018-05-05 22:22:10		Performing of database query: SELECT * FROM wp_postmeta LIMIT 14672, 200
+2018-05-05 22:22:14		Performing of database query: SELECT * FROM wp_postmeta LIMIT 14872, 200
+2018-05-05 22:22:56		Create Unique Id wpadm_method__local_backup__5aee2ec07b63a
+2018-05-05 22:22:56		Start Backup process...
+2018-05-05 22:22:56		Creating Database Dump
+2018-05-05 22:22:56		Creating of MySQL dump was started
+2018-05-05 22:22:58		Performing of database query: SELECT * FROM wp_postmeta LIMIT 14897, 200
+2018-05-05 22:23:03		Performing of database query: SELECT * FROM wp_postmeta LIMIT 15097, 200
+2018-05-05 22:23:07		Performing of database query: SELECT * FROM wp_postmeta LIMIT 15297, 200
+2018-05-05 22:23:13		Performing of database query: SELECT * FROM wp_postmeta LIMIT 15497, 200
+2018-05-05 22:23:58		Create Unique Id wpadm_method__local_backup__5aee2efee1944
+2018-05-05 22:23:58		Start Backup process...
+2018-05-05 22:23:58		Creating Database Dump
+2018-05-05 22:23:59		Creating of MySQL dump was started
+2018-05-05 22:24:00		Performing of database query: SELECT * FROM wp_postmeta LIMIT 15658, 200
+2018-05-05 22:24:03		Performing of database query: SELECT * FROM wp_postmeta LIMIT 15858, 200
+2018-05-05 22:24:07		Performing of database query: SELECT * FROM wp_postmeta LIMIT 16058, 200
+2018-05-05 22:24:10		Performing of database query: SELECT * FROM wp_postmeta LIMIT 16258, 200
+2018-05-05 22:24:13		Performing of database query: SELECT * FROM wp_postmeta LIMIT 16458, 200
+2018-05-05 22:24:16		Performing of database query: SELECT * FROM wp_postmeta LIMIT 16658, 200
+2018-05-05 22:24:18		Performing of database query: SELECT * FROM wp_postmeta LIMIT 16858, 200
+2018-05-05 22:25:15		Create Unique Id wpadm_method__local_backup__5aee2f4bee213
+2018-05-05 22:25:16		Start Backup process...
+2018-05-05 22:25:16		Creating Database Dump
+2018-05-05 22:25:16		Creating of MySQL dump was started
+2018-05-05 22:25:18		Performing of database query: SELECT * FROM wp_postmeta LIMIT 16982, 200
+2018-05-05 22:25:22		Performing of database query: SELECT * FROM wp_postmeta LIMIT 17182, 200
+2018-05-05 22:25:27		Performing of database query: SELECT * FROM wp_postmeta LIMIT 17382, 200
+2018-05-05 22:25:32		Performing of database query: SELECT * FROM wp_postmeta LIMIT 17582, 200
+2018-05-05 22:25:36		Performing of database query: SELECT * FROM wp_postmeta LIMIT 17782, 200
+2018-05-05 22:26:18		Create Unique Id wpadm_method__local_backup__5aee2f8aa7f5e
+2018-05-05 22:26:18		Start Backup process...
+2018-05-05 22:26:18		Creating Database Dump
+2018-05-05 22:26:18		Creating of MySQL dump was started
+2018-05-05 22:26:20		Performing of database query: SELECT * FROM wp_postmeta LIMIT 17799, 200
+2018-05-05 22:26:27		Performing of database query: SELECT * FROM wp_postmeta LIMIT 17999, 200
+2018-05-05 22:26:33		Performing of database query: SELECT * FROM wp_postmeta LIMIT 18199, 200
+2018-05-05 22:26:38		Performing of database query: SELECT * FROM wp_postmeta LIMIT 18399, 200
+2018-05-05 22:27:24		Create Unique Id wpadm_method__local_backup__5aee2fcc663a6
+2018-05-05 22:27:24		Start Backup process...
+2018-05-05 22:27:24		Creating Database Dump
+2018-05-05 22:27:24		Creating of MySQL dump was started
+2018-05-05 22:27:26		Performing of database query: SELECT * FROM wp_postmeta LIMIT 18490, 200
+2018-05-05 22:27:30		Performing of database query: SELECT * FROM wp_postmeta LIMIT 18690, 200
+2018-05-05 22:27:34		Performing of database query: SELECT * FROM wp_postmeta LIMIT 18890, 200
+2018-05-05 22:27:38		Performing of database query: SELECT * FROM wp_postmeta LIMIT 19090, 200
+2018-05-05 22:27:44		Performing of database query: SELECT * FROM wp_postmeta LIMIT 19290, 200
+2018-05-05 22:28:33		Create Unique Id wpadm_method__local_backup__5aee301193df3
+2018-05-05 22:28:33		Start Backup process...
+2018-05-05 22:28:33		Creating Database Dump
+2018-05-05 22:28:33		Creating of MySQL dump was started
+2018-05-05 22:28:35		Performing of database query: SELECT * FROM wp_postmeta LIMIT 19339, 200
+2018-05-05 22:28:40		Performing of database query: SELECT * FROM wp_postmeta LIMIT 19539, 200
+2018-05-05 22:28:45		Performing of database query: SELECT * FROM wp_postmeta LIMIT 19739, 200
+2018-05-05 22:28:50		Performing of database query: SELECT * FROM wp_postmeta LIMIT 19939, 200
+2018-05-05 22:29:35		Create Unique Id wpadm_method__local_backup__5aee304f9fb98
+2018-05-05 22:29:35		Start Backup process...
+2018-05-05 22:29:35		Creating Database Dump
+2018-05-05 22:29:35		Creating of MySQL dump was started
+2018-05-05 22:29:37		Performing of database query: SELECT * FROM wp_postmeta LIMIT 20135, 200
+2018-05-05 22:29:42		Performing of database query: SELECT * FROM wp_postmeta LIMIT 20335, 200
+2018-05-05 22:29:46		Add table "wp_posts" to the database dump
+2018-05-05 22:29:46		Performing of database query: SELECT * FROM wp_posts LIMIT 0, 200
+2018-05-05 22:29:51		Performing of database query: SELECT * FROM wp_posts LIMIT 200, 200
+2018-05-05 22:29:55		Performing of database query: SELECT * FROM wp_posts LIMIT 400, 200
+2018-05-05 22:29:56		Add table "wp_term_relationships" to the database dump
+2018-05-05 22:29:56		Performing of database query: SELECT * FROM wp_term_relationships LIMIT 0, 200
+2018-05-05 22:29:56		Add table "wp_term_taxonomy" to the database dump
+2018-05-05 22:29:56		Performing of database query: SELECT * FROM wp_term_taxonomy LIMIT 0, 200
+2018-05-05 22:29:57		Add table "wp_termmeta" to the database dump
+2018-05-05 22:29:57		Add table "wp_terms" to the database dump
+2018-05-05 22:30:39		Create Unique Id wpadm_method__local_backup__5aee308f5914c
+2018-05-05 22:30:39		Start Backup process...
+2018-05-05 22:30:39		Creating Database Dump
+2018-05-05 22:30:39		Creating of MySQL dump was started
+2018-05-05 22:30:41		Performing of database query: SELECT * FROM wp_terms LIMIT 0, 200
+2018-05-05 22:30:41		Add table "wp_usermeta" to the database dump
+2018-05-05 22:30:41		Performing of database query: SELECT * FROM wp_usermeta LIMIT 0, 200
+2018-05-05 22:30:42		Add table "wp_users" to the database dump
+2018-05-05 22:30:42		Performing of database query: SELECT * FROM wp_users LIMIT 0, 200
+2018-05-05 22:30:42		Creating of MySQL database dump was finished
+2018-05-05 22:30:42		Database Dump was successfully created ( 6.08 Mb) : C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/Dropbox_Backup/mysqldump.sql
+2018-05-05 22:30:43		Skip of Backup-Folder C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/plugins/dropbox-backup
+2018-05-05 22:30:44		Skip of Cache-Folder C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/plugins/sitepress-multilingual-cms/modules/cache-plugins-integration
+2018-05-05 22:30:45		Skip of Cache-Folder C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/plugins/sitepress-multilingual-cms/vendor/twig/twig/lib/Twig/Cache
+2018-05-05 22:30:46		Skip of Cache-Folder C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/plugins/wpml-string-translation/classes/filters/db-cache
+2018-05-05 22:30:47		Skip of Cache-Folder C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/plugins/wpml-string-translation/vendor/wpml-shared/wpml-lib-cache
+2018-05-05 22:30:49		Skip of Cache-Folder C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/plugins/wpml-translation-management/vendor/wpml-shared/wpml-lib-cache
+2018-05-05 22:30:49		Skip of Cache-Folder C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/uploads/cache
+2018-05-05 22:30:50		Skip of Cache-Folder C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-includes/SimplePie/Cache
+2018-05-05 22:30:54		File C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/uploads/2017/06/Website_Contact-diamond.png Size 1002.77Kb (0666)
+2018-05-05 22:30:54		File C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/uploads/2017/06/Work-LeveeTransparent-1-910x1024.png Size 1.22Mb (0666)
+2018-05-05 22:30:54		File C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/uploads/2017/06/Work-LeveeTransparent-910x1024.png Size 1.22Mb (0666)
+2018-05-05 22:30:54		File C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/uploads/2017/07/ORORA-video.mp4 Size 1.19Mb (0666)
+2018-05-05 22:30:54		File C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/uploads/2017/07/TEAM-vid.mp4 Size 1.6Mb (0666)
+2018-05-05 22:30:54		File C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/uploads/2017/08/home-grate.png Size 1.49Mb (0666)
+2018-05-05 22:30:55		File C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/uploads/2017/11/Work-LeveeTransparent-910x1024.png Size 1.22Mb (0666)
+2018-05-05 22:30:55		File C:\Users\cavipow\Desktop\DecodeMTL\1.0 Vincents projects\5.0 - Brandlucent Website\brandlucent/wp-content/Dropbox_Backup/mysqldump.sql Size 6.08Mb (0666)
+2018-05-05 22:30:55		List of backup files was successfully created
+2018-05-05 22:30:55		Backup of files was started
+2018-05-05 22:30:55		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-1.tar.gz
+2018-05-05 22:30:55		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:30:58		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:30:58		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-2.tar.gz
+2018-05-05 22:30:58		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:31:00		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:31:40		Create Unique Id wpadm_method__local_backup__5aee30cca2b0e
+2018-05-05 22:31:40		Start Backup process...
+2018-05-05 22:31:40		List of backup files was successfully created
+2018-05-05 22:31:40		Backup of files was started
+2018-05-05 22:31:40		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-3.tar.gz
+2018-05-05 22:31:41		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:31:44		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:31:44		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-4.tar.gz
+2018-05-05 22:31:44		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:31:46		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:31:46		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-5.tar.gz
+2018-05-05 22:31:47		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:31:49		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:31:49		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-6.tar.gz
+2018-05-05 22:31:49		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:31:52		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:31:52		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-7.tar.gz
+2018-05-05 22:31:52		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:31:54		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:31:54		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-8.tar.gz
+2018-05-05 22:31:55		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:31:55		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:31:56		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-9.tar.gz
+2018-05-05 22:31:56		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:31:58		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:31:58		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-10.tar.gz
+2018-05-05 22:31:58		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:31:59		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:31:59		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-11.tar.gz
+2018-05-05 22:31:59		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:32:01		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:32:43		Create Unique Id wpadm_method__local_backup__5aee310b32c57
+2018-05-05 22:32:43		Start Backup process...
+2018-05-05 22:32:43		List of backup files was successfully created
+2018-05-05 22:32:43		Backup of files was started
+2018-05-05 22:32:43		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-12.tar.gz
+2018-05-05 22:32:44		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:32:49		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:32:49		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-13.tar.gz
+2018-05-05 22:32:50		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:32:55		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:32:55		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-14.tar.gz
+2018-05-05 22:32:56		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:32:57		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:32:57		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-15.tar.gz
+2018-05-05 22:32:58		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:32:58		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:32:58		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-16.tar.gz
+2018-05-05 22:33:00		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:34:35		Create Unique Id wpadm_method__local_backup__5aee317bb8e95
+2018-05-05 22:34:35		Start Backup process...
+2018-05-05 22:34:35		List of backup files was successfully created
+2018-05-05 22:34:35		Backup of files was started
+2018-05-05 22:34:36		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-17.tar.gz
+2018-05-05 22:34:37		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:34:44		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:34:44		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-18.tar.gz
+2018-05-05 22:34:45		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:34:50		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:34:50		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-19.tar.gz
+2018-05-05 22:34:53		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:35:38		Create Unique Id wpadm_method__local_backup__5aee31ba8c9f6
+2018-05-05 22:35:38		Start Backup process...
+2018-05-05 22:35:38		List of backup files was successfully created
+2018-05-05 22:35:38		Backup of files was started
+2018-05-05 22:35:38		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-20.tar.gz
+2018-05-05 22:35:40		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:35:49		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:35:49		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-21.tar.gz
+2018-05-05 22:35:50		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:35:53		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:35:53		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-22.tar.gz
+2018-05-05 22:35:53		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:35:54		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:35:54		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-23.tar.gz
+2018-05-05 22:35:55		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:35:58		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:35:58		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-24.tar.gz
+2018-05-05 22:35:59		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:36:58		Create Unique Id wpadm_method__local_backup__5aee320aecb74
+2018-05-05 22:36:59		Start Backup process...
+2018-05-05 22:36:59		List of backup files was successfully created
+2018-05-05 22:36:59		Backup of files was started
+2018-05-05 22:36:59		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-25.tar.gz
+2018-05-05 22:37:00		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:37:06		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:37:06		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-26.tar.gz
+2018-05-05 22:37:09		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:37:17		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:37:17		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-27.tar.gz
+2018-05-05 22:37:18		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:37:59		Create Unique Id wpadm_method__local_backup__5aee3247bd782
+2018-05-05 22:37:59		Start Backup process...
+2018-05-05 22:37:59		List of backup files was successfully created
+2018-05-05 22:37:59		Backup of files was started
+2018-05-05 22:38:00		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-28.tar.gz
+2018-05-05 22:38:01		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:38:06		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:38:06		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-29.tar.gz
+2018-05-05 22:38:06		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:38:09		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:38:10		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-30.tar.gz
+2018-05-05 22:38:11		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:38:16		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:38:16		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-31.tar.gz
+2018-05-05 22:38:16		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:38:18		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:38:18		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-32.tar.gz
+2018-05-05 22:38:18		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:38:20		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:38:20		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-33.tar.gz
+2018-05-05 22:38:20		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:38:22		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:02		Create Unique Id wpadm_method__local_backup__5aee32869ca7e
+2018-05-05 22:39:02		Start Backup process...
+2018-05-05 22:39:02		List of backup files was successfully created
+2018-05-05 22:39:02		Backup of files was started
+2018-05-05 22:39:03		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-34.tar.gz
+2018-05-05 22:39:03		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:04		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:04		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-35.tar.gz
+2018-05-05 22:39:04		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:04		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:04		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-36.tar.gz
+2018-05-05 22:39:05		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:05		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:05		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-37.tar.gz
+2018-05-05 22:39:05		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:06		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:06		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-38.tar.gz
+2018-05-05 22:39:06		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:07		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:07		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-39.tar.gz
+2018-05-05 22:39:07		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:07		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:08		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-40.tar.gz
+2018-05-05 22:39:08		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:08		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:08		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-41.tar.gz
+2018-05-05 22:39:08		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:09		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:09		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-42.tar.gz
+2018-05-05 22:39:09		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:10		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:10		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-43.tar.gz
+2018-05-05 22:39:10		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:11		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:11		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-44.tar.gz
+2018-05-05 22:39:11		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:12		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:12		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-45.tar.gz
+2018-05-05 22:39:12		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:12		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:12		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-46.tar.gz
+2018-05-05 22:39:13		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:14		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:14		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-47.tar.gz
+2018-05-05 22:39:14		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:14		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:15		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-48.tar.gz
+2018-05-05 22:39:15		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:15		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:15		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-49.tar.gz
+2018-05-05 22:39:15		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:16		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:16		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-50.tar.gz
+2018-05-05 22:39:16		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:16		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:17		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-51.tar.gz
+2018-05-05 22:39:17		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:18		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:18		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-52.tar.gz
+2018-05-05 22:39:18		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:18		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:18		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-53.tar.gz
+2018-05-05 22:39:19		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:20		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:20		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-54.tar.gz
+2018-05-05 22:39:20		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:21		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:39:21		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-55.tar.gz
+2018-05-05 22:39:21		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:39:21		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:41:13		Create Unique Id wpadm_method__local_backup__5aee3309cd1e6
+2018-05-05 22:41:13		Start Backup process...
+2018-05-05 22:41:14		List of backup files was successfully created
+2018-05-05 22:41:14		Backup of files was started
+2018-05-05 22:41:14		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-56.tar.gz
+2018-05-05 22:41:14		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:41:16		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:41:16		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-57.tar.gz
+2018-05-05 22:41:17		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:41:18		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:41:19		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-58.tar.gz
+2018-05-05 22:41:19		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:41:20		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:41:20		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-59.tar.gz
+2018-05-05 22:41:20		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:41:24		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:41:24		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-60.tar.gz
+2018-05-05 22:41:24		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:41:27		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:41:27		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-61.tar.gz
+2018-05-05 22:41:28		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:41:30		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:41:30		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-62.tar.gz
+2018-05-05 22:41:31		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:41:34		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:41:35		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-63.tar.gz
+2018-05-05 22:42:18		Create Unique Id wpadm_method__local_backup__5aee334ad8096
+2018-05-05 22:42:18		Start Backup process...
+2018-05-05 22:42:19		List of backup files was successfully created
+2018-05-05 22:42:19		Backup of files was started
+2018-05-05 22:42:19		Create part localhost_8080_brandlucent-full-2018_05_05_17_36-63.tar.gz
+2018-05-05 22:42:19		Trying to add files to archive using Tar shell or tar class
+2018-05-05 22:42:22		Trying to add files to archive using Tar shell or tar class was successful
+2018-05-05 22:42:22		Backup of files was finished
+2018-05-05 22:42:22		Backup size 63.92Mb
+2018-05-05 22:42:22		Backup creation was complete successfully!
+2018-05-05 22:43:22		Start copy to Dropbox Cloud
+2018-05-05 22:43:22		Send to dropbox files
+2018-05-05 22:43:22		Use dropbox auth APIv2
+2018-05-05 22:43:27		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-1.tar.gz size: 363060
+2018-05-05 22:43:27		Send to dropbox files
+2018-05-05 22:43:27		Use dropbox auth APIv2
+2018-05-05 22:43:33		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-10.tar.gz size: 711793
+2018-05-05 22:43:33		Send to dropbox files
+2018-05-05 22:43:33		Use dropbox auth APIv2
+2018-05-05 22:43:38		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-11.tar.gz size: 944919
+2018-05-05 22:43:38		Send to dropbox files
+2018-05-05 22:43:38		Use dropbox auth APIv2
+2018-05-05 22:43:43		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-12.tar.gz size: 581619
+2018-05-05 22:43:43		Send to dropbox files
+2018-05-05 22:43:43		Use dropbox auth APIv2
+2018-05-05 22:44:34		Start copy to Dropbox Cloud
+2018-05-05 22:44:34		Send to dropbox files
+2018-05-05 22:44:34		Use dropbox auth APIv2
+2018-05-05 22:44:39		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-13.tar.gz size: 476545
+2018-05-05 22:44:39		Send to dropbox files
+2018-05-05 22:44:39		Use dropbox auth APIv2
+2018-05-05 22:44:44		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-14.tar.gz size: 443230
+2018-05-05 22:44:44		Send to dropbox files
+2018-05-05 22:44:44		Use dropbox auth APIv2
+2018-05-05 22:44:49		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-15.tar.gz size: 590186
+2018-05-05 22:44:49		Send to dropbox files
+2018-05-05 22:44:49		Use dropbox auth APIv2
+2018-05-05 22:44:54		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-16.tar.gz size: 290724
+2018-05-05 22:44:54		Send to dropbox files
+2018-05-05 22:44:54		Use dropbox auth APIv2
+2018-05-05 22:45:37		Start copy to Dropbox Cloud
+2018-05-05 22:45:37		Send to dropbox files
+2018-05-05 22:45:37		Use dropbox auth APIv2
+2018-05-05 22:45:43		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-17.tar.gz size: 781702
+2018-05-05 22:45:43		Send to dropbox files
+2018-05-05 22:45:43		Use dropbox auth APIv2
+2018-05-05 22:45:48		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-18.tar.gz size: 825401
+2018-05-05 22:45:48		Send to dropbox files
+2018-05-05 22:45:48		Use dropbox auth APIv2
+2018-05-05 22:45:53		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-19.tar.gz size: 350942
+2018-05-05 22:45:53		Send to dropbox files
+2018-05-05 22:45:53		Use dropbox auth APIv2
+2018-05-05 22:45:57		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-2.tar.gz size: 579185
+2018-05-05 22:45:57		Send to dropbox files
+2018-05-05 22:45:57		Use dropbox auth APIv2
+2018-05-05 22:46:42		Start copy to Dropbox Cloud
+2018-05-05 22:46:42		Send to dropbox files
+2018-05-05 22:46:42		Use dropbox auth APIv2
+2018-05-05 22:46:47		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-20.tar.gz size: 749997
+2018-05-05 22:46:47		Send to dropbox files
+2018-05-05 22:46:47		Use dropbox auth APIv2
+2018-05-05 22:46:52		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-21.tar.gz size: 744802
+2018-05-05 22:46:52		Send to dropbox files
+2018-05-05 22:46:52		Use dropbox auth APIv2
+2018-05-05 22:46:57		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-22.tar.gz size: 522801
+2018-05-05 22:46:57		Send to dropbox files
+2018-05-05 22:46:57		Use dropbox auth APIv2
+2018-05-05 22:47:02		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-23.tar.gz size: 481775
+2018-05-05 22:47:02		Send to dropbox files
+2018-05-05 22:47:02		Use dropbox auth APIv2
+2018-05-05 22:47:45		Start copy to Dropbox Cloud
+2018-05-05 22:47:45		Send to dropbox files
+2018-05-05 22:47:45		Use dropbox auth APIv2
+2018-05-05 22:47:48		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-24.tar.gz size: 17794
+2018-05-05 22:47:48		Send to dropbox files
+2018-05-05 22:47:48		Use dropbox auth APIv2
+2018-05-05 22:47:53		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-25.tar.gz size: 527292
+2018-05-05 22:47:53		Send to dropbox files
+2018-05-05 22:47:53		Use dropbox auth APIv2
+2018-05-05 22:47:58		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-26.tar.gz size: 527022
+2018-05-05 22:47:58		Send to dropbox files
+2018-05-05 22:47:58		Use dropbox auth APIv2
+2018-05-05 22:48:03		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-27.tar.gz size: 376334
+2018-05-05 22:48:03		Send to dropbox files
+2018-05-05 22:48:03		Use dropbox auth APIv2
+2018-05-05 22:48:56		Start copy to Dropbox Cloud
+2018-05-05 22:48:56		Send to dropbox files
+2018-05-05 22:48:56		Use dropbox auth APIv2
+2018-05-05 22:49:02		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-28.tar.gz size: 497656
+2018-05-05 22:49:02		Send to dropbox files
+2018-05-05 22:49:02		Use dropbox auth APIv2
+2018-05-05 22:49:07		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-29.tar.gz size: 531682
+2018-05-05 22:49:07		Send to dropbox files
+2018-05-05 22:49:07		Use dropbox auth APIv2
+2018-05-05 22:49:12		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-3.tar.gz size: 579185
+2018-05-05 22:49:12		Send to dropbox files
+2018-05-05 22:49:12		Use dropbox auth APIv2
+2018-05-05 22:49:17		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-30.tar.gz size: 524652
+2018-05-05 22:49:17		Send to dropbox files
+2018-05-05 22:49:17		Use dropbox auth APIv2
+2018-05-05 22:49:58		Start copy to Dropbox Cloud
+2018-05-05 22:49:58		Send to dropbox files
+2018-05-05 22:49:58		Use dropbox auth APIv2
+2018-05-05 22:50:05		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-31.tar.gz size: 1243254
+2018-05-05 22:50:05		Send to dropbox files
+2018-05-05 22:50:05		Use dropbox auth APIv2
+2018-05-05 22:50:11		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-32.tar.gz size: 1253363
+2018-05-05 22:50:11		Send to dropbox files
+2018-05-05 22:50:11		Use dropbox auth APIv2
+2018-05-05 22:50:18		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-33.tar.gz size: 1292082
+2018-05-05 22:50:18		Send to dropbox files
+2018-05-05 22:50:18		Use dropbox auth APIv2
+2018-05-05 22:51:02		Start copy to Dropbox Cloud
+2018-05-05 22:51:03		Send to dropbox files
+2018-05-05 22:51:03		Use dropbox auth APIv2
+2018-05-05 22:51:12		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-34.tar.gz size: 2227897
+2018-05-05 22:51:12		Send to dropbox files
+2018-05-05 22:51:12		Use dropbox auth APIv2
+2018-05-05 22:51:20		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-35.tar.gz size: 2268151
+2018-05-05 22:51:20		Send to dropbox files
+2018-05-05 22:51:20		Use dropbox auth APIv2
+2018-05-05 22:52:04		Start copy to Dropbox Cloud
+2018-05-05 22:52:04		Send to dropbox files
+2018-05-05 22:52:04		Use dropbox auth APIv2
+2018-05-05 22:52:16		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-36.tar.gz size: 2338958
+2018-05-05 22:52:16		Send to dropbox files
+2018-05-05 22:52:16		Use dropbox auth APIv2
+2018-05-05 22:52:26		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-37.tar.gz size: 2338947
+2018-05-05 22:52:26		Send to dropbox files
+2018-05-05 22:52:26		Use dropbox auth APIv2
+2018-05-05 22:53:17		Start copy to Dropbox Cloud
+2018-05-05 22:53:17		Send to dropbox files
+2018-05-05 22:53:17		Use dropbox auth APIv2
+2018-05-05 22:53:25		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-38.tar.gz size: 1983563
+2018-05-05 22:53:25		Send to dropbox files
+2018-05-05 22:53:25		Use dropbox auth APIv2
+2018-05-05 22:53:33		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-39.tar.gz size: 1611817
+2018-05-05 22:53:33		Send to dropbox files
+2018-05-05 22:53:33		Use dropbox auth APIv2
+2018-05-05 22:53:37		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-4.tar.gz size: 416290
+2018-05-05 22:53:37		Send to dropbox files
+2018-05-05 22:53:37		Use dropbox auth APIv2
+2018-05-05 22:54:21		Start copy to Dropbox Cloud
+2018-05-05 22:54:22		Send to dropbox files
+2018-05-05 22:54:22		Use dropbox auth APIv2
+2018-05-05 22:54:29		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-40.tar.gz size: 1387754
+2018-05-05 22:54:29		Send to dropbox files
+2018-05-05 22:54:29		Use dropbox auth APIv2
+2018-05-05 22:54:37		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-41.tar.gz size: 2309876
+2018-05-05 22:54:37		Send to dropbox files
+2018-05-05 22:54:37		Use dropbox auth APIv2
+2018-05-05 22:55:26		Start copy to Dropbox Cloud
+2018-05-05 22:55:26		Send to dropbox files
+2018-05-05 22:55:26		Use dropbox auth APIv2
+2018-05-05 22:55:35		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-42.tar.gz size: 1892472
+2018-05-05 22:55:35		Send to dropbox files
+2018-05-05 22:55:35		Use dropbox auth APIv2
+2018-05-05 22:55:42		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-43.tar.gz size: 1634838
+2018-05-05 22:55:43		Send to dropbox files
+2018-05-05 22:55:43		Use dropbox auth APIv2
+2018-05-05 22:56:37		Start copy to Dropbox Cloud
+2018-05-05 22:56:37		Send to dropbox files
+2018-05-05 22:56:37		Use dropbox auth APIv2
+2018-05-05 22:56:46		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-44.tar.gz size: 1790402
+2018-05-05 22:56:46		Send to dropbox files
+2018-05-05 22:56:46		Use dropbox auth APIv2
+2018-05-05 22:56:52		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-45.tar.gz size: 1399084
+2018-05-05 22:56:52		Send to dropbox files
+2018-05-05 22:56:52		Use dropbox auth APIv2
+2018-05-05 22:57:40		Start copy to Dropbox Cloud
+2018-05-05 22:57:41		Send to dropbox files
+2018-05-05 22:57:41		Use dropbox auth APIv2
+2018-05-05 22:57:50		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-46.tar.gz size: 1704456
+2018-05-05 22:57:50		Send to dropbox files
+2018-05-05 22:57:50		Use dropbox auth APIv2
+2018-05-05 22:57:57		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-47.tar.gz size: 1812654
+2018-05-05 22:57:57		Send to dropbox files
+2018-05-05 22:57:57		Use dropbox auth APIv2
+2018-05-05 22:58:44		Start copy to Dropbox Cloud
+2018-05-05 22:58:45		Send to dropbox files
+2018-05-05 22:58:45		Use dropbox auth APIv2
+2018-05-05 22:58:53		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-48.tar.gz size: 1674498
+2018-05-05 22:58:53		Send to dropbox files
+2018-05-05 22:58:53		Use dropbox auth APIv2
+2018-05-05 22:58:59		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-49.tar.gz size: 1503373
+2018-05-05 22:58:59		Send to dropbox files
+2018-05-05 22:58:59		Use dropbox auth APIv2
+2018-05-05 22:59:47		Start copy to Dropbox Cloud
+2018-05-05 22:59:48		Send to dropbox files
+2018-05-05 22:59:48		Use dropbox auth APIv2
+2018-05-05 22:59:53		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-5.tar.gz size: 441129
+2018-05-05 22:59:53		Send to dropbox files
+2018-05-05 22:59:53		Use dropbox auth APIv2
+2018-05-05 23:00:01		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-50.tar.gz size: 1583899
+2018-05-05 23:00:01		Send to dropbox files
+2018-05-05 23:00:01		Use dropbox auth APIv2
+2018-05-05 23:01:00		Start copy to Dropbox Cloud
+2018-05-05 23:01:01		Send to dropbox files
+2018-05-05 23:01:01		Use dropbox auth APIv2
+2018-05-05 23:01:10		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-51.tar.gz size: 1994245
+2018-05-05 23:01:10		Send to dropbox files
+2018-05-05 23:01:10		Use dropbox auth APIv2
+2018-05-05 23:01:17		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-52.tar.gz size: 1588611
+2018-05-05 23:01:17		Send to dropbox files
+2018-05-05 23:01:17		Use dropbox auth APIv2
+2018-05-05 23:02:02		Start copy to Dropbox Cloud
+2018-05-05 23:02:02		Send to dropbox files
+2018-05-05 23:02:02		Use dropbox auth APIv2
+2018-05-05 23:02:10		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-53.tar.gz size: 1654546
+2018-05-05 23:02:10		Send to dropbox files
+2018-05-05 23:02:10		Use dropbox auth APIv2
+2018-05-05 23:02:19		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-54.tar.gz size: 1852567
+2018-05-05 23:02:19		Send to dropbox files
+2018-05-05 23:02:19		Use dropbox auth APIv2
+2018-05-05 23:02:25		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-55.tar.gz size: 1490393
+2018-05-05 23:02:25		Send to dropbox files
+2018-05-05 23:02:25		Use dropbox auth APIv2
+2018-05-05 23:03:15		Start copy to Dropbox Cloud
+2018-05-05 23:03:16		Send to dropbox files
+2018-05-05 23:03:16		Use dropbox auth APIv2
+2018-05-05 23:03:21		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-56.tar.gz size: 398311
+2018-05-05 23:03:21		Send to dropbox files
+2018-05-05 23:03:21		Use dropbox auth APIv2
+2018-05-05 23:03:26		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-57.tar.gz size: 394798
+2018-05-05 23:03:26		Send to dropbox files
+2018-05-05 23:03:26		Use dropbox auth APIv2
+2018-05-05 23:03:30		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-58.tar.gz size: 427803
+2018-05-05 23:03:30		Send to dropbox files
+2018-05-05 23:03:30		Use dropbox auth APIv2
+2018-05-05 23:03:35		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-59.tar.gz size: 575214
+2018-05-05 23:03:35		Send to dropbox files
+2018-05-05 23:03:35		Use dropbox auth APIv2
+2018-05-05 23:04:20		Start copy to Dropbox Cloud
+2018-05-05 23:04:21		Send to dropbox files
+2018-05-05 23:04:21		Use dropbox auth APIv2
+2018-05-05 23:04:26		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-6.tar.gz size: 490783
+2018-05-05 23:04:26		Send to dropbox files
+2018-05-05 23:04:26		Use dropbox auth APIv2
+2018-05-05 23:04:31		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-60.tar.gz size: 686529
+2018-05-05 23:04:31		Send to dropbox files
+2018-05-05 23:04:31		Use dropbox auth APIv2
+2018-05-05 23:04:37		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-61.tar.gz size: 920421
+2018-05-05 23:04:37		Send to dropbox files
+2018-05-05 23:04:37		Use dropbox auth APIv2
+2018-05-05 23:05:24		Start copy to Dropbox Cloud
+2018-05-05 23:05:25		Send to dropbox files
+2018-05-05 23:05:25		Use dropbox auth APIv2
+2018-05-05 23:05:30		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-62.tar.gz size: 392138
+2018-05-05 23:05:30		Send to dropbox files
+2018-05-05 23:05:30		Use dropbox auth APIv2
+2018-05-05 23:05:37		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-63.tar.gz size: 1558281
+2018-05-05 23:05:37		Send to dropbox files
+2018-05-05 23:05:37		Use dropbox auth APIv2
+2018-05-05 23:05:42		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-7.tar.gz size: 533007
+2018-05-05 23:05:42		Send to dropbox files
+2018-05-05 23:05:42		Use dropbox auth APIv2
+2018-05-05 23:06:36		Start copy to Dropbox Cloud
+2018-05-05 23:06:37		Send to dropbox files
+2018-05-05 23:06:37		Use dropbox auth APIv2
+2018-05-05 23:06:42		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-8.tar.gz size: 482415
+2018-05-05 23:06:42		Send to dropbox files
+2018-05-05 23:06:42		Use dropbox auth APIv2
+2018-05-05 23:06:47		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36-9.tar.gz size: 796555
+2018-05-05 23:06:47		Send to dropbox files
+2018-05-05 23:06:47		Use dropbox auth APIv2
+2018-05-05 23:06:55		File upload: localhost_8080_brandlucent-full-2018_05_05_17_36.md5 size: 1664485
+2018-05-05 23:06:55		End Copy Files to Dropbox
